@@ -2,6 +2,9 @@ import Link from "next/link";
 import { Zap, Brain, Cog, TrendingUp, ArrowRight, Mail, Star, BookOpen } from "lucide-react";
 
 const posts = [
+  { title: "Automação Financeira com IA para Pequenas Empresas", date: "16/05/2026", slug: "automacao-financeira-pequena-empresa", desc: "Como automatizar fluxo de caixa, contas a pagar e relatórios financeiros com IA.", cat: "Negócios", icon: TrendingUp },
+  { title: "Como Criar Imagens e Thumbnails com IA para Blog e YouTube", date: "16/05/2026", slug: "ia-criar-imagens-blog-thumbnails", desc: "DALL-E, Midjourney, Canva AI — as melhores ferramentas para criar imagens e thumbs.", cat: "Ferramentas", icon: Star },
+  { title: "RPA com IA: Como Automatizar Processos Repetitivos sem Programar", date: "16/05/2026", slug: "automacao-processos-rpa-ia", desc: "Automatize tarefas repetitivas com RPA e IA, sem precisar saber programar.", cat: "Automação", icon: Cog, featured: true },
   { title: "Melhores APIs de IA para Desenvolvedores Integrarem em 2026", date: "16/05/2026", slug: "melhores-apis-ia-desenvolvedores", desc: "OpenAI, Anthropic, DeepSeek, Google AI — compare as melhores APIs de IA para integrar nos seus projetos.", cat: "Ferramentas", icon: Brain, featured: true },
   { title: "IA para Vendas B2B: Como Automatizar Prospecção e Follow-up", date: "16/05/2026", slug: "ia-vendas-b2b-automacao", desc: "Aprenda a usar IA para automatizar prospecção, follow-up e fechamento de vendas B2B.", cat: "Negócios", icon: TrendingUp },
   { title: "Como Usar IA para Gestão de Tempo de Empreendedores", date: "16/05/2026", slug: "ia-gestao-tempo-empreendedor", desc: "Ferramentas e técnicas de IA para multiplicar sua produtividade e gerenciar melhor seu tempo.", cat: "Produtividade", icon: Zap },
