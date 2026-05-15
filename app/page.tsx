@@ -2,6 +2,9 @@ import Link from "next/link";
 import { Zap, Brain, Cog, TrendingUp, ArrowRight, Mail, Star, BookOpen } from "lucide-react";
 
 const posts = [
+  { title: "Melhores APIs de IA para Desenvolvedores Integrarem em 2026", date: "16/05/2026", slug: "melhores-apis-ia-desenvolvedores", desc: "OpenAI, Anthropic, DeepSeek, Google AI — compare as melhores APIs de IA para integrar nos seus projetos.", cat: "Ferramentas", icon: Brain, featured: true },
+  { title: "IA para Vendas B2B: Como Automatizar Prospecção e Follow-up", date: "16/05/2026", slug: "ia-vendas-b2b-automacao", desc: "Aprenda a usar IA para automatizar prospecção, follow-up e fechamento de vendas B2B.", cat: "Negócios", icon: TrendingUp },
+  { title: "Como Usar IA para Gestão de Tempo de Empreendedores", date: "16/05/2026", slug: "ia-gestao-tempo-empreendedor", desc: "Ferramentas e técnicas de IA para multiplicar sua produtividade e gerenciar melhor seu tempo.", cat: "Produtividade", icon: Zap },
   { title: "Planilhas Inteligentes: Como Automatizar Relatórios com IA e Google Sheets", date: "15/05/2026", slug: "planilhas-inteligentes-ia-google-sheets", desc: "Conecte Google Sheets ao Make e DeepSeek para gerar relatórios automáticos.", cat: "Automação", icon: Brain },
   { title: "Como Reduzir 80% do Tempo de Atendimento com IA no WhatsApp", date: "15/05/2026", slug: "ia-atendimento-whatsapp-reduzir-tempo", desc: "Tutorial passo a passo para automatizar atendimento no WhatsApp com IA.", cat: "Negócios", icon: Zap },
   { title: "As 5 Melhores Ferramentas de Automação para Pequenos Negócios em 2026", date: "15/05/2026", slug: "ferramentas-automacao-pequenos-negocios", desc: "Make, Zapier, n8n, Activepieces e Pipedream — comparativo completo.", cat: "Ferramentas", icon: Star, featured: true },
