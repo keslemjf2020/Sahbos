@@ -1,17 +1,17 @@
 import Link from "next/link";
 import { ArrowRight, Clock, Zap, Brain, Cog, TrendingUp, Star, Sparkles } from "lucide-react";
 
-const posts = [
-  { title: "10 Ferramentas de IA Grátis que Vão Dobrar Sua Produtividade", date: "16/05/2026", slug: "produtividade-ferramentas-gratis-ia", desc: "Ferramentas gratuitas que realmente funcionam e vão transformar seu workflow.", cat: "Ferramentas", icon: Sparkles, featured: true, read: "7 min" },
-  { title: "IA no Delivery: Automatize Pedidos e Entregas do Seu Restaurante", date: "16/05/2026", slug: "ia-delivery-restaurantes-automacao", desc: "Como usar IA para automatizar pedidos, integrar com iFood e reduzir erros.", cat: "Negócios", icon: Zap, read: "8 min" },
-  { title: "Como Automatizar Atendimento em Hotéis e Pousadas com IA", date: "16/05/2026", slug: "automacao-atendimento-ia-hoteis", desc: "Check-in automático, chatbot para hóspedes e gestão de reservas com IA.", cat: "Automação", icon: Cog, read: "7 min" },
-  { title: "Automação Financeira com IA para Pequenas Empresas", date: "16/05/2026", slug: "automacao-financeira-pequena-empresa", desc: "Fluxo de caixa, contas a pagar e relatórios financeiros automáticos.", cat: "Negócios", icon: TrendingUp, read: "6 min" },
-  { title: "RPA com IA: Automatize Processos sem Programar", date: "16/05/2026", slug: "automacao-processos-rpa-ia", desc: "Automatize tarefas repetitivas com RPA e IA, zero código.", cat: "Automação", icon: Brain, read: "6 min" },
-  { title: "Como Criar Imagens e Thumbnails com IA", date: "16/05/2026", slug: "ia-criar-imagens-blog-thumbnails", desc: "DALL-E, Midjourney, Canva AI — as melhores para criar imagens.", cat: "Ferramentas", icon: Star, read: "5 min" },
-  { title: "Melhores APIs de IA para Desenvolvedores em 2026", date: "16/05/2026", slug: "melhores-apis-ia-desenvolvedores", desc: "OpenAI, Anthropic, DeepSeek, Google AI — comparativo completo.", cat: "Ferramentas", icon: Brain, read: "8 min" },
-  { title: "IA para Vendas B2B: Prospecção e Follow-up Automático", date: "16/05/2026", slug: "ia-vendas-b2b-automacao", desc: "Use IA para automatizar prospecção, follow-up e fechamento B2B.", cat: "Negócios", icon: TrendingUp, read: "6 min" },
-  { title: "Como Usar IA para Gestão de Tempo", date: "16/05/2026", slug: "ia-gestao-tempo-empreendedor", desc: "Ferramentas de IA para multiplicar sua produtividade.", cat: "IA", icon: Zap, read: "5 min" },
+const allPosts = [
+  { title: "Automatize o Suporte Técnico de TI com IA", date: "16/05/2026", slug: "automacao-suporte-tecnico-ti-ia", desc: "Chatbots e IA para resolver chamados de TI automaticamente.", cat: "Automação", icon: Cog, read: "5 min" },
+  { title: "IA na Gestão de Projetos: Ferramentas Essenciais", date: "16/05/2026", slug: "ia-gestao-projetos-ferramentas", desc: "As melhores ferramentas de IA para gerenciar projetos com eficiência.", cat: "Ferramentas", icon: Brain, read: "5 min" },
+  { title: "IA no Agronegócio: Automação para o Campo", date: "16/05/2026", slug: "ia-agricultura-agronegocio", desc: "Como IA e automação estão transformando o agronegócio brasileiro.", cat: "Negócios", icon: TrendingUp, read: "5 min" },
+  { title: "Guia Completo de IA para Pequenos Negócios em 2026", date: "16/05/2026", slug: "ia-pequenos-negocios-guia-completo", desc: "Tudo que o pequeno empresário precisa saber sobre IA em 2026.", cat: "Negócios", icon: Star, featured: true, read: "8 min" },
+  { title: "ChatGPT vs DeepSeek vs Claude: Qual a Melhor IA", date: "16/05/2026", slug: "chatgpt-vs-deepseek-vs-claude", desc: "Comparativo completo das 3 principais IAs do mercado em 2026.", cat: "Ferramentas", icon: Sparkles, read: "7 min" },
+  { title: "IA para Advogados: Automatize Documentos Jurídicos", date: "16/05/2026", slug: "ia-para-advogados-automacao-juridica", desc: "Como escritórios de advocacia estão usando IA para documentos.", cat: "Negócios", icon: Zap, read: "6 min" },
+  { title: "IA para Professores: Ferramentas que Transformam o Ensino", date: "16/05/2026", slug: "ia-para-professores-ensino", desc: "Ferramentas de IA que todo professor deveria conhecer.", cat: "IA", icon: Brain, read: "6 min" },
+  { title: "IA para Corretores de Imóveis: Venda Mais Rápido", date: "16/05/2026", slug: "ia-para-corretores-imoveis", desc: "Como corretores estão usando IA para captar e converter leads.", cat: "Negócios", icon: TrendingUp, read: "5 min" },
 ];
+const posts = allPosts.slice(0, 9);
 
 export default function Home() {
   return (
