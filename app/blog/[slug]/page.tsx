@@ -2,6 +2,11 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 const posts: Record<string, { title: string; date: string; content: string }> = {
+  "ia-criar-posts-blog-automatico": {
+    title: "Como Usar IA para Criar Posts de Blog Automaticamente",
+    date: "15/05/2026",
+    content: fs.readFileSync(path.join(process.cwd(), "content", "posts", "ia-criar-posts-blog-automatico.md"), "utf8") || "Carregando...",
+  },
   "ferramentas-ia-blogueiros-2026": {
     title: "7 Ferramentas de IA Que Blogueiros Precisam Usar em 2026",
     date: "15/05/2026",

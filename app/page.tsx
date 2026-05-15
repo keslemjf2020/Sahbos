@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Cog, Zap, ArrowRight } from "lucide-react";
 
 const posts = [
-  { title: "7 Ferramentas de IA Que Blogueiros Precisam Usar em 2026", date: "15/05/2026", slug: "ferramentas-ia-blogueiros-2026", desc: "Jasper, Copy.ai, Writesonic, SurferSEO e mais. As 7 ferramentas essenciais para blogueiros.", icon: Zap },
+  { title: "Como Usar IA para Criar Posts de Blog Automaticamente", date: "15/05/2026", slug: "ia-criar-posts-blog-automatico", desc: "Aprenda como a IA pode escrever, revisar e publicar posts de blog sozinha.", icon: Zap },
+  { title: "7 Ferramentas de IA Que Blogueiros Precisam Usar em 2026", date: "15/05/2026", slug: "ferramentas-ia-blogueiros-2026", desc: "Jasper, Copy.ai, Writesonic, SurferSEO e mais.", icon: Zap },
   { title: "A Única Oportunidade de Automação com IA Que Vale Seu Tempo em 2026", date: "15/05/2026", slug: "automacao-ia-oportunidade-2026", desc: "Enquanto todo mundo corre atrás de IA genérica, a oportunidade real está em nichos específicos.", icon: Zap },
   { title: "Como Automatizar seu Workflow com Make em 2026", date: "15/05/2026", slug: "guia-make-2026", desc: "Guia completo com exemplos práticos e dicas de IA.", icon: Zap },
 ];
