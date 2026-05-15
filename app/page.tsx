@@ -2,7 +2,10 @@ import Link from "next/link";
 import { Zap, Brain, Cog, TrendingUp, ArrowRight, Mail, Star, BookOpen } from "lucide-react";
 
 const posts = [
-  { title: "Como Usar IA para Criar Posts de Blog Automaticamente", date: "15/05/2026", slug: "ia-criar-posts-blog-automatico", desc: "Aprenda como IA escreve, revisa e publica posts sozinha — do briefing ao deploy.", cat: "Automação", icon: Brain, featured: true },
+  { title: "Planilhas Inteligentes: Como Automatizar Relatórios com IA e Google Sheets", date: "15/05/2026", slug: "planilhas-inteligentes-ia-google-sheets", desc: "Conecte Google Sheets ao Make e DeepSeek para gerar relatórios automáticos.", cat: "Automação", icon: Brain },
+  { title: "Como Reduzir 80% do Tempo de Atendimento com IA no WhatsApp", date: "15/05/2026", slug: "ia-atendimento-whatsapp-reduzir-tempo", desc: "Tutorial passo a passo para automatizar atendimento no WhatsApp com IA.", cat: "Negócios", icon: Zap },
+  { title: "As 5 Melhores Ferramentas de Automação para Pequenos Negócios em 2026", date: "15/05/2026", slug: "ferramentas-automacao-pequenos-negocios", desc: "Make, Zapier, n8n, Activepieces e Pipedream — comparativo completo.", cat: "Ferramentas", icon: Star, featured: true },
+  { title: "Como Usar IA para Criar Posts de Blog Automaticamente", date: "15/05/2026", slug: "ia-criar-posts-blog-automatico", desc: "Aprenda como IA escreve, revisa e publica posts sozinha.", cat: "Automação", icon: Brain },
   { title: "7 Ferramentas de IA Que Blogueiros Precisam Usar em 2026", date: "15/05/2026", slug: "ferramentas-ia-blogueiros-2026", desc: "Jasper, Copy.ai, Writesonic, SurferSEO — as 7 ferramentas que estão mudando o jogo.", cat: "Ferramentas", icon: Star },
   { title: "A Única Oportunidade de Automação com IA Que Vale Seu Tempo em 2026", date: "15/05/2026", slug: "automacao-ia-oportunidade-2026", desc: "Enquanto todo mundo corre atrás de IA genérica, o dinheiro está nos nichos.", cat: "Negócios", icon: TrendingUp },
   { title: "Como Automatizar seu Workflow com Make em 2026", date: "15/05/2026", slug: "guia-make-2026", desc: "Guia passo a passo para criar automações poderosas com Make (Integromat).", cat: "Automação", icon: Cog },
