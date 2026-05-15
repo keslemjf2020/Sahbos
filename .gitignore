@@ -6,3 +6,5 @@ out/
 .env.production
 *.log
 .certs/
+
+.vercel
