@@ -4,26 +4,44 @@ import fs from "fs";
 import path from "path";
 
 function getAllPosts() {
-  const postsDir = path.join(process.cwd(), "content", "posts");
-  if (!fs.existsSync(postsDir)) return {};
+  try {
+    const postsDir = path.join(process.cwd(), "content", "posts");
+    if (!fs.existsSync(postsDir)) { return {}; }
+    return readPostsFromDir(postsDir);
+  } catch(e) { return {}; }
+}
+
+function readPostsFromDir(postsDir) {
   const files = fs.readdirSync(postsDir).filter(f => f.endsWith(".md"));
-  const posts: Record<string, { title: string; date: string; content: string; cat?: string; read?: string }> = {};
+  const posts = {};
   for (const file of files) {
     const slug = file.replace(".md", "");
-    const raw = fs.readFileSync(path.join(postsDir, file), "utf8");
-    const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
-    const fm = fmMatch ? fmMatch[1] : "";
-    const body = fmMatch ? raw.slice(fmMatch[0].length).trim() : raw;
-    const getFM = (key: string) => { const m = fm.match(new RegExp(`${key}:\\s*"?([^"\n]+)"?`)); return m ? m[1].trim() : ""; };
-    posts[slug] = {
-      title: getFM("title") || slug.replace(/-/g, " "),
-      date: getFM("date") || "2026-05-16",
-      cat: getFM("category") || getFM("cat") || "IA",
-      read: getFM("readingTime") || "5 min",
-      content: body || "Artigo em producao.",
-    };
+    try {
+      const raw = fs.readFileSync(path.join(postsDir, file), "utf8");
+      const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+      const fm = fmMatch ? fmMatch[1] : "";
+      const body = fmMatch ? raw.slice(fmMatch[0].length).trim() : raw;
+      const getFM = (key) => { const m = fm.match(new RegExp(key + ':\\s*"?([^"\n]+)"?')); return m ? m[1].trim() : ""; };
+      posts[slug] = {
+        title: getFM("title") || slug.replace(/-/g, " "),
+        date: getFM("date") || "2026-05-16",
+        cat: getFM("category") || "IA",
+        read: getFM("readingTime") || "5 min",
+        content: body || "Artigo em producao.",
+      };
+    } catch(e) {
+      posts[slug] = { title: slug.replace(/-/g, " "), date: "2026-05-16", cat: "IA", read: "5 min", content: "Artigo em producao." };
+    }
   }
   return posts;
+}
+
+export function generateStaticParams() {
+  try {
+    const postsDir = path.join(process.cwd(), "content", "posts");
+    if (!fs.existsSync(postsDir)) return [];
+    return fs.readdirSync(postsDir).filter(f => f.endsWith(".md")).map(f => ({ slug: f.replace(".md", "") }));
+  } catch(e) { return []; }
 }
 
 const posts = getAllPosts();
