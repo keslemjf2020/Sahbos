@@ -3,10 +3,17 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://blog-automacao-beryl.vercel.app'),
   title: "Automação IA — O Blog de Tecnologia e Negócios",
   description: "Aprenda a usar IA e automação para escalar seu negócio. Guias práticos, tutoriais e reviews das melhores ferramentas.",
   keywords: "automação, IA, inteligência artificial, Make, produtividade, negócios, tecnologia",
-  openGraph: { title: "Automação IA", description: "Guias práticos de IA e automação para negócios", type: "website" },
+  icons: { icon: '/favicon.svg', shortcut: '/favicon.svg' },
+  openGraph: { 
+    title: "Automação IA", 
+    description: "Guias práticos de IA e automação para negócios", 
+    type: "website",
+    images: [{ url: '/og-image.png', width: 1024, height: 1024 }]
+  },
 };
 
 const cats = ["Automação", "Ferramentas", "Negócios", "IA"];
