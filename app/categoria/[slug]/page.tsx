@@ -6,11 +6,14 @@ const colors: Record<string, string> = { Automacao: "#06b6d4", Ferramentas: "#8b
 
 export default function Category({ params }: { params: { slug: string } }) {
   const cat = params.slug;
-  const catName = Object.keys(colors).find(k => k.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '') === cat.toLowerCase()) || cat;
+  const catName = Object.keys(colors).find(k => k.toLowerCase() === cat.toLowerCase() || k.toLowerCase().replace(/[áàãâ]/g,'a').replace(/[éê]/g,'e').replace(/[í]/g,'i').replace(/[óôõ]/g,'o').replace(/[ú]/g,'u').replace(/[ç]/g,'c') === cat.toLowerCase()) || cat;
   const color = colors[catName] || "#06b6d4";
 
   const items = Object.entries(postsFull)
-    .filter(([_, p]: [string, any]) => (p.c || "IA").toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '') === cat.toLowerCase())
+    .filter(([_, p]: [string, any]) => {
+      const pc = (p.c || "IA").toLowerCase().replace(/[áàãâ]/g,'a').replace(/[éê]/g,'e').replace(/[í]/g,'i').replace(/[óôõ]/g,'o').replace(/[ú]/g,'u').replace(/[ç]/g,'c');
+      return pc === cat.toLowerCase();
+    })
     .map(([slug, p]: [string, any]) => ({ slug, ...p }));
 
   return (
