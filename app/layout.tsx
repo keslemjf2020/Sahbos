@@ -32,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {cats.map(c => (
                 <Link key={c} href={`/categoria/${c.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}`} className="px-3 py-1.5 rounded-lg text-sm text-slate-400 hover:text-white hover:bg-white/[0.05] transition-all">{c}</Link>
               ))}
+              <Link href="/mapa-do-site" className="px-3 py-1.5 rounded-lg text-sm text-slate-500 hover:text-cyan-400 hover:bg-white/[0.05] transition-all ml-1">📋 Mapa</Link>
             </div>
           </div>
         </nav>
