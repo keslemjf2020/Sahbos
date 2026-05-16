@@ -1,31 +1,9 @@
 import Link from "next/link";
 import { ArrowLeft, Clock, Calendar } from "lucide-react";
+import { posts } from "@/lib/posts";
 
-const GITHUB_RAW = "https://raw.githubusercontent.com/keslemjf2020/Sahbos/master/content/posts";
-
-export const dynamic = "force-dynamic";
-
-async function getPost(slug: string) {
-  try {
-    const res = await fetch(`${GITHUB_RAW}/${slug}.md`, { next: { revalidate: 60 } });
-    if (!res.ok) return null;
-    const raw = await res.text();
-    const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
-    const fm = fmMatch ? fmMatch[1] : "";
-    const body = fmMatch ? raw.slice(fmMatch[0].length).trim() : raw;
-    const getFM = (key: string) => { const m = fm.match(new RegExp(key + ':\\s*"?([^"\n]+)"?')); return m ? m[1].trim() : ""; };
-    return {
-      title: getFM("title") || slug.replace(/-/g, " "),
-      date: getFM("date") || "2026-05-16",
-      cat: getFM("category") || "IA",
-      read: getFM("readingTime") || "5 min",
-      content: body || "Artigo em producao.",
-    };
-  } catch { return null; }
-}
-
-export default async function BlogPost({ params }: { params: { slug: string } }) {
-  const post = await getPost(params.slug);
+export default function BlogPost({ params }: { params: { slug: string } }) {
+  const post = posts[params.slug as keyof typeof posts];
   if (!post) return <div className="min-h-screen bg-[#0a0a0f] flex items-center justify-center"><div className="text-center"><h1 className="text-6xl font-bold gradient-text mb-4">404</h1><p className="text-slate-500 mb-6">Artigo nao encontrado</p><Link href="/" className="text-cyan-400 hover:underline text-sm inline-flex items-center gap-1"><ArrowLeft className="w-3 h-3" />Voltar</Link></div></div>;
 
   return (
@@ -38,7 +16,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
       </div></div>
       <article className="max-w-3xl mx-auto px-6 py-12">
         <div className="prose prose-invert max-w-none prose-headings:text-white prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-10 prose-h3:text-lg prose-h3:font-semibold prose-p:text-slate-300 prose-p:leading-relaxed prose-a:text-cyan-400 prose-strong:text-white prose-code:text-cyan-300 prose-li:text-slate-300">
-          {post.content.split("\n").map((line, i) => {
+          {typeof post.content === 'string' && post.content.split("\n").map((line, i) => {
             if (line.startsWith("## ")) return <h2 key={i}>{line.replace("## ", "")}</h2>;
             if (line.startsWith("### ")) return <h3 key={i}>{line.replace("### ", "")}</h3>;
             if (line.startsWith("|")) return <p key={i} className="font-mono text-xs text-slate-400">{line}</p>;
