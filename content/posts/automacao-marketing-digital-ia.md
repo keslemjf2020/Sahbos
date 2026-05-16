@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Como Automatizar seu Marketing Digital com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa horas criando posts que ninguém vê
 
 Publicar todo dia. Responder comentários. Enviar e-mail manual. No fim do mês, o resultado é baixo e você está exausto.

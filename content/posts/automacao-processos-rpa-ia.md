@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "RPA com IA: Como Automatizar Processos Repetitivos sem Programar"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você perde horas toda semana com tarefas que um robô faria em segundos
 
 Emitir nota fiscal. Conciliar banco. Disparar cobrança. Agendar posts. Tudo tarefa repetitiva que consome seu tempo enquanto o negócio para.

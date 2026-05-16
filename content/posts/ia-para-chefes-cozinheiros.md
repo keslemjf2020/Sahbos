@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "IA para Chefs: Cardapios, Receitas e Precificacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa horas criando o cardápio e descobre que 3 pratos têm margem negativa
 
 Calcula custo manualmente. Um ingrediente não tem fornecedor. Outro prato é igual ao do concorrente. No fim, mantém o mesmo cardápio de sempre por medo de errar.

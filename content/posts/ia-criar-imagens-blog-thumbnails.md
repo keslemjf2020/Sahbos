@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "Como Criar Imagens e Thumbnails com IA para Blog e YouTube"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você perde horas no Canva ou paga um designer para cada arte
 
 Thumbnail para YouTube, capa para blog, imagem para post. Cada uma leva 30 minutos. No fim do mês, são 10 horas só com design.

@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Como Criar Posts de Blog com IA em 5 Minutos (Sem Escrever Nada)"
 date: "2026-05-15"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa horas escrevendo posts de blog que ninguém lê
 
 Pesquisar, estruturar, revisar. 70% do tempo vai em tarefas repetitivas. No fim, o artigo fica pronto, mas você está exausto.

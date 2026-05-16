@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Como Criar Sites e Landing Pages com IA em Minutos"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Sua landing page está demorando semanas e o lançamento é em 5 dias
 
 Contratar um designer custa R$ 2.000 e leva 2 semanas. Fazer no WordPress leva 3 dias e o resultado parece amador. O lançamento é daqui a 5 dias e você ainda não tem nada no ar.

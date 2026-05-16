@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "IA no Design Grafico: Ferramentas que Todo Designer Precisa"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa horas no Photoshop fazendo trabalho braçal que a IA faz em segundos
 
 Procurar banco de imagens, remover fundo manualmente, criar mockup por mockup. O briefing chegou às 18h e o prazo é amanhã de manhã.

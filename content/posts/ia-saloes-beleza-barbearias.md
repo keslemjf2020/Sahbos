@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Saloes e Barbearias: Agendamento e Fidelizacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Cliente chega sem agendar, espera 40 minutos, reclama
 
 Outro agendou mas esqueceu, você perdeu o horário. Cadastro do cliente é papel amassado com telefone ilegível. Metade dos clientes que poderiam ser fiéis simplesmente não voltam.

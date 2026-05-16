@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Lojas de Roupa: Estoque e Tendencias"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você comprou 200 peças que achou que iam vender. 80 encalharam.
 
 3 meses depois, precisa vender com 50% de desconto para recuperar algum dinheiro. Enquanto isso, aquela calça jeans que todo mundo pede está em falta há 2 semanas.

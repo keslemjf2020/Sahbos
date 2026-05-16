@@ -1,10 +1,10 @@
 ---
+category: "Negocios"
 title: "IA para Sorveterias: Producao e Vendas Inteligentes"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Sexta-feira 19h, sua sorveteria está cheia. O chocolate belga acabou às 18h
 
 Você perdeu vendas. No sábado choveu. Produziu 20kg de chocolate belga, vendeu 5kg. Os outros 15kg perdem qualidade no freezer. **30% da produção foi para o lixo.**

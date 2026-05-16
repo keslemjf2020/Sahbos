@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Automacao de Oficinas Mecanicas com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Cliente chega com barulho estranho e você faz orçamento no olho
 
 Você levanta o capô, escuta, faz um palpite. Passa o orçamento na hora. Depois descobre que o problema era outro. A peça comprada não era a certa. O cliente pagou mais caro e não volta mais.

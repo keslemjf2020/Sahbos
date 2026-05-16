@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Chatbot com IA para Atendimento ao Cliente"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Cliente pergunta e você demora horas para responder
 
 "Quanto custa?" "Tem em estoque?" "Qual o prazo?" São as mesmas perguntas todo dia. Enquanto você não responde, o cliente vai para o concorrente.

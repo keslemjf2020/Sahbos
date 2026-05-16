@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Fotografos: Edicao e Organizacao Automatica"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você volta de um casamento com 1500 fotos e o cliente espera 15 dias
 
 Selecionar leva 3 horas. Editar uma por uma no Lightroom? Mais 8 horas. No fim, o cliente já perdeu o entusiasmo.

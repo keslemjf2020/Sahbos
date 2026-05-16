@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Entregadores: Roteirizacao e Multiplos Apps"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você roda 120 km por dia e ganha R$ 150. Sobra R$ 80 depois da gasolina
 
 Pedido chega: 8 km para buscar, 5 km para entregar. R$ 12. Você aceita porque não sabe se virá outro. Passa em frente a 3 restaurantes com pedidos prontos que poderia ter pego.

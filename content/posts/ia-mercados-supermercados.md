@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Supermercados: Precificacao e Reposicao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você perde clientes porque o concorrente baixou o preço e você só descobre no dia seguinte
 
 São 6h da manhã. Seu gerente imprime os preços do dia e a equipe passa 2 horas trocando etiquetas. Concorrente baixou o arroz em 10% ontem. Você descobre amanhã quando um cliente reclamar.

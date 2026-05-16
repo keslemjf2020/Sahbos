@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Streamers: Automatize Alertas e Moderacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você está no meio da live, 200 pessoas no chat. Alguém começa a xingar
 
 Outro faz spam de link. Você tenta ler, moderar, responder e ainda jogar. Perde o foco, morre no jogo, o chat reclama. Streamar sozinho é insustentável.

@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Como Automatizar Email Marketing com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você tem uma lista de e-mails, mas não sabe o que enviar
 
 Escrever sequência de e-mails toda semana consome horas. Ou você paga caro por ferramentas que prometem resultados e entregam pouco.

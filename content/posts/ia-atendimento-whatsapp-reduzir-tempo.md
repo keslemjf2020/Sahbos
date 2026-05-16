@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Como Reduzir 80% do Tempo de Atendimento com IA no WhatsApp"
 date: "2026-05-15"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você responde a mesma pergunta 20 vezes por dia no WhatsApp
 
 "Qual o horário?" "Tem estoque?" "Quanto custa?" Você digita a mesma resposta dezenas de vezes. Isso mata sua produtividade.

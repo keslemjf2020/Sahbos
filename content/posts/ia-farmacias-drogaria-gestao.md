@@ -1,10 +1,10 @@
 ---
+category: "Saude"
 title: "IA para Farmacias: Gestao de Estoque e Validade"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seus medicamentos vencem no estoque e ninguém percebe
 
 Você tem 3.000 itens no estoque. Entre eles, 200 medicamentos com data de validade diferente. Um lote de antibiótico venceu na semana passada e ninguém viu.

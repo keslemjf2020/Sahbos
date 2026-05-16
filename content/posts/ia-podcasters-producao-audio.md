@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Podcasters: Gravacao, Edicao e Distribuicao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você grava 1 hora de podcast e passa 4 horas editando
 
 Áudio do convidado baixo, seu áudio estourado. 15 "hããã", 20 segundos de silêncio, 3 interrupções. Depois precisa gerar descrição, notas, legenda e posts. Passa mais tempo produzindo o episódio do que ele dura.

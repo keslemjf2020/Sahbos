@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Edicao de Video: Automatize Cortes e Legendas"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você gravou 2 horas de conteúdo e precisa editar tudo manualmente
 
 Cortar momentos ruins, remover pausas, adicionar legendas, exportar para cada rede social. Fazer isso manualmente leva **4 horas para cada 10 minutos** de vídeo final.

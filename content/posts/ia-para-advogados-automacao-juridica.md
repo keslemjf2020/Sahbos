@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "IA para Advogados: Automatize Documentos Juridicos"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa horas redigindo contratos que são 90% iguais
 
 Petições simples tomam uma tarde inteira. Clientes pedem ajustes no último minuto. O escritório fatura menos porque você gasta tempo demais com papel.

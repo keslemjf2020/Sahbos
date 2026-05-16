@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "10 Ferramentas de IA Gratis que Vão Dobrar Sua Produtividade"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você acha que IA boa custa caro?
 
 DeepSeek dá **500 usos por dia** de graça. Make libera **1.000 operações por mês**. Canva oferece **50 gerações de IA** mensais. ChatGPT tem plano free com GPT-4o.

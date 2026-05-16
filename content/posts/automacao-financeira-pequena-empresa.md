@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Automação Financeira com IA para Pequenas Empresas"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você perde 12 horas por mês só para conciliar extratos bancários
 
 Contas a pagar são manuais. Fluxo de caixa é chute. Cobrança é feita no lembrete do WhatsApp. No fim do mês, você descobre que um boleto venceu e você nem viu.

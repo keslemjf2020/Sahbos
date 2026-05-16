@@ -1,10 +1,10 @@
 ---
+category: "Negocios"
 title: "IA para Artistas Digitais: Criacao e Venda de NFT"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa 20 horas criando uma arte digital que ninguém compra
 
 Mina como NFT. Publica no marketplace. Nada. Você não entende por que outras artes vendem e a sua não.

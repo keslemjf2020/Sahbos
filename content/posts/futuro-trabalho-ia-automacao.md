@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "O Futuro do Trabalho com IA: O Que Muda em 2026"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você abre o LinkedIn e vê: "IA vai substituir 300 milhões de empregos"
 
 No meio desse vai-e-vem de opiniões, você fica sem saber se estuda programação, vira especialista em prompt ou simplesmente ignora.

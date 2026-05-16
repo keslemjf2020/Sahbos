@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Seguranca Digital com IA: Proteja sua Empresa"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu funcionário abre um e-mail "Fatura em atraso" e em 30 segundos tudo está criptografado
 
 **Ransomware** para a empresa por 3 dias. Prejuízo de R$ 47 mil. O maior vetor de ataque ainda é o e-mail.

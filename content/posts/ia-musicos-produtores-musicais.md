@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Musicos: Composicao e Producao Musical"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você tem uma melodia na cabeça, mas trava na hora de desenvolver
 
 Passa horas tentando encontrar o acorde certo, o beat ideal, a letra que encaixa. Quando termina, precisa masterizar, distribuir e divulgar. O processo leva semanas.

@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "ChatGPT vs DeepSeek vs Claude: Qual a Melhor IA em 2026"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você abre 3 abas e não sabe qual IA escolher
 
 ChatGPT. DeepSeek. Claude. Cada amigo recomenda um. Um é grátis, outro cobra, um terceiro promete ser mais esperto. Você testa todos e fica perdido.

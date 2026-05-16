@@ -1,10 +1,10 @@
 ---
+category: "Negocios"
 title: "IA para Imobiliarias: Automatize Locacao e Vendas"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu corretor perde 80% do tempo com leads que não vão comprar
 
 Lead chega pelo site. Corretor atende, explica, agenda visita. Depois descobre que a renda não é compatível ou o bairro errado. **7 em cada 10 leads são frios.**

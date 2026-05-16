@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "As 5 Melhores Ferramentas de Automacao para Pequenos Negocios em 2026"
 date: "2026-05-15"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você perde horas por semana com trabalho manual que poderia rodar sozinho
 
 Pequenos negócios precisam de automação para competir com grandes empresas. Mas escolher a ferramenta certa é difícil. São dezenas de opções, cada uma com preço e curva de aprendizado diferentes.

@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Hoteis Fazenda: Experiencia do Hospede"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Família chega depois de 3 horas de estrada e enfrenta 15 minutos de papelada
 
 Crianças cansadas, pais estressados. Depois perguntam: "o que tem para fazer?" Recebem um folder com 20 atividades. Não aproveitam metade. Vão embora no domingo sentindo que pagaram caro para não fazer nada.

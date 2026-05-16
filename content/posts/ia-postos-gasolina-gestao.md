@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "IA para Postos de Gasolina: Automacao e Fidelizacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu posto vende 30 mil litros por dia e você não sabe quem são seus clientes
 
 Cliente abastece, paga e vai embora. Posto da esquina baixou R$ 0,05 e seus clientes migraram. Você descobriu quando o movimento caiu **20%**. Sem dados para reagir.

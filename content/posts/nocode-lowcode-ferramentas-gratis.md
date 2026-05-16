@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "No-Code vs Low-Code: Melhores Ferramentas Gratis"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você quer automatizar tarefas mas não sabe programar. Ou sabe um pouco mas quer acelerar
 
 **No-code** e **low-code** resolvem isso. Cada um tem seu lugar. Escolher errado significa perder tempo com ferramenta limitada ou complexa demais.

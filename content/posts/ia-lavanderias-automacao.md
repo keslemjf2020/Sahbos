@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "IA para Lavanderias: Pedidos e Entregas Automaticos"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Cliente liga, você anota no papel e a peça some no processo
 
 "Quero lavar 3 camisas, 2 calças e 1 terno." Você anota. Motoboy busca, cliente não estava em casa. Peças chegam, você separa manualmente, etiqueta. Depois descobre que uma camisa sumiu.

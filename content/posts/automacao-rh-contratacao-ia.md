@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Como Automatizar RH e Contratacao com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você publica uma vaga e recebe 200 currículos em 24 horas
 
 Ler um por um leva dias. Marcar entrevista é um vai-e-vem de e-mails. No fim, você contrata na pressa porque a vaga está aberta há semanas.

@@ -1,10 +1,10 @@
 ---
+category: "Negocios"
 title: "Guia Completo de IA para Pequenos Negocios em 2026"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você acorda com 47 mensagens no WhatsApp. E agora?
 
 Enquanto você responde uma por uma, o cliente que ia comprar desistiu. O estoque que podia ter saído ficou parado. E você perdeu a manhã inteira digitando "sim, aceitamos cartão".

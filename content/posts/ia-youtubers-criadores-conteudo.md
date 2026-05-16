@@ -1,10 +1,10 @@
 ---
+category: "Marketing"
 title: "IA para YouTubers: Roteiro, Edicao e SEO de Videos"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você grava 15 minutos, edita 2 horas, faz thumbnail 20 minutos. 200 views em uma semana
 
 Outro youtuber postou o mesmo tema e fez 50 mil views. A diferença? Ele entende de roteiro, edição e SEO. Você não.

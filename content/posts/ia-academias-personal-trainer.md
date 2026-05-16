@@ -1,10 +1,10 @@
 ---
+category: "Saude"
 title: "IA para Academias: Treinos Personalizados e Gestao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Sua academia tem 300 alunos, mas 150 estão pagando sem aparecer
 
 50 vão todo dia. 100 vão uma vez por semana. 150 estão pagando mas não aparecem há 30 dias. Você não sabe quem está prestes a cancelar.

@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA na Gestao de Bares e Restaurantes"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu bar está cheio numa sexta e o sistema não acompanha
 
 Garçom anota o pedido, leva a bebida errada. Cliente reclama. 3 pessoas esperam para pagar. 2 pedidos na cozinha atrasaram porque o insumo acabou.

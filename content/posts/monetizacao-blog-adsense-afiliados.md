@@ -1,10 +1,10 @@
 ---
+category: "Negocios"
 title: "Guia de Monetizacao: AdSense e Afiliados para Blogs"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você escreve há meses e o AdSense paga R$ 50
 
 O tráfego cresce devagar. Os links de afiliado não convertem. Você começa a achar que blog não dá dinheiro.

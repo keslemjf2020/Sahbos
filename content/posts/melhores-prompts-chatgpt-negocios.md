@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "10 Melhores Prompts do ChatGPT para Pequenos Negocios"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você abre o ChatGPT, digita "me ajuda com meu negócio" e recebe um textão genérico
 
 Todo mundo tem acesso ao ChatGPT, mas poucos sabem usar direito. O segredo está no **prompt**. Um prompt bem escrito entrega resultado pronto. Um prompt genérico dá resposta genérica.

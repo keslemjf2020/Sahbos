@@ -1,10 +1,10 @@
 ---
+category: "Saude"
 title: "IA para Dentistas: Automatize Agendamento e Confirmacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Paciente marca consulta e não aparece. Você perde R$ 4.000 por mês
 
 Segunda-feira 14h. Paciente confirmou. Você preparou o consultório. Ele não vem. Você perdeu 40 minutos de agenda. Outro paciente que poderia ter sido atendido ficou sem vaga.

@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Como Automatizar sua Loja Shopify com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você acorda com 12 pedidos e 5 clientes perguntando "saiu pra entrega?"
 
 A loja vende, mas você não dá conta. Estoque baixo, descrição de produto atrasada, cliente perguntando a mesma coisa toda hora.

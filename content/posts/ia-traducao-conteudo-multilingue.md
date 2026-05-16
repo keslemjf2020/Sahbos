@@ -1,10 +1,10 @@
 ---
+category: "Marketing"
 title: "IA para Traducao: Como Criar Conteudo Multilingue"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você quer expandir seu blog para inglês e espanhol, mas contratar tradutor custa R$ 0,30 por palavra
 
 Um post de 1000 palavras sai por R$ 300. Para 3 idiomas, R$ 900 por post. Multiplique por 4 posts mensais. Orçamento vai para o espaço.

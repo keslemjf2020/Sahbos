@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "IA no Delivery: Automatize Pedidos e Entregas do Seu Restaurante"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu restaurante recebe 80 pedidos do iFood por dia e você tem um funcionário só para isso
 
 Cada pedido exige: ler os itens, confirmar disponibilidade, imprimir comanda, enviar para cozinha, atualizar estoque. Isso consome **6 horas de trabalho** de um funcionário.

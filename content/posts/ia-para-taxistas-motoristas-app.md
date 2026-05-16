@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Motoristas de App: Otimize suas Corridas"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você roda 10 horas por dia e sua hora vale R$ 10
 
 Em 4 horas está no lugar errado. Fica parado esperando corrida. Quando vem, é curta e não compensa. Gastou R$ 60 de combustível, faturou R$ 180. Lucro líquido: **R$ 100 por 10 horas.**

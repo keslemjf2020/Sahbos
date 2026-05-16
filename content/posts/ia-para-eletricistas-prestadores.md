@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Eletricistas: Orcamentos e Agendamento"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Cliente liga, você vai até o local, faz orçamento e ele diz "vou ver e te aviso"
 
 70% não te avisa. Você perdeu 1h30 de deslocamento que não vai receber. Tomada queimada, disjuntor caiu, fio solto — cliente não sabe descrever.

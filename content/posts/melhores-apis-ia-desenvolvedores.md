@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "Melhores APIs de IA para desenvolvedores integrarem em 2026"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você precisa integrar IA no seu projeto e não sabe qual API escolher
 
 OpenAI domina, mas DeepSeek e Gemini oferecem preços melhores para tarefas específicas. Escolher errada significa pagar mais ou ter latência alta.

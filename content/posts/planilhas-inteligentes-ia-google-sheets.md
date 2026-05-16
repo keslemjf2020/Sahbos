@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Planilhas Inteligentes: Como Automatizar Relatorios com IA e Google Sheets"
 date: "2026-05-15"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você baixa dados, cria gráficos, escreve resumos, formata células. Toda semana o mesmo processo
 
 Relatórios são úteis, mas o trabalho manual de produzi-los é repetitivo. Erro de digitação, fórmula quebrada, dado desatualizado. Automatizar corta isso para zero.

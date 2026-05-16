@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "IA na Gestao de Projetos: Ferramentas Essenciais"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Sua planilha de projetos está uma bagunça e ninguém avisa quando atrasa
 
 Tarefa atrasada, responsável não atualizou o status, prazo estourou. Você descobre o problema na data de entrega.

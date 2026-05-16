@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Contadores: Automatize seu Escritorio Contabil"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa horas conferindo nota fiscal por nota fiscal
 
 Cliente envia 30 comprovantes no WhatsApp e espera que você organize tudo. Conciliação bancária toma um dia inteiro. Declaração de imposto de renda no horizonte.

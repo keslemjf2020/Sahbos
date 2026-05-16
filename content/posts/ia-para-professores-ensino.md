@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "IA para Professores: Ferramentas que Transformam o Ensino"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa o fim de semana corrigindo 40 redações
 
 Prepara aula até meia-noite. Cria atividades, provas, listas de exercício. O trabalho nunca acaba. A parte burocrática toma o tempo que deveria ser dos alunos.

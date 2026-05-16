@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "IA para Escritores: Ferramentas que Potencializam a Criatividade"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você senta para escrever, mas a tela fica em branco por uma hora
 
 Digita uma frase, apaga. Digita outra, apaga. O prazo está chegando e a criatividade simplesmente não vem.

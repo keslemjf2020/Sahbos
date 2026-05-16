@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Padarias: Controle de Producao e Estoque"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você acorda às 4h para produzir pão e não sabe se vende 100 ou 300 unidades
 
 Produzir pouco perde cliente. Produzir demais vira desperdício. **15% da sua produção vai para o lixo** todo santo dia. Ingredientes vencem na despensa porque você comprou sem planejamento.

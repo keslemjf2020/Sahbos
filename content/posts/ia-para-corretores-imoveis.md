@@ -1,10 +1,10 @@
 ---
+category: "Ferramentas"
 title: "IA para Corretores de Imoveis: Venda Mais Rapido"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você mostra imóvel o dia inteiro e volta com 15 leads no WhatsApp
 
 "ainda tem aquele apartamento?" Você responde um por um. No outro dia, 3 já fecharam com outro corretor porque você demorou.

@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Como a IA Esta Transformando o Atendimento ao Cliente em 2026"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu atendimento custa caro e o cliente ainda reclama
 
 Cada ticket resolvido por um humano custa entre **R$ 25 e R$ 50**. Um chatbot resolve pelo mesmo custo de alguns centavos. E ainda atende em segundos, não em horas.

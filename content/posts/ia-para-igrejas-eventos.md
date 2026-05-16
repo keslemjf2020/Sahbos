@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Igrejas: Automatize Eventos e Comunicacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você avisa 200 membros no grupo e metade não viu
 
 Voluntários confirmam, mas ninguém sabe quem leva o quê. Culto especial chegando e você passa a semana ligando. No sábado, **30% dos que confirmaram não aparecem**.

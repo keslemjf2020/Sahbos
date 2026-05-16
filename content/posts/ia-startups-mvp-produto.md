@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Startups: Do MVP ao Lancamento em Tempo Recorde"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa 5 meses desenvolvendo o MVP e descobre que ninguém quer
 
 Ideia morre antes de nascer. Concorrente lança primeiro. Meses perdidos construindo algo que ninguém precisa.

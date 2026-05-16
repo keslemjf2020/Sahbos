@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Autonomos: Como Multiplicar Seus Ganhos"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você trabalha 10 horas por dia, mas só 4 são trabalho que realmente paga
 
 O resto é: responder mensagem, fazer orçamento, emitir nota, cobrar pagamento atrasado. No fim do mês, você faturou R$ 8.000, mas trabalhou 240 horas.

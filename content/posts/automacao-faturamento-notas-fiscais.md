@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Automatize Faturamento e Notas Fiscais com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você emite 200 notas fiscais por mês e ainda erra
 
 Cada nota exige: dados do cliente, CFOP certo, CST adequado, alíquota correta. Um erro de digitação e a nota é rejeitada. Outro erro e você paga multa.

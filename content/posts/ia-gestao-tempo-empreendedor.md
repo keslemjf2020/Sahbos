@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Como usar IA para gestao de tempo de empreendedores"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa o dia apagando incêndios e no fim sente que não produziu nada
 
 Responder cliente, agendar reunião, organizar nota fiscal, atualizar planilha. Cada tarefa leva 5 minutos. Mas 30 tarefas por dia viram **2 horas e meia perdidas**.

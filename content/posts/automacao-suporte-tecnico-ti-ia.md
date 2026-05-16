@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Automatize o Suporte Tecnico de TI com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu ticket de suporte acumula: "esqueci a senha", "sistema lento", "e-mail não abre"
 
 São 50 chamados por dia. 70% são problemas repetitivos que poderiam ser resolvidos em 30 segundos. Mas cada um exige que um técnico pare o que está fazendo.

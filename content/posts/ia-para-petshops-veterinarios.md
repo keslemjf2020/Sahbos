@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Petshops e Veterinarios: Gestao Inteligente"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu petshop recebe 30 cães para banho por dia e a recepcionista está sobrecarregada
 
 Anotar nome do pet, raça, serviço e telefone é manual. Cliente liga para remarcar, outro esquece o horário, outro reclama que o shampoo acabou. **15% dos agendamentos viram falta** no fim do mês.

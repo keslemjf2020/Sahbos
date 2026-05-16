@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "IA no Agronegocio: Automacao para o Campo"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você acorda e olha para o céu. Vai chover ou não?
 
 Se plantar hoje e chover amanhã, perde a semente. Se esperar e não chover, perde a janela de plantio. Sua decisão é baseada em palpite.

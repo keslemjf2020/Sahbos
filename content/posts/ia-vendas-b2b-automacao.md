@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "IA para vendas B2B: como automatizar prospeccao e follow-up"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você busca leads, envia e-mail, espera resposta, esquece de follow-up, recomeça
 
 80% dos vendedores desistem após o primeiro "não". Lead precisa de **5 a 7 interações** para fechar. Cada etapa manual consome tempo e depende de memória.

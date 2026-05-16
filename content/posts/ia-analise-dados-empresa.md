@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "Como Usar IA para Analisar Dados da Sua Empresa"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você tem planilhas cheias de dados, mas não sabe o que eles significam
 
 Vendas, estoque, clientes, financeiro. Você acumula números, mas poucos geram decisão. Dados parados não servem para nada.

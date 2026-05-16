@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Gestao de Condominios com IA: Automatize Tudo"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você é síndico e tem 30 mensagens no WhatsApp do prédio
 
 Morador reclama do barulho. Outro pergunta quando vence o boleto. Um terceiro quer agendar o salão de festas. No meio disso, você precisa preparar a ata e fechar as contas.

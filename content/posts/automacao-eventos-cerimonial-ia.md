@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Como Automatizar Eventos e Cerimonial com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você organiza um evento e passa o dia apagando incêndio
 
 200 convidados para confirmar. 15 fornecedores para coordenar. Cronograma para montar. No dia, a mesa de som não chegou e 30 convidados confirmaram mas não vieram.

@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA na Logistica: Otimize Rotas e Entregas"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu motorista sai com 25 entregas e faz só 10 até as 14h
 
 Passa 3 vezes pelo mesmo bairro. Perde 2 horas no trânsito. Volta com 5 entregas não realizadas. Amanhã, a mesma rota ineficiente se repete. **R$ 5.000 a mais de combustível** no fim do mês.

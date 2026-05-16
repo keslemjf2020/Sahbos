@@ -1,10 +1,10 @@
 ---
+category: "Negocios"
 title: "IA para Influenciadores: Conteudo, Metricas e Monetizacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa 3 horas pensando em ideias e o engajamento continua baixo
 
 Grava, edita, publica. O post bombou? Não. No dia seguinte, outro influenciador postou sobre o mesmo tema e foi um sucesso. Você não entende por que funcionou para ele.

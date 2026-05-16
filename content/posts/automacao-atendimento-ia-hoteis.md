@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Como Automatizar Atendimento em Hotéis e Pousadas com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você acorda com 47 mensagens no WhatsApp do hotel
 
 Pousada com 12 quartos. Hotel fazenda com 20 chalés. A rotina é sempre a mesma: hóspede pergunta horário, outro quer saber se aceita cachorro, um terceiro pede o cardápio do café.

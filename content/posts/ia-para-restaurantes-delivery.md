@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "IA para Restaurantes: Cardapio Inteligente e Automacao"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Seu restaurante tem 40 itens no cardápio, mas 70% dos pedidos são só 5 pratos
 
 Garçom anota errado duas vezes por semana. No fim do mês, descobre que um ingrediente estragou porque ninguém avisou. O cliente pede algo que não tem no estoque.

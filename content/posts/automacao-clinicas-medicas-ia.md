@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Automatizacao de Clinicas Medicas com IA"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você perde consultas porque paciente desiste de esperar no telefone
 
 Seu consultório recebe 50 ligações por dia. Paciente quer saber se o sintoma é grave. Outro pergunta se tem horário. A recepcionista passa o dia no telefone enquanto a sala de espera lota.

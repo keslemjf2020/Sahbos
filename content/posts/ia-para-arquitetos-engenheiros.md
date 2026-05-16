@@ -1,10 +1,10 @@
 ---
+category: "IA"
 title: "IA para Arquitetos e Engenheiros: Projetos Inteligentes"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você passa dias renderizando e o cliente pede 5 alterações
 
 Renderiza de novo. O orçamento toma outra tarde. A documentação técnica leva mais um fim de semana. No fim, **60% do seu tempo** vai em retrabalho.

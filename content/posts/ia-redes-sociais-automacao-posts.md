@@ -1,10 +1,10 @@
 ---
+category: "Automacao"
 title: "Automatize suas Redes Sociais com IA em 2026"
 date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
-
 # Você posta em 5 plataformas, 30 posts por semana. Seu dia não tem 24 horas
 
 Entre criar arte, escrever legenda, editar vídeo e responder comentários, o resultado é: posta quando dá, engajamento cai, algoritmo te esquece.
