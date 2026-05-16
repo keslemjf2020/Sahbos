@@ -1,31 +1,18 @@
-import { Metadata } from 'next';
-import Link from 'next/link';
-
-export const metadata: Metadata = { title: 'IA para Restaurantes: Cardapio Inteligente e Automacao - Automacao IA' };
-
-export default function Page() {
-  const content = `---\ntitle: "IA para Restaurantes: Cardápio Inteligente e Automação"\ndate: "2026-05-15"\ndescription: "Guia prático de IA para restaurantes em 2026: cardápio inteligente, atendimento automatizado, gestão de estoque e pedidos sem complicação."\ncategory: "Automação"\nreadingTime: "3 min"\ntags: ["IA", "restaurante", "cardapio", "automacao", "delivery"]\n---\n\nSeu restaurante tem 40 itens no cardápio, mas 70% dos pedidos são só 5 pratos. O garçom anota errado o pedido duas vezes por semana. No fim do mês, você descobre que um ingrediente estragou porque ninguém avisou que estava perto do vencimento.\n\nIA para restaurantes em 2026 resolve esses problemas sem você trocar de sistema ou contratar mais gente. Vou mostrar 3 áreas onde a automação entrega resultado imediato.\n\n## 1. Cardápio Inteligente com Sugestão Automática\n\nEm vez de um cardápio fixo, a IA sugere pratos baseados no histórico do cliente, horário e estoque disponível.\n\n**Como funciona:**\n- Cliente abre o cardápio digital (QR Code na mesa)\n- IA analisa: já pediu antes? É horário de almoço ou jantar? Está sozinho ou em grupo?\n- Sugere 3 pratos personalizados no topo do cardápio\n\n**Exemplo real:** Um restaurante italiano em São Paulo implementou cardápio inteligente. O ticket médio subiu 18% porque a IA sugeria pratos mais caros e harmonizações com vinhos que o cliente nunca experimentaria sozinho.\n\n## 2. Atendimento Automatizado com Chatbot\n\nPedidos por WhatsApp são um caos: cliente envia áudio, foto, muda o pedido no meio. Com IA, isso vira fluxo organizado.\n\n**Ferramentas para 2026:**\n\n| Ferramenta | Função | Preço |\n|------------|--------|-------|\n| Botpress | Chatbot WhatsApp personalizado | Grátis / R\$ 97/mês |\n| ManyChat | Fluxo de vendas no WhatsApp | Grátis / R\$ 59/mês |\n| Take Blip | Atendimento omnichannel | Grátis / Sob consulta |\n\n**Dica prática:** Configure o chatbot para: receber pedido → confirmar itens → calcular valor + frete → enviar link de pagamento → notificar a cozinha. O garçom só entra se o cliente pedir alteração.\n\n## 3. Gestão de Estoque com Previsão de Demanda\n\nComprar ingrediente a mais é dinheiro no lixo. Comprar a menos é perder venda. IA resolve esse equilíbrio.\n\n**Passo a passo:**\n1. Conecte o sistema de vendas (iFood, QuickByte, próprio) ao Make\n2. IA analisa histórico: qual prato vende mais na terça à noite? E no sábado?\n3. Gera lista de compras automática com quantidades exatas\n4. Alerta quando ingrediente está perto do vencimento\n\nO resultado: menos desperdício, menos falta de estoque, mais margem no fim do mês.\n\n👉 **[Automatize seu restaurante com Make](https://www.make.com/en/register?pc=guiaia2026)** — conecte cardápio digital, WhatsApp, estoque e delivery em um fluxo único.\n\n---\n\n**Checklist para começar hoje:**\n- [ ] Crie cardápio digital com QR Code nas mesas\n- [ ] Configure chatbot para receber pedidos no WhatsApp\n- [ ] Analise o histórico de vendas dos últimos 30 dias\n- [ ] Ajuste o estoque baseado nos dados reais\n- [ ] Teste a automação com 5 pedidos reais\n\nIA para restaurantes não é sobre virar um robô. É sobre garantir que o cliente receba o prato certo, na hora certa, e que você não perca dinheiro com desperdício. O resto é receita que já funciona.`.split('\\n').map((l,i) => {
-    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-    if (l.startsWith('|')) return <p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-    if (!l.trim()) return <br key={i} />;
-    if (l.startsWith('[') && l.includes('](')) {
-      const m = l.match(/\[(.+?)\]\((.+?)\)/);
-      if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>;
-    }
-    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
-    return <p key={i} className="text-slate-300 leading-relaxed mb-3">{l}</p>;
-  });
-
-  return (
-    <div className="min-h-screen bg-[#0a0a0f]">
-      <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-        <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-        <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-        <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA para Restaurantes: Cardapio Inteligente e Automacao</h1>
-        <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>•</span><span>3 min</span></div>
-      </div></div>
-      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-    </div>
-  );
-}
+import{Metadata}from'next';import Link from'next/link';
+export const metadata:Metadata={title:'IA para Restaurantes: Cardapio Inteligente e Automacao - Automacao IA'};
+export default function Page(){const content=`# Seu restaurante tem 40 itens no cardápio, mas 70% dos pedidos são só 5 pratos\n\nGarçom anota errado duas vezes por semana. No fim do mês, descobre que um ingrediente estragou porque ninguém avisou. O cliente pede algo que não tem no estoque.\n\n**IA para restaurantes** resolve esses problemas sem trocar de sistema ou contratar mais gente.\n\n## Cardápio inteligente que sugere o que vender mais\n\nEm vez de cardápio fixo, IA sugere pratos baseados no cliente, horário e estoque.\n\n### Como funciona na prática:\n\n| O que a IA analisa | O que sugere | Resultado |\n|--------------------|--------------|-----------|\n| Cliente já pediu antes | Pratos que ele ainda não experimentou | Ticket médio +18% |\n| Horário de almoço | Pratos executivos rápidos | Rotatividade maior |\n| Estoque alto de insumo | Prato em destaque com desconto | Desperdício menor |\n\n**Ferramentas:** Cardápio digital com QR Code + IA integrada.\n\n> **Exemplo real:** Um restaurante italiano em São Paulo implementou cardápio inteligente. O ticket médio **subiu 18%** porque a IA sugeria pratos mais caros e harmonizações com vinhos que o cliente nunca experimentaria sozinho.\n\n---\n\n> **🚀 Quer automatizar o cardápio do seu restaurante?** Teste grátis por 14 dias. [Comece agora](#)\n\n---\n\n## Atendimento automatizado que elimina erro de pedido\n\nPedidos anotados errado geram retrabalho e insatisfação. IA elimina o erro humano.\n\n### Como funciona:\n\n| Como era | Como fica com IA |\n|----------|------------------|\n| Garçom anota no papel | Cliente pede pelo QR Code |\n| Anotação vai para cozinha | Pedido vai direto para o sistema |\n| Erro de interpretação | Zero erro de digitação |\n\n## Gestão de estoque que alerta antes de faltar\n\nIngrediente acaba no meio do serviço. IA prevê e alerta com antecedência.\n\n**Alertas automáticos:**\n- **Estoque baixo:** "Farinha vai acabar em 2 dias"\n- **Validade próxima:** "Creme de leite vence amanhã"\n- **Consumo alto:** "Tomate consumiu 3x mais que previsto"\n\n## Checklist para otimizar seu restaurante\n\n- [ ] Configure cardápio digital com IA\n- [ ] Ative atendimento automatizado\n- [ ] Implemente gestão de estoque inteligente\n- [ ] Monitore ticket médio semanalmente`.split('\\n').map((l,i)=>{
+  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
+  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
+  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
+  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
+return(<div className="min-h-screen bg-[#0a0a0f]">
+  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
+    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">\u2190 Voltar</Link>
+    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
+    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA para Restaurantes: Cardapio Inteligente e Automacao</h1>
+    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>\u2022</span><span>3 min</span></div>
+  </div></div>
+  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+</div>);}

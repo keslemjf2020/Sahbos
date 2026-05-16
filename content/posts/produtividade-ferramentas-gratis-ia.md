@@ -7,7 +7,7 @@ description: "Post gerado pelo time de agentes DeepSeek"
 
 # Você acha que IA boa custa caro?
 
-DeepSeek dá 500 usos por dia de graça. Make libera 1.000 operações por mês. Canva oferece 50 gerações de IA mensais. ChatGPT tem plano free com GPT-4o.
+DeepSeek dá **500 usos por dia** de graça. Make libera **1.000 operações por mês**. Canva oferece **50 gerações de IA** mensais. ChatGPT tem plano free com GPT-4o.
 
 A guerra entre OpenAI, DeepSeek, Google e Anthropic beneficiou você. Todas mantêm planos gratuitos para atrair usuários. A diferença está nos limites e na qualidade.
 
@@ -23,27 +23,40 @@ A guerra entre OpenAI, DeepSeek, Google e Anthropic beneficiou você. Todas mant
 
 ## DeepSeek Chat: o melhor custo-benefício
 
-500 requisições por dia. Modelo de alta qualidade. Suporte a upload de PDF, Word, Excel e imagens. Superior ao ChatGPT Free em limite diário.
+500 requisições por dia. Modelo de alta qualidade. Suporte a upload de **PDF, Word, Excel e imagens**. Superior ao ChatGPT Free em limite diário.
 
-**Na prática:** Um freelancer de marketing usa DeepSeek para resumir relatórios de 30 páginas em 5 minutos. De graça.
-
-## Canva Magic Studio: design sem pagar
-
-50 gerações de IA por mês no plano grátis. Cria posts, banners, apresentações. A IA sugere layouts e escreve legendas.
-
-**Na prática:** Uma loja virtual gera 10 posts de Instagram por semana. O plano grátis cobre o mês inteiro.
-
-## Make: automatize sem código
-
-1.000 operações por mês. Conecta WhatsApp, e-mail, planilhas, CRM. Cria fluxos como "e-mail de pedido → extrair dados com IA → enviar confirmação".
-
-**Na prática:** Um pequeno negócio automatizou o disparo de cobrança. Reduziu inadimplência em 15% sem gastar um real.
+> **Na prática:** Um freelancer de marketing usa DeepSeek para resumir relatórios de 30 páginas em 5 minutos. De graça.
 
 ---
 
-## Checklist para começar sem pagar nada
+> **🚀 Quer explorar ferramentas IA gratuitas?** Teste grátis por 14 dias. [Comece agora](#)
 
-- [ ] Crie conta no **DeepSeek** e teste com 1 tarefa real hoje
-- [ ] Abra o **Canva** e gere 3 posts com IA para suas redes
-- [ ] Conecte **Make** + seu e-mail para automatizar 1 processo
-- [ ] Instale o **Whisper** localmente se precisa transcrever áudio
+---
+
+## Canva Magic Studio: design sem pagar
+
+50 gerações de IA por mês no plano grátis. Cria posts, thumbnails, apresentações e logos. Ideal para quem precisa de design rápido sem contratar designer.
+
+**O que gera de graça:**
+- **Posts para Instagram:** 10 variações por mês
+- **Thumbnails para YouTube:** 5 por mês
+- **Apresentações:** 3 completas por mês
+- **Logos:** 2 opções por mês
+
+## Make: automação sem programar
+
+1.000 operações por mês no plano grátis. Conecta Google Sheets, Gmail, Slack, Telegram e 1500+ apps.
+
+**Automações que cabem no grátis:**
+- **E-mail automático:** Responder formulário com confirmação
+- **Planilha viva:** Atualizar dados de vendas automaticamente
+- **Notificação:** Alertar no Telegram quando lead chegar
+- **Backup:** Salvar anexos do Gmail no Drive
+
+## Checklist para usar IA de graça
+
+- [ ] Crie conta no DeepSeek Chat (500 usos/dia)
+- [ ] Configure Canva IA para design mensal
+- [ ] Ative Make para 3 automações essenciais
+- [ ] Teste ChatGPT Free para conversas rápidas
+- [ ] Monitore limites para não exceder

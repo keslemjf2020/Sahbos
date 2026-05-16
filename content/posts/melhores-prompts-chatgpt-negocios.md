@@ -5,120 +5,136 @@ tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
 
-# 10 Melhores Prompts do ChatGPT para Pequenos Negocios
+# Você abre o ChatGPT, digita "me ajuda com meu negócio" e recebe um textão genérico
 
-## Introducao
+Todo mundo tem acesso ao ChatGPT, mas poucos sabem usar direito. O segredo está no **prompt**. Um prompt bem escrito entrega resultado pronto. Um prompt genérico dá resposta genérica.
 
-Todo mundo tem acesso ao ChatGPT, mas poucos sabem usar direito. O segredo esta no prompt. Um prompt bem escrito entrega resultado pronto. Um prompt generico da resposta generica. Estes 10 prompts sao testados em negocios reais e funcionam.
+Estes 10 prompts são testados em negócios reais e funcionam.
 
-## O Problema Real
+## Como usar cada prompt
 
-Voce abre o ChatGPT, digita "me ajuda com meu negocio" e recebe um textao generico. Frustrante. Prompts especificos resolvem isso. Cada um dos 10 abaixo resolve um problema real de pequeno negocio.
+Cada prompt resolve um problema específico. Cole, substitua o que está entre colchetes e pronto.
 
-## Os 10 Prompts
+### Estrutura de cada prompt:
 
-### 1. Criacao de Nome para Produto
+| Parte | O que fazer |
+|-------|-------------|
+| [tipo de produto] | Substitua pelo seu produto |
+| [público-alvo] | Descreva seu cliente ideal |
+| [problema] | Seja específico |
+
+## Os 10 prompts que funcionam
+
+### 1. Criação de nome para produto
 
 ```
-Crie 10 nomes para um [tipo de produto] voltado para [publico-alvo].
-Requisitos: facil de pronunciar, maximo 2 silabas, dominio .com.br disponivel.
+Crie 10 nomes para um [tipo de produto] voltado para [público-alvo].
+Requisitos: fácil de pronunciar, máximo 2 sílabas, domínio .com.br disponível.
 Explique o significado de cada nome.
 ```
 
-### 2. Descricao de Produto para E-commerce
+**Resultado:** Nomes prontos para registrar. Economiza horas de brainstorming.
+
+### 2. Descrição de produto para e-commerce
 
 ```
-Escreva uma descricao de produto para [nome do produto].
+Escreva uma descrição de produto para [nome do produto].
 Tamanho: 100 palavras. Tom: persuasivo mas honesto.
-Inclua: 3 beneficios principais, 2 especificacoes tecnicas, 1 chamada para acao.
-Publico-alvo: [descreva o cliente ideal].
+Inclua: 3 benefícios principais, 2 provas sociais, 1 CTA.
 ```
 
-### 3. Resposta para Reclamacao de Cliente
+**Resultado:** Descrição pronta para publicar. Aumenta conversão.
+
+---
+
+> **🚀 Quer prompts prontos para seu negócio?** Teste grátis por 14 dias. [Comece agora](#)
+
+---
+
+### 3. Roteiro de vídeo curto (Reels/TikTok)
 
 ```
-O cliente reclamou sobre [problema]. Escreva uma resposta educada e resolutiva.
-Tom: empatico. Tamanho: maximo 3 frases.
-Ofereca: [solucao que voce pode dar]. Nao prometa o que nao pode cumprir.
+Crie um roteiro de 60 segundos sobre [tema].
+Gancho nos primeiros 3 segundos. Tom: direto e útil.
+Estrutura: gancho, problema, solução, CTA.
 ```
 
-### 4. Roteiro para Video Curto (Reels/TikTok)
+**Resultado:** Roteiro pronto para gravar. Economiza horas de criação.
+
+### 4. Resposta para reclamação de cliente
 
 ```
-Crie um roteiro de 30 segundos para video sobre [tema].
-Estrutura: gancho nos primeiros 3 segundos, problema, solucao, chamada para acao.
-Tom: [informal / profissional / humoristico]. Publico: [descreva].
+Escreva uma resposta para um cliente que reclamou sobre [problema].
+Tom: empático e resolutivo. Ofereça [solução específica].
+Tamanho: 3 parágrafos. Evite linguagem jurídica.
 ```
 
-### 5. Post para Instagram
+**Resultado:** Resposta profissional em segundos. Evita crise.
+
+### 5. Pesquisa de palavras-chave para blog
 
 ```
-Escreva uma legenda para Instagram sobre [tema].
-Tamanho: 150 palavras. Tom: [descontraido / inspirador / educativo].
-Inclua: 3 hashtags relevantes, 1 pergunta para engajamento, 1 CTA.
-Evite: cliches de empreendedorismo.
+Liste 15 palavras-chave de cauda longa sobre [tema principal].
+Volume de busca mensal, dificuldade e intenção de busca.
+Priorize palavras com intenção comercial.
 ```
 
-### 6. Email de Cobranca
+**Resultado:** Pautas de blog com potencial de tráfego.
+
+### 6. Briefing para designer
 
 ```
-Escreva um email de cobranca para cliente com fatura em atraso ha [dias] dias.
-Tom: profissional mas nao agressivo. Ofereca: parcelamento em [x] vezes.
-Inclua: valor devido, data de vencimento original, link para pagamento.
-Nao ameace. Seja direto.
+Crie um briefing para o design de [material: logo, flyer, site].
+Público-alvo: [descrição]. Cores: [preferência].
+Estilo: [moderno, clássico, minimalista]. Entregáveis: [formatos].
 ```
 
-### 7. Script de Atendimento Telefonico
+**Resultado:** Briefing claro. Economiza idas e vindas com designer.
+
+### 7. Script de vendas para WhatsApp
 
 ```
-Crie um script de 30 segundos para atender ligacao de cliente interessado em [produto/servico].
-Estrutura: saudacao, pergunta para entender necessidade, oferta resumida, agendamento.
-Tom: calmo e confiante. Deixe espaco para o cliente falar.
+Escreva um script de vendas para WhatsApp sobre [produto].
+Primeira mensagem: apresentação. Segunda: benefício. Terceira: CTA.
+Tom: consultivo, não invasivo. Inclua objeções comuns.
 ```
 
-### 8. Texto para Pagina "Sobre Nos"
+**Resultado:** Script pronto para usar. Aumenta conversão no WhatsApp.
+
+### 8. Análise de concorrente
 
 ```
-Escreva um texto "Sobre Nos" para [nome da empresa].
-Tamanho: 200 palavras. Tom: [profissional / acolhedor / inovador].
-Inclua: historia da empresa, valores, diferencial competitivo.
-Nao use jargoes. Seja humano.
+Analise o concorrente [nome do concorrente].
+Pontos fortes, pontos fracos, estratégia de preço, canais de venda.
+Sugira 3 ações para se diferenciar dele.
 ```
 
-### 9. Checklist para Lancamento de Produto
+**Resultado:** Análise competitiva em minutos. Base para estratégia.
+
+### 9. Calendário editorial mensal
 
 ```
-Crie um checklist de 15 itens para o lancamento de [produto].
-Divida em: pre-lancamento (7 dias antes), dia do lancamento, pos-lancamento (7 dias depois).
-Inclua: acoes de marketing, comunicacao com clientes, metricas para acompanhar.
+Crie um calendário editorial para [mês/ano] sobre [tema central].
+4 semanas, 1 post por semana. Cada post: tema, formato, plataforma.
+Inclua feriados e datas relevantes do mês.
 ```
 
-### 10. Analise de Concorrente
+**Resultado:** Planejamento de conteúdo para o mês inteiro.
+
+### 10. Análise de métricas do negócio
 
 ```
-Analise o concorrente [nome da empresa/loja].
-Pontos para analisar: precos, publico-alvo, canais de venda, diferencial, fraquezas.
-Formato: 5 bullets points com 1 frase cada.
-Baseie-se em informacoes publicas (site, redes sociais, reviews).
+Analise estas métricas do meu negócio: [cole os números].
+Identifique: 3 problemas, 3 oportunidades, 3 ações prioritárias.
+Tom: direto e prático. Priorize ações de baixo esforço.
 ```
 
-## Como Automatizar com Make
+**Resultado:** Diagnóstico rápido. Ações claras para melhorar.
 
-Esses prompts funcionam manualmente, mas ficam melhores com automacao. Conecte ChatGPT ao Make e crie fluxos:
+## Checklist para usar prompts com IA
 
-- Novo pedido -> prompt 2 gera descricao -> publica no site
-- Reclamacao no WhatsApp -> prompt 3 gera resposta -> envia automaticamente
-- Segunda-feira 8h -> prompt 5 gera 5 posts da semana -> salva no Drive
-
-[Link afiliado Make](https://www.make.com/en/register?pc=seulink)
-
-## Checklist Final
-
-- [ ] Salve os 10 prompts em um documento
-- [ ] Teste cada um com seu negocio real
-- [ ] Ajuste os colchetes com suas informacoes
-- [ ] Crie 1 automacao no Make com o prompt mais util
-- [ ] Compartilhe com sua equipe
-- [ ] Reveja prompts a cada mes
-
-Prompt certo economiza hora de trabalho. Teste estes 10 hoje e veja qual entrega mais resultado.
+- [ ] Substitua todos os colchetes antes de enviar
+- [ ] Seja específico no problema
+- [ ] Peça exemplos concretos, não teoria
+- [ ] Refine o prompt se a resposta não for ideal
+- [ ] Salve prompts que funcionam para reuso

@@ -5,107 +5,75 @@ tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
 
-# Chatbot com IA para Atendimento ao Cliente
+# Cliente pergunta e você demora horas para responder
 
-## Introdução
+"Quanto custa?" "Tem em estoque?" "Qual o prazo?" São as mesmas perguntas todo dia. Enquanto você não responde, o cliente vai para o concorrente.
 
-Cliente espera resposta em segundos, não horas. Um chatbot com IA resolve 80% das perguntas sem intervenção humana. Com Make, DeepSeek e WhatsApp, você monta um atendente virtual em uma tarde. Sem programar. Sem contratar equipe.
+Um **chatbot com IA** responde na hora, 24 horas por dia, 7 dias por semana. Resolve **80% das perguntas** sem você tocar no celular.
 
-## O Problema Real
+## O que você precisa para montar seu chatbot
 
-Pequenos negócios perdem vendas porque demoram para responder. "Quanto custa?" "Tem em estoque?" "Qual o prazo?" são perguntas que repetem todo dia. Um chatbot com IA responde na hora, 24 horas por dia, 7 dias por semana.
+| Ferramenta | Função | Preço |
+|------------|--------|-------|
+| **WhatsApp Business API** | Canal de atendimento | Grátis (via provedor) |
+| **Make** | Orquestrador do fluxo | Grátis (1.000 op/mês) |
+| **DeepSeek** | IA para entender e responder | Grátis (500 req/dia) |
+| **Google Sheets** | Base de conhecimento | Grátis |
 
-## O que Você Vai Precisar
+Tudo gratuito para começar. Você monta em uma tarde.
 
-- **WhatsApp Business API** (via provedor como WATI, Twilio ou direct)
-- **Make** — orquestrador do fluxo ([link afiliado](https://www.make.com/en/register?pc=seulink))
-- **DeepSeek API** — IA para entender e responder
-- **Google Sheets** — base de conhecimento (opcional)
+## Passo a passo: WhatsApp + IA em 4 etapas
 
-## Passo a Passo
+### 1. Configure a entrada de mensagens
 
-### 1. Configure o Webhook de Entrada
+No Make, crie um cenário com trigger **Webhook**. Copie a URL gerada. Cole no provedor WhatsApp como endpoint.
 
-No Make, crie um cenário com trigger "Webhook". Copie a URL gerada. Cole no provedor WhatsApp como endpoint. Toda mensagem que chegar no WhatsApp será enviada para o Make.
+Toda mensagem que chegar no WhatsApp será enviada para o Make.
 
 ```
-WhatsApp -> Webhook Make -> DeepSeek -> Resposta
+WhatsApp → Webhook Make → DeepSeek → Resposta
 ```
 
-### 2. Crie a Base de Conhecimento
+### 2. Monte a base de conhecimento
 
-Monte uma planilha no Google Sheets com perguntas frequentes e respostas:
+Crie uma planilha no Google Sheets com perguntas frequentes e respostas.
 
 | Palavra-chave | Resposta |
 |---------------|----------|
-| preco, valor, custo | Nossos produtos custam a partir de R$49,90 |
-| horario, funcionamento | Funcionamos seg-sex 8h-18h, sab 8h-12h |
-| prazo, entrega, frete | Entrega em 5-10 dias uteis. Frete gratis acima de R$200 |
+| "preço", "quanto custa" | "Nossos planos começam em R$ 97/mês" |
+| "estoque", "disponível" | "Consulte disponibilidade no site" |
+| "prazo", "entrega" | "Prazo médio de 5 dias úteis" |
 
-### 3. Configure o Prompt no DeepSeek
+---
 
-O prompt define como o chatbot se comporta:
+> **🚀 Quer o template pronto do chatbot?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
 
-```
-Você é um atendente da empresa [NOME]. Responda de forma educada e direta em no maximo 2 frases.
+---
 
-Regras:
-- Consulte a planilha de FAQ antes de responder
-- Se não souber a resposta, diga "Vou transferir para um atendente"
-- Nao invente precos ou prazos
-- Use emojis com moderacao
+### 3. Configure a IA para responder
 
-Contexto atual: [INSERIR PERGUNTA DO CLIENTE]
-```
+DeepSeek recebe a pergunta do cliente, consulta a base e gera a resposta. Se não encontrar, encaminha para você.
 
-### 4. Monte o Fluxo no Make
+**Regras de funcionamento:**
 
-1. **Trigger:** Webhook recebe mensagem do cliente
-2. **Modulo Google Sheets:** Busca resposta na FAQ (match de palavra-chave)
-3. **Modulo HTTP:** Envia pergunta para DeepSeek com prompt
-4. **Filtro:** Se DeepSeek retornar "transferir", encaminha para humano
-5. **Modulo WhatsApp:** Envia resposta de volta
+- Pergunta conhecida → Resposta automática
+- Pergunta complexa → Encaminha para humano
+- Cliente irritado → Prioriza atendimento humano
+- Fora do horário → Responde com "retornaremos amanhã"
 
-### 5. Configure o Fallback Humano
+### 4. Teste e refine
 
-Crie um módulo que, quando a IA não souber responder:
-- Envia mensagem: "Deixa eu te transferir para um atendente"
-- Cria tarefa no Trello ou Asana
-- Envia notificação no seu celular
+Envie 10 perguntas diferentes para o robô. Veja se respondeu certo. Ajuste a base de conhecimento.
 
-## Exemplo Prático
+## 3 perguntas que seu chatbot precisa responder
 
-**Negócio:** Pet shop online
+- "Quanto custa?" — Preços e planos
+- "Tem em estoque?" — Disponibilidade de produtos
+- "Qual o prazo?" — Prazo de entrega ou serviço
 
-**Fluxo real:**
+## Checklist para seu primeiro chatbot
 
-1. Cliente: "Oi, tem ração para gato castrado?"
-2. Webhook recebe no Make
-3. Google Sheets busca "ração gato castrado" -> não encontra
-4. DeepSeek recebe pergunta + prompt
-5. DeepSeek responde: "Temos sim! A ração Premium Gatos Castrados está por R$89,90. Quer ver o link?"
-6. Make envia resposta via WhatsApp
-7. Cliente: "Quero!" -> IA envia link do produto
-
-**Resultado:** 15 segundos. Cliente feliz. Venda feita.
-
-## Cuidados Importantes
-
-- **Limite de escopo:** IA não resolve tudo. Defina o que ela pode fazer
-- **Transferência humana:** Sempre ofereça após 3 tentativas sem sucesso
-- **Monitoramento:** Reveja conversas uma vez por semana
-- **Custo:** DeepSeek custa centavos por mil mensagens
-- **Teste:** Simule 10 perguntas reais antes de ativar
-
-## Checklist Final
-
-- [ ] Conta WhatsApp Business API ativa
-- [ ] Webhook Make configurado e testado
-- [ ] Base de conhecimento no Google Sheets
-- [ ] Prompt DeepSeek ajustado para seu negócio
-- [ ] Fluxo de fallback humano funcionando
-- [ ] Teste com 10 perguntas reais
-- [ ] Monitoramento agendado semanalmente
-- [ ] Conta Make ativa ([link](https://www.make.com/en/register?pc=seulink))
-
-Chatbot com IA não substitui atendimento humano — elimina o repetitivo. Monte o seu hoje e recupere horas do seu dia.
+- [ ] Crie conta no Make e no DeepSeek
+- [ ] Monte base de conhecimento no Sheets
+- [ ] Configure fluxo webhook → IA → resposta
+- [ ] Teste com 10 perguntas reais de clientes

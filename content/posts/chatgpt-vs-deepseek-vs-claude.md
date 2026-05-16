@@ -13,50 +13,55 @@ A verdade é simples: **não existe melhor IA**. Existe a certa para o que você
 
 ## DeepSeek: o rei da programação
 
-Se você mexe com código, comece por aqui. O modelo R1 do DeepSeek é bom em tarefas que exigem raciocínio lógico passo a passo.
+Se você mexe com código, comece por aqui. O modelo **R1** do DeepSeek é bom em tarefas que exigem raciocínio lógico passo a passo.
 
-**Onde ele brilha:**
+### Onde ele brilha:
+
 - Código complexo em Python, TypeScript e SQL
 - Explicação de bugs linha a linha
 - Grátis sem limite diário na versão web
 
-**Onde ele pecsa:** Conteúdo criativo e marketing. As respostas são secas, técnicas, sem fluidez.
+**Onde ele peca:** Conteúdo criativo e marketing. As respostas são secas, técnicas, sem fluidez.
 
 ## Claude: o melhor para conteúdo
 
-Precisa de roteiro para YouTube, e-mail de vendas ou texto longo? Claude é sua ferramenta. O modelo Sonnet 4 escreve com tom natural e consistente.
+Precisa de roteiro para YouTube, e-mail de vendas ou texto longo? **Claude Sonnet 4** escreve com tom natural e consistente.
 
-**Onde ele brilha:**
+### Onde ele brilha:
+
 - Roteiros completos para vídeos
 - Sequências de e-mail marketing
 - Textos acima de 3000 tokens sem perder o contexto
 
-**Onde ele pecsa:** Tarefas de programação mais complexas e análise de dados pesada.
+**Onde ele peca:** Tarefas de programação mais complexas e análise de dados pesada.
 
 ## ChatGPT: o canivete suíço
 
-O GPT-5 faz de tudo razoavelmente bem. Não é o melhor em nada específico, mas resolve a maioria dos problemas do dia a dia.
-
-| Característica | ChatGPT | DeepSeek | Claude |
-|----------------|---------|----------|--------|
-| Preço mensal | US$ 20 (Plus) | Grátis | US$ 20 (Pro) |
-| Programação | Bom | Excelente | Médio |
-| Conteúdo | Bom | Médio | Excelente |
-| Versatilidade | Excelente | Bom | Bom |
-
-## Como escolher na prática
-
-**Para programar:** DeepSeek. Ponto final. É grátis e superior.
-
-**Para criar conteúdo:** Claude. O texto flui melhor e você perde menos tempo ajustando.
-
-**Para tudo misturado:** ChatGPT. Ele resolve 80% dos problemas sem precisar trocar de ferramenta.
+O **GPT-5** faz de tudo razoavelmente bem. Não é o melhor em nada, mas é o mais versátil.
 
 ---
 
-## Checklist para decidir hoje
+> **🚀 Quer saber qual IA usar para cada tarefa?** Baixe o guia comparativo gratuito. [Baixar agora](#)
 
-- [ ] Identifique qual tarefa você mais faz (programação, conteúdo ou misto)
-- [ ] Teste a IA indicada por 3 dias na sua rotina real
-- [ ] Compare o resultado com sua ferramenta atual
-- [ ] Escolha uma principal e mantenha as outras como backup
+---
+
+### Comparação rápida:
+
+| Ferramenta | Melhor para | Preço |
+|------------|-------------|-------|
+| **DeepSeek** | Programação e lógica | Grátis |
+| **Claude** | Conteúdo e marketing | US$ 20/mês |
+| **ChatGPT** | Versatilidade geral | Grátis / US$ 20 |
+
+## Como escolher na prática
+
+- **Programação?** Use DeepSeek
+- **Texto longo?** Use Claude
+- **Tudo um pouco?** Use ChatGPT grátis
+
+## Checklist para testar as IAs
+
+- [ ] Defina a tarefa principal que você precisa resolver
+- [ ] Teste a IA recomendada para aquela tarefa
+- [ ] Compare com uma segunda opção
+- [ ] Escolha uma e use por 1 semana antes de trocar

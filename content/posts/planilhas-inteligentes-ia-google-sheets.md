@@ -5,95 +5,81 @@ tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
 
-# Planilhas Inteligentes: Como Automatizar Relatorios com IA e Google Sheets
+# Você baixa dados, cria gráficos, escreve resumos, formata células. Toda semana o mesmo processo
 
-## Introdução
+Relatórios são úteis, mas o trabalho manual de produzi-los é repetitivo. Erro de digitação, fórmula quebrada, dado desatualizado. Automatizar corta isso para zero.
 
-Gerar relatorios manuais no Google Sheets consome tempo e abre margem para erro. Conectar planilhas ao Make e DeepSeek transforma dados brutos em relatorios prontos em segundos. Sem formulas complexas. Sem copiar e colar.
+Conectar planilhas ao **Make** e **DeepSeek** transforma dados brutos em relatórios prontos em segundos.
 
-## O Problema Real
+## O que você vai precisar
 
-Você baixa dados, cria graficos, escreve resumos, formata celulas. Toda semana o mesmo processo. Relatorios sao uteis, mas o trabalho manual de produzi-los e repetitivo. Automacao com IA corta isso para zero.
+### Ferramentas necessárias:
 
-## O que Você Vai Precisar
+| Ferramenta | Função | Custo |
+|------------|--------|-------|
+| Google Sheets | Dados vivos | Grátis |
+| Make | Orquestrador | Grátis (1000 ops/mês) |
+| DeepSeek API | IA para analisar | $0,27/1M tokens |
+| Google Drive API | Conexão | Grátis |
 
-- **Google Sheets** — onde seus dados vivem
-- **Make** — orquestrador da automacao ([link afiliado](https://www.make.com/en/register?pc=seulink))
-- **DeepSeek API** — IA para analisar e resumir dados
-- **Google Drive API** — conexao entre Make e Sheets
+## Passo a passo
 
-## Passo a Passo
+### 1. Prepare sua planilha
 
-### 1. Prepare Sua Planilha
+Organize os dados em formato tabular. Primeira linha com cabeçalhos. Sem células mescladas.
 
-Organize os dados em formato tabular. Primeira linha com cabecalhos. Sem celulas mescladas. Exemplo:
+**Exemplo de estrutura:**
 
-| Data | Vendas | Produto | Regiao |
+| Data | Vendas | Produto | Região |
 |------|--------|---------|--------|
 | 01/01 | 1500 | Camisa | SP |
-| 01/01 | 2300 | Calcado | RJ |
+| 01/01 | 2300 | Calçado | RJ |
 
-### 2. Crie o Cenario no Make
+> **Regra:** Dados limpos = relatório preciso. Dados bagunçados = resultado errado.
 
-- **Trigger:** Agendamento (toda segunda 8h) ou botao na planilha
-- **Modulo Google Sheets:** Busca linhas da planilha
-- **Modulo HTTP:** Envia dados para DeepSeek com prompt
-- **Modulo Google Sheets:** Escreve resultado em nova aba
+### 2. Crie o cenário no Make
 
-### 3. Configure o Prompt no DeepSeek
+- **Trigger:** Agendamento (toda segunda 8h) ou botão na planilha
+- **Módulo Google Sheets:** Busca linhas da planilha
+- **Módulo DeepSeek:** Envia dados para análise com prompt específico
+- **Módulo Google Docs:** Gera relatório formatado
 
-O prompt define como a IA interpreta os dados:
+---
+
+> **🚀 Quer automatizar seus relatórios com IA?** Teste grátis por 14 dias. [Comece agora](#)
+
+---
+
+### 3. Configure o prompt do DeepSeek
+
+O prompt define a qualidade do relatório. Seja específico.
+
+**Prompt que funciona:**
 
 ```
-Resuma os dados de vendas abaixo em 3 frases. 
-Destaque: total vendido, produto mais vendido, tendencia da semana.
-Nao invente dados. Use numeros reais.
+Analise estes dados de vendas do período [data].
+Gere: 1) Resumo executivo (3 linhas)
+2) Top 3 produtos por receita
+3) Região com maior crescimento
+4) 1 recomendação acionável
+Formato: texto limpo, sem markdown.
 ```
 
-### 4. Defina o Output
+### 4. Automatize a entrega
 
-Crie uma aba "Relatorio" no Sheets. Make escreve la:
+O relatório pronto precisa chegar a quem usa.
 
-- Celula A1: "Total vendido: R$XX.XXX"
-- Celula A2: "Produto destaque: [nome]"
-- Celula A3: "Tendencia: [resumo]"
+**Canais de entrega:**
+- **E-mail:** Enviar para lista de gestores
+- **Slack/Teams:** Postar no canal de resultados
+- **Google Drive:** Salvar com data no nome do arquivo
+- **Dashboard:** Atualizar painel no Google Data Studio
 
-## Exemplo Pratico
+## Checklist para automatizar relatórios
 
-**Cenario:** Loja virtual que vende 50 produtos/dia
-
-**Antes:** 2 horas toda segunda feira para montar relatorio semanal
-
-**Depois:** 0 minutos. Relatorio pronto automaticamente as 8h da segunda
-
-**Fluxo:**
-1. Dados de vendas estao na aba "Vendas"
-2. Segunda 8h, Make dispara
-3. Busca ultimos 7 dias de dados
-4. Envia para DeepSeek com prompt de resumo
-5. DeepSeek retorna: "Total vendido: R$47.230. Produto destaque: Tenis Runner. Crescimento de 12% em relacao a semana anterior."
-6. Make escreve na aba "Relatorio"
-7. Voce abre e ve o resumo pronto
-
-### Variacao: Relatorio com Grafico
-
-Make tambem pode gerar graficos no Google Sheets via API. Adicione um modulo que cria grafico de barras com os dados do periodo.
-
-## Cuidados Importantes
-
-- **Limite de tokens:** DeepSeek tem limite de 8k tokens. Para muitos dados, divida em lotes
-- **Formato consistente:** Dados mal formatados geram relatorios ruins
-- **Revisao:** IA pode alucinar numeros. Configure prompt para "use apenas dados fornecidos"
-- **Trigger manual:** Use botoes no Sheets para disparar sob demanda, nao apenas agendado
-
-## Checklist Final
-
-- [ ] Planilha organizada com cabecalhos claros
-- [ ] Conta Make ativa ([link](https://www.make.com/en/register?pc=seulink))
-- [ ] Chave API DeepSeek configurada
-- [ ] Cenario Make com trigger (agenda ou botao)
-- [ ] Prompt testado com dados reais
-- [ ] Aba de relatorio criada no Sheets
-- [ ] Teste com 3 execucoes antes de confiar
-
-Relatorios manuais morreram. Conecte Google Sheets ao Make e DeepSeek e receba analises prontas sem tocar em formulas.
+- [ ] Organize dados em formato tabular limpo
+- [ ] Conecte Google Sheets ao Make
+- [ ] Configure prompt do DeepSeek para análise
+- [ ] Defina trigger (agendamento ou manual)
+- [ ] Configure canal de entrega (e-mail, Slack, Drive)
+- [ ] Teste com dados reais antes de ativar
