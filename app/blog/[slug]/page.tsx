@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, Clock, Calendar, AlertCircle } from "lucide-react";
-import { postsMeta } from "../../../lib/posts-meta";
+import { postsMeta } from "../posts-data";
 
 const RAW = "https://raw.githubusercontent.com/keslemjf2020/Sahbos/master/content/posts";
 
