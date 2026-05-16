@@ -5,6 +5,7 @@ date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
+
 # Você perde consultas porque paciente desiste de esperar no telefone
 
 Seu consultório recebe 50 ligações por dia. Paciente quer saber se o sintoma é grave. Outro pergunta se tem horário. A recepcionista passa o dia no telefone enquanto a sala de espera lota.
@@ -46,7 +47,6 @@ Paciente chega, escaneia QR code na porta. Em 30 segundos, a IA confirma dados, 
 
 ## Checklist para implantar IA no seu consultório
 
-- [ ] Mapeie os 5 sintomas mais comuns que chegam por telefone
-- [ ] Configure o chatbot de triagem com perguntas de acompanhamento
-- [ ] Teste o fluxo com 10 pacientes voluntários na primeira semana
-- [ ] Monitore a taxa de resolução automática e o tempo de espera na recepção
+- [ ] Mapeie os 5 sintomas mais comuns que aparecem no seu consultório
+- [ ] Configure o chatbot de triagem para classificar cada sintoma
+- [ ] Teste o fluxo com sua equipe antes de liberar para pacientes

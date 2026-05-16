@@ -5,6 +5,7 @@ date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
+
 # Você acorda com 47 mensagens no WhatsApp do hotel
 
 Pousada com 12 quartos. Hotel fazenda com 20 chalés. A rotina é sempre a mesma: hóspede pergunta horário, outro quer saber se aceita cachorro, um terceiro pede o cardápio do café.
@@ -46,5 +47,4 @@ O hóspede chega no WhatsApp do hotel. O robô pergunta: "Nome completo e CPF pa
 
 - [ ] Mapeie as 5 perguntas mais frequentes no WhatsApp
 - [ ] Configure respostas automáticas para essas perguntas
-- [ ] Teste o fluxo de check-in com 3 hóspedes reais
-- [ ] Monitore a taxa de resolução automática na primeira semana
+- [ ] Teste

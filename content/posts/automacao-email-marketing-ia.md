@@ -5,6 +5,7 @@ date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
+
 # Você tem uma lista de e-mails, mas não sabe o que enviar
 
 Escrever sequência de e-mails toda semana consome horas. Ou você paga caro por ferramentas que prometem resultados e entregam pouco.
@@ -59,14 +60,4 @@ A IA recebe o nome, segmento e última compra do contato. Ela gera um e-mail com
 
 Com o fluxo configurado, você define gatilhos automáticos:
 
-- **Boas-vindas:** Novo contato entra na base, recebe sequência de 3 e-mails
-- **Abandono de carrinho:** Cliente adiciona produto mas não finaliza compra
-- **Reativação:** Cliente sem compra há 90 dias recebe oferta especial
-- **Pós-venda:** Cliente compra e recebe dicas de uso do produto
-
-## Checklist para automatizar seu email marketing
-
-- [ ] Crie a planilha no Google Sheets com nome, e-mail e segmento
-- [ ] Conecte Make ao Sheets e ao Mailchimp (ou similar)
-- [ ] Configure o prompt da IA com tom da sua marca e dados do cliente
-- [ ] Teste o fluxo com 5 contatos antes de disparar para a base toda
+- **Boas-vindas**

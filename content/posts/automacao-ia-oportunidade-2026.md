@@ -5,6 +5,7 @@ date: "2026-05-15"
 tags: ["Automação", "IA", "Negócios", "Blog"]
 description: "Enquanto todo mundo corre atrás de IA genérica, a oportunidade real está em nichos específicos. Veja onde focar em 2026."
 ---
+
 # Você já tentou automatizar algo e deu errado?
 
 O mercado está cheio de soluções de IA que prometem resolver tudo, mas entregam pouco. Chatbots genéricos. Assistentes que tentam fazer mil coisas. No fim, nada funciona direito.
@@ -44,11 +45,4 @@ Nem toda automação dá dinheiro. Escolha a errada e você perde semanas de tra
 - **Pagamento recorrente:** O cliente aceita pagar todo mês (R$ 97-197 é aceitável)
 - **Baixa manutenção:** O robô funciona sozinho depois de configurado
 
-> **Exemplo real:** Um desenvolvedor criou um robô para clínicas de estética. O robô respondia "Qual o horário?" e "Tem vaga hoje?" automaticamente. Ele conseguiu **12 clientes** em 2 meses, cada um pagando R$ 147/mês. Total: **R$ 1.764/mês** com 4 horas de manutenção.
-
-## Checklist para começar sua primeira automação
-
-- [ ] Escolha UM nicho com dor aguda (ex: clínicas, restaurantes, oficinas)
-- [ ] Identifique as 5 perguntas mais frequentes no WhatsApp do nicho
-- [ ] Configure o robô para responder exatamente essas 5 perguntas
-- [ ] Ofereça para 3 negócios do nicho como teste gratuito por 30 dias
+> **Exemplo real:** Um desenvolvedor criou um robô para clínicas de estética. O robô respondia "Qual

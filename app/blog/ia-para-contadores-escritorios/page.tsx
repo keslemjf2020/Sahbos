@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import AudioPlayer from '../../../components/AudioPlayer';
+import AuthorBio from '../../../components/AuthorBio';
 
 export const metadata: Metadata = {
   title: 'IA para Contadores: Automatize seu Escritorio Contabil - Automacao IA',
-  openGraph: { title: 'IA para Contadores: Automatize seu Escritorio Contabil', images: [{ url: 'https://placehold.co/1200x630/0a0a0f/3b82f6?text=IA%20para%20Contadores%3A%20Automatize%20seu%20Escritorio%20Contabil', width: 1200, height: 630 }] }
+  openGraph: { title: 'IA para Contadores: Automatize seu Escritorio Contabil', images: [{ url: 'https://images.unsplash.com/photo-1526378722484-3f9e9c6e2f6f?w=1200&h=630&fit=crop', width: 1200, height: 630 }] }
 };
 
 export default function Page() {
@@ -66,10 +67,9 @@ Conferir extrato bancário com lançamentos contábeis manualmente é erro na ce
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
-      {/* COVER IMAGE */}
-      <div className="relative w-full h-48 md:h-64 overflow-hidden bg-gradient-to-br from-cyan-950 via-slate-900 to-blue-950">
-        <div className="absolute inset-0 opacity-20" style={{backgroundImage:'radial-gradient(circle at 30% 50%, #3b82f644 0%, transparent 50%), radial-gradient(circle at 70% 30%, #3b82f633 0%, transparent 40%)'}} />
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0f] to-transparent" />
+      <div className="relative w-full h-48 md:h-80 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1526378722484-3f9e9c6e2f6f?w=1200&h=400&fit=crop" alt="IA para Contadores: Automatize seu Escritorio Contabil" className="w-full h-full object-cover opacity-50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-[#0a0a0f]/80 to-transparent" />
       </div>
       <div className="border-b border-white/[0.04]">
         <div className="max-w-3xl mx-auto px-6 py-12">
@@ -78,15 +78,17 @@ Conferir extrato bancário com lançamentos contábeis manualmente é erro na ce
             <Link href={`/categoria/${'IA'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">IA</Link><span>›</span>
             <span className="text-slate-400 truncate max-w-[200px]">IA para Contadores: Automatize seu Escritorio Contabil</span>
           </div>
-          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full mb-3" style={{backgroundColor:'#3b82f620',color:'#3b82f6',border:'1px solid #3b82f630'}}>IA</span>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full mb-3" style={{backgroundColor: '#3b82f620', color: '#3b82f6', border: '1px solid #3b82f630'}}>IA</span>
           <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">IA para Contadores: Automatize seu Escritorio Contabil</h1>
           <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
           <AudioPlayer text={plainText} />
         </div>
       </div>
-      <article className="max-w-3xl mx-auto px-6 py-12">
+      <article className="max-w-3xl mx-auto px-6 py-8">
         <div className="prose prose-invert max-w-none">{content}</div>
       </article>
+      <div className="max-w-3xl mx-auto px-6 pb-12"><AuthorBio /></div>
+      <div className="border-t border-white/[0.04]"><div className="max-w-2xl mx-auto px-6 py-12 text-center"><p className="text-slate-400 text-sm mb-2">Receba guias praticos de IA toda semana</p><form className="flex max-w-sm mx-auto"><input type="email" placeholder="seu@email.com" className="flex-1 px-4 py-2 rounded-l-xl bg-white/[0.03] border border-white/[0.08] text-xs text-white placeholder-slate-600 focus:outline-none focus:border-cyan-500/30" /><button className="px-5 py-2 rounded-r-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-xs font-semibold hover:opacity-90">Inscrever</button></form></div></div>
     </div>
   );
 }

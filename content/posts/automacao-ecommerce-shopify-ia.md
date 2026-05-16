@@ -5,6 +5,7 @@ date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
+
 # Você acorda com 12 pedidos e 5 clientes perguntando "saiu pra entrega?"
 
 A loja vende, mas você não dá conta. Estoque baixo, descrição de produto atrasada, cliente perguntando a mesma coisa toda hora.
@@ -54,7 +55,4 @@ Acabar com estoque no meio de uma promoção é prejuízo na certa. IA monitora 
 
 ## Checklist para implantar IA na sua loja Shopify
 
-- [ ] Conecte seu catálogo ao chatbot (Tidio ou Gorgias)
-- [ ] Gere descrições em lote para os 20 produtos mais vendidos
-- [ ] Configure alertas de estoque mínimo para cada categoria
-- [ ] Monitore a redução de perguntas repetitivas na primeira semana
+- [ ] Conecte seu catálogo do Shopify ao chatbot

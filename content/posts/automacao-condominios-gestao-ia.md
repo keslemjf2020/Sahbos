@@ -5,6 +5,7 @@ date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
+
 # Você é síndico e tem 30 mensagens no WhatsApp do prédio
 
 Morador reclama do barulho. Outro pergunta quando vence o boleto. Um terceiro quer agendar o salão de festas. No meio disso, você precisa preparar a ata e fechar as contas.
@@ -50,12 +51,4 @@ Morador quer reservar o salão. Em vez de ligar para o síndico, ele acessa o Wh
 
 - **Reservas** de salão, churrasqueira e academia
 - **Multas** por atraso na devolução das chaves
-- **Vistorias** de entrada e saída de moradores
-- **Avisos** de manutenção programada (água, gás, elevador)
-
-## Checklist para implantar IA no seu condomínio
-
-- [ ] Mapeie as 10 perguntas mais frequentes no WhatsApp do prédio
-- [ ] Configure o chatbot com respostas automáticas para cada uma
-- [ ] Ative o disparo automático de boletos e lembretes
-- [ ] Monitore a redução de mensagens repetitivas na primeira semana
+- **Vistorias** de entrada

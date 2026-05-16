@@ -5,6 +5,7 @@ date: "2026-05-16"
 tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
+
 # Você organiza um evento e passa o dia apagando incêndio
 
 200 convidados para confirmar. 15 fornecedores para coordenar. Cronograma para montar. No dia, a mesa de som não chegou e 30 convidados confirmaram mas não vieram.
@@ -50,13 +51,4 @@ Convidado chega, escaneia QR code no celular. Em 5 segundos, a IA confirma ident
 ### O que a IA gerencia automaticamente:
 
 - **Lista VIP:** Identifica convidados especiais e notifica host
-- **Restrições:** Alergias alimentares, acessibilidade, preferências
-- **Networking:** Sugere conexões entre convidados com interesses em comum
-- **Feedback:** Dispara pesquisa de satisfação 1 hora após o evento
-
-## Checklist para implantar IA no seu evento
-
-- [ ] Configure a sequência de convites e lembretes automáticos
-- [ ] Mapeie todos os fornecedores e dependências do cronograma
-- [ ] Teste o check-in digital com 10 convidados antes do evento
-- [ ] Monitore a taxa de confirmação e o no-show na primeira edição
+- **Restrições:** Alergias alimentares

@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import AudioPlayer from '../../../components/AudioPlayer';
+import AuthorBio from '../../../components/AuthorBio';
 
 export const metadata: Metadata = {
   title: 'Automação Financeira com IA para Pequenas Empresas - Automacao IA',
-  openGraph: { title: 'Automação Financeira com IA para Pequenas Empresas', images: [{ url: 'https://placehold.co/1200x630/0a0a0f/06b6d4?text=Automa%C3%A7%C3%A3o%20Financeira%20com%20IA%20para%20Pequenas%20Empresas', width: 1200, height: 630 }] }
+  openGraph: { title: 'Automação Financeira com IA para Pequenas Empresas', images: [{ url: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop', width: 1200, height: 630 }] }
 };
 
 export default function Page() {
@@ -52,16 +53,7 @@ Saber se vai faltar dinheiro no mês que vem é essencial. Com IA, você não pr
 - **Receitas futuras:** Baseado em contratos e notas emitidas
 - **Despesas fixas:** Aluguel, salários, fornecedores recorrentes
 - **Despesas variáveis:** Média histórica dos últimos 6 meses
-- **Saldo projetado:** Gráfico com alerta de saldo negativo
-
-> **Exemplo real:** Uma pequena indústria de embalagens usou IA para projetar fluxo de caixa. Descobriu que em 45 dias teria saldo negativo. Conseguiu renegociar prazos com fornecedores **antes** do aperto. Economizou R\$ 12 mil em juros.
-
-## Checklist para automatizar suas contas
-
-- [ ] Conecte sua conta bancária ao sistema de conciliação automática
-- [ ] Configure a leitura automática de boletos que chegam por e-mail
-- [ ] Ative os alertas de vencimento com 3, 5 e 7 dias de antecedência
-- [ ] Monitore a projeção de fluxo de caixa semanalmente na primeira quinzena`;
+- **Saldo projetado:** Gráfico`;
   const content = raw.split('\\n').map((l,i) => {
     if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
     if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
@@ -75,10 +67,9 @@ Saber se vai faltar dinheiro no mês que vem é essencial. Com IA, você não pr
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
-      {/* COVER IMAGE */}
-      <div className="relative w-full h-48 md:h-64 overflow-hidden bg-gradient-to-br from-cyan-950 via-slate-900 to-blue-950">
-        <div className="absolute inset-0 opacity-20" style={{backgroundImage:'radial-gradient(circle at 30% 50%, #06b6d444 0%, transparent 50%), radial-gradient(circle at 70% 30%, #06b6d433 0%, transparent 40%)'}} />
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0f] to-transparent" />
+      <div className="relative w-full h-48 md:h-80 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=400&fit=crop" alt="Automação Financeira com IA para Pequenas Empresas" className="w-full h-full object-cover opacity-50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-[#0a0a0f]/80 to-transparent" />
       </div>
       <div className="border-b border-white/[0.04]">
         <div className="max-w-3xl mx-auto px-6 py-12">
@@ -87,15 +78,17 @@ Saber se vai faltar dinheiro no mês que vem é essencial. Com IA, você não pr
             <Link href={`/categoria/${'Automacao'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">Automacao</Link><span>›</span>
             <span className="text-slate-400 truncate max-w-[200px]">Automação Financeira com IA para Pequenas Empresas</span>
           </div>
-          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full mb-3" style={{backgroundColor:'#06b6d420',color:'#06b6d4',border:'1px solid #06b6d430'}}>Automacao</span>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full mb-3" style={{backgroundColor: '#06b6d420', color: '#06b6d4', border: '1px solid #06b6d430'}}>Automacao</span>
           <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">Automação Financeira com IA para Pequenas Empresas</h1>
           <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
           <AudioPlayer text={plainText} />
         </div>
       </div>
-      <article className="max-w-3xl mx-auto px-6 py-12">
+      <article className="max-w-3xl mx-auto px-6 py-8">
         <div className="prose prose-invert max-w-none">{content}</div>
       </article>
+      <div className="max-w-3xl mx-auto px-6 pb-12"><AuthorBio /></div>
+      <div className="border-t border-white/[0.04]"><div className="max-w-2xl mx-auto px-6 py-12 text-center"><p className="text-slate-400 text-sm mb-2">Receba guias praticos de IA toda semana</p><form className="flex max-w-sm mx-auto"><input type="email" placeholder="seu@email.com" className="flex-1 px-4 py-2 rounded-l-xl bg-white/[0.03] border border-white/[0.08] text-xs text-white placeholder-slate-600 focus:outline-none focus:border-cyan-500/30" /><button className="px-5 py-2 rounded-r-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-xs font-semibold hover:opacity-90">Inscrever</button></form></div></div>
     </div>
   );
 }
