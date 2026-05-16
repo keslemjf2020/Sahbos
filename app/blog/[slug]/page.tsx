@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { ArrowLeft, Clock, Calendar } from "lucide-react";
-import { allPosts } from "../p-all";
+import { postsIndex } from "../pindex";
 
 export function generateStaticParams() {
-  return Object.keys(allPosts).map(slug => ({ slug }));
+  return Object.keys(postsIndex).map(slug => ({ slug }));
 }
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
-  const p = allPosts[params.slug as keyof typeof allPosts];
+  const p = postsIndex[params.slug as keyof typeof postsIndex];
   if (!p) return <div className="min-h-screen bg-[#0a0a0f] flex items-center justify-center"><div className="text-center"><h1 className="text-6xl font-bold gradient-text mb-4">404</h1><p className="text-slate-500 mb-6">{params.slug}</p><Link href="/" className="text-cyan-400 hover:underline text-sm"><ArrowLeft className="w-3 h-3 inline" /> Voltar</Link></div></div>;
 
   const content = p.b.replace(/\\n/g, "\n");
