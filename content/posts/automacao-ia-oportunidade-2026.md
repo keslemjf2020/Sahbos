@@ -29,26 +29,26 @@ Pequenos negócios perdem horas todos os dias respondendo as mesmas perguntas no
 
 Um robô que resolve isso sozinho vale R$ 100-200 por mês para cada cliente. Com 20 clientes, você fatura R$ 2.000-4.000/mês com trabalho mínimo.
 
----
-
+> ---
 > **🚀 Quer criar seu primeiro robô de WhatsApp?** Baixe o template gratuito e configure em 30 minutos. [Comece agora](#)
-
----
+> ---
 
 ## Como escolher seu primeiro nicho
 
-Nem toda automação dá dinheiro. Escolha a errada e você perde semanas. Escolha a certa e o cliente bate na sua porta.
+Nem toda automação dá dinheiro. Escolha a errada e você perde semanas de trabalho.
 
-### Critérios para validar:
+### Critérios para escolher bem:
 
-- **Dor clara:** O cliente reclama abertamente do problema
-- **Volume:** Pelo menos 50 empresas no seu raio de ação
-- **Pagamento recorrente:** Modelo de assinatura, não projeto único
-- **Baixa manutenção:** Robô roda sozinho depois de configurado
+- **Dor aguda:** O cliente sente o problema todos os dias (ex: perder vendas por não responder WhatsApp)
+- **Volume alto:** São muitas perguntas repetitivas por dia (mínimo 30 mensagens/dia)
+- **Pagamento recorrente:** O cliente aceita pagar todo mês (R$ 97-197 é aceitável)
+- **Baixa manutenção:** O robô funciona sozinho depois de configurado
 
-## Checklist para lançar sua primeira automação
+> **Exemplo real:** Um desenvolvedor criou um robô para clínicas de estética. O robô respondia "Qual o horário?" e "Tem vaga hoje?" automaticamente. Ele conseguiu **12 clientes** em 2 meses, cada um pagando R$ 147/mês. Total: **R$ 1.764/mês** com 4 horas de manutenção.
 
-- [ ] Escolha UM problema específico para resolver
-- [ ] Valide com 3 clientes potenciais
-- [ ] Configure o MVP em 1 semana
-- [ ] Cobre assinatura mensal, não projeto único
+## Checklist para começar sua primeira automação
+
+- [ ] Escolha UM nicho com dor aguda (ex: clínicas, restaurantes, oficinas)
+- [ ] Identifique as 5 perguntas mais frequentes no WhatsApp do nicho
+- [ ] Configure o robô para responder exatamente essas 5 perguntas
+- [ ] Ofereça para 3 negócios do nicho como teste gratuito por 30 dias

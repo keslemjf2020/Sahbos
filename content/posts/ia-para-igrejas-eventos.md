@@ -28,11 +28,9 @@ Evento marcado não significa que as pessoas vão lembrar. IA cuida da comunica�
 
 > **Exemplo real:** Uma igreja em Salvador usava IA para comunicação de eventos. A presença nos eventos **subiu de 50% para 80%** dos confirmados. O líder gastava **2 horas por semana** em ligações. Passou a gastar zero.
 
----
-
+> ---
 > **🚀 Quer automatizar a comunicação da sua igreja?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Gestão de voluntários que organiza tudo
 
@@ -40,24 +38,16 @@ Voluntários confirmam, mas ninguém sabe quem leva o quê. IA gerencia escalas 
 
 ### Como funciona:
 
-- Voluntário se cadastra com disponibilidade
-- IA aloca por função (som, recepção, cozinha)
-- Envia lembrete com tarefa específica
-- Mostra quem confirmou e quem falta
+- Voluntário se cadastra e informa disponibilidade
+- IA monta escala automática com base nos horários
+- Notifica cada voluntário com sua tarefa específica
+- Envia lembrete 24h antes com instruções detalhadas
 
-## Comunicação segmentada por grupo
+> **Dica prática:** Configure a IA para perguntar a disponibilidade dos voluntários uma vez por mês. Ela monta as escalas automaticamente e ninguém fica sobrecarregado.
 
-Nem todo aviso serve para todo mundo. IA segmenta por ministério, idade ou função.
+## Checklist para organizar sua igreja com IA
 
-**Segmentos automáticos:**
-- **Jovens:** Eventos, retiros, encontros
-- **Famílias:** Escola bíblica, culto infantil
-- **Voluntários:** Escala, treinamento, reunião
-- **Líderes:** Planejamento, metas, orçamento
-
-## Checklist para organizar sua igreja
-
-- [ ] Configure lembretes automáticos de eventos
-- [ ] Ative gestão de voluntários com escalas
-- [ ] Implemente comunicação segmentada por grupo
-- [ ] Monitore presença em cada evento
+- [ ] Configure lembretes automáticos para eventos em múltiplos canais
+- [ ] Implemente gestão de voluntários com escalas automáticas
+- [ ] Ative notificações de tarefas específicas para cada voluntário
+- [ ] Monitore o aumento de presença nos eventos no primeiro mês

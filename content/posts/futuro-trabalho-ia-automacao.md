@@ -38,26 +38,26 @@ Não é sobre competir com a IA. É sobre usar a IA como ferramenta. As habilida
 - **Resolução de problemas** — IA sugere, você valida no mundo real
 - **Gestão de pessoas** — IA não substitui liderança
 
----
+> ---
+> **🚀 Quer um plano de carreira para 2026?** Baixe o guia gratuito com as 10 habilidades mais requisitadas. [Baixar agora](#)
+> ---
 
-> **🚀 Quer um plano de carreira para 2026?** Baixe o guia gratuito. [Baixar agora](#)
+## Como se preparar sem entrar em desespero
 
----
+A IA não vai te substituir. Mas uma pessoa que sabe usar IA vai. A diferença é quem aprende a ferramenta primeiro.
 
-## Como se preparar sem pânico
+### Plano de 30 dias:
 
-Não precisa virar programador da noite para o dia. Mas ignorar a IA também não é opção.
+- **Semana 1:** Escolha uma IA (DeepSeek, ChatGPT ou Claude) e use todo dia
+- **Semana 2:** Automatize uma tarefa repetitiva do seu trabalho com Make ou Zapier
+- **Semana 3:** Crie um projeto pessoal usando IA (site, roteiro, planilha inteligente)
+- **Semana 4:** Ensine alguém a usar a ferramenta que você aprendeu
 
-### Passos práticos:
+> **Exemplo real:** Um analista financeiro aprendeu a usar IA para gerar relatórios mensais. O que levava 8 horas passou a levar 1 hora. Ele usou o tempo extra para analisar dados mais profundos e foi promovido em 6 meses.
 
-- **Teste 3 ferramentas:** ChatGPT, DeepSeek, Claude
-- **Automatize 1 tarefa:** Comece com algo simples do seu dia
-- **Aprenda a revisar:** IA gera, você refina
-- **Foque no que é humano:** Criatividade, empatia, estratégia
+## Checklist para se preparar para o futuro do trabalho
 
-## Checklist para se preparar para 2026
-
-- [ ] Teste pelo menos 2 ferramentas de IA esta semana
-- [ ] Automatize 1 tarefa repetitiva do seu trabalho
-- [ ] Invista em uma habilidade humana (comunicação, liderança)
-- [ ] Acompanhe tendências sem pânico
+- [ ] Identifique tarefas repetitivas no seu trabalho atual
+- [ ] Escolha UMA ferramenta de IA para aprender esta semana
+- [ ] Automatize pelo menos uma tarefa usando Make ou Zapier
+- [ ] Compartilhe seu aprendizado com colegas (ensinar fixa o conhecimento)

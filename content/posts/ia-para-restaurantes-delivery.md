@@ -27,11 +27,9 @@ Em vez de cardápio fixo, IA sugere pratos baseados no cliente, horário e estoq
 
 > **Exemplo real:** Um restaurante italiano em São Paulo implementou cardápio inteligente. O ticket médio **subiu 18%** porque a IA sugeria pratos mais caros e harmonizações com vinhos que o cliente nunca experimentaria sozinho.
 
----
-
+> ---
 > **🚀 Quer automatizar o cardápio do seu restaurante?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Atendimento automatizado que elimina erro de pedido
 
@@ -41,22 +39,17 @@ Pedidos anotados errado geram retrabalho e insatisfação. IA elimina o erro hum
 
 | Como era | Como fica com IA |
 |----------|------------------|
-| Garçom anota no papel | Cliente pede pelo QR Code |
-| Anotação vai para cozinha | Pedido vai direto para o sistema |
-| Erro de interpretação | Zero erro de digitação |
+| Garçom anota no papel e passa para cozinha | Cliente pede pelo QR Code direto na cozinha |
+| Pedido volta porque leitura errada | Zero erro de comunicação |
+| Cliente espera 10 minutos para chamar o garçom | Pedido enviado em 30 segundos |
 
-## Gestão de estoque que alerta antes de faltar
+**Ferramentas:** **Menu IA** ou **Cardápio Digital** com pedido direto do cliente.
 
-Ingrediente acaba no meio do serviço. IA prevê e alerta com antecedência.
-
-**Alertas automáticos:**
-- **Estoque baixo:** "Farinha vai acabar em 2 dias"
-- **Validade próxima:** "Creme de leite vence amanhã"
-- **Consumo alto:** "Tomate consumiu 3x mais que previsto"
+> **Dica prática:** Coloque o QR Code na mesa e na conta. Cliente pede, paga e sai sem chamar o garçom. Rotatividade **aumenta 25%**.
 
 ## Checklist para otimizar seu restaurante
 
-- [ ] Configure cardápio digital com IA
-- [ ] Ative atendimento automatizado
-- [ ] Implemente gestão de estoque inteligente
-- [ ] Monitore ticket médio semanalmente
+- [ ] Implemente cardápio digital com IA de sugestões personalizadas
+- [ ] Ative pedido direto pelo QR Code para eliminar erros
+- [ ] Configure integração com estoque para evitar pratos indisponíveis
+- [ ] Monitore o aumento do ticket médio e da rotatividade no primeiro mês

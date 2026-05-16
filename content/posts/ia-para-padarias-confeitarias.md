@@ -27,11 +27,9 @@ Em vez de produzir no chute, IA calcula exatamente quanto fazer baseado em dados
 
 > **Exemplo real:** Uma padaria em Belo Horizonte usava IA de previsão de demanda. O desperdício de pão **caiu de 18% para 4%**. A economia mensal em farinha e mão de obra **foi de R$ 2.500**.
 
----
-
+> ---
 > **🚀 Quer automatizar a produção da sua padaria?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Controle de validade que salva insumos
 
@@ -41,23 +39,15 @@ Farinha, fermento, manteiga vencem na despensa. IA alerta antes de perder.
 
 | Prazo restante | Alerta da IA | Ação |
 |----------------|--------------|------|
-| 30 dias | "Farinha vence em 30 dias" | Incluir em receitas |
-| 15 dias | "Fermento vence em 15 dias" | Aumentar produção |
-| 7 dias | "Manteiga vence em 7 dias" | Promoção ou doação |
+| 7 dias | "Farinha vence em 7 dias. Use em 3 receitas." | Priorizar no cardápio |
+| 3 dias | "Leite vence em 3 dias. Faça pão de leite." | Promoção relâmpago |
+| 1 dia | "Creme de leite vence amanhã. Doe ou descarte." | Evitar contaminação |
 
-## Precificação inteligente que maximiza margem
-
-Preço fixo ignora custo real e demanda. IA calcula o preço ideal.
-
-**Como funciona:**
-- Calcula custo por unidade (farinha, mão de obra, energia)
-- Aplica margem desejada (60-70%)
-- Compara com concorrentes locais
-- Sugere preço final competitivo
+> **Dica prática:** Configure a IA para alertar com 7 dias de antecedência. Dá tempo de ajustar a produção e evitar perda total.
 
 ## Checklist para reduzir desperdício na padaria
 
-- [ ] Configure previsão de demanda diária
-- [ ] Ative controle de validade de insumos
-- [ ] Implemente precificação inteligente
-- [ ] Monitore desperdício semanalmente
+- [ ] Ative a previsão de demanda baseada em histórico, clima e feriados
+- [ ] Configure alertas de validade para todos os insumos com 7 dias de antecedência
+- [ ] Ajuste a produção diária com base na previsão da IA
+- [ ] Monitore a redução de desperdício no primeiro mês

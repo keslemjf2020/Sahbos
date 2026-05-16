@@ -29,36 +29,24 @@ Cliente pede orçamento. Você perde 30 minutos montando proposta. Manda. Client
 
 > **Exemplo real:** Um designer freelancer usava IA para orçamentos. O tempo de proposta **caiu de 30 para 5 minutos**. Ele passou a atender **3x mais clientes** no mesmo horário.
 
----
-
+> ---
 > **🚀 Quer o template de orçamento automático?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
-
----
+> ---
 
 ## Cobrança que não deixa dinheiro na mesa
 
-Serviço entregue, pagamento pendente. Você esquece de cobrar. Cliente também esquece. Você perde dinheiro.
+Serviço entregue, pagamento pendente. Você esquece de cobrar. IA dispara lembretes automáticos sem você precisar lembrar.
 
 ### Como configurar:
 
-- **Vencimento:** Cobrança automática no dia
-- **Atraso 5 dias:** Lembrete educado
-- **Atraso 15 dias:** Mensagem mais direta
-- **Atraso 30 dias:** Encaminha para negativação
+- **Vencimento:** "Lembrete: fatura vence amanhã. Link para pagamento."
+- **Atraso 3 dias:** "Fatura em atraso. Evite juros, pague hoje."
+- **Atraso 7 dias:** "Último aviso antes do protesto. Regularize."
+- **Pagamento confirmado:** "Recebemos seu pagamento. Obrigado!"
 
-## Gestão de clientes que não deixa ninguém escapar
+## Checklist para automatizar seu trabalho autônomo
 
-Cliente pediu orçamento e não respondeu. IA lembra ele depois de 3 dias. Cliente não volta há 60 dias. IA envia oferta personalizada.
-
-**Benefícios:**
-- Lembrete automático de orçamento pendente
-- Oferta personalizada para clientes inativos
-- Relatório semanal de clientes por estágio
-- Histórico completo de interações
-
-## Checklist para automatizar seu trabalho
-
-- [ ] Configure orçamento automático com IA
-- [ ] Ative cobrança recorrente automática
-- [ ] Implemente gestão de clientes automatizada
-- [ ] Monitore hora trabalhada vs. hora faturada
+- [ ] Configure o gerador de orçamentos automáticos com IA
+- [ ] Ative os lembretes de cobrança no WhatsApp (vencimento, atraso, confirmação)
+- [ ] Crie um chatbot para responder perguntas frequentes sobre serviços
+- [ ] Monitore quantas horas você recuperou na primeira quinzena

@@ -27,11 +27,9 @@ Chat tóxico espanta viewer. IA modera em tempo real sem você parar a live.
 
 > **Exemplo real:** Um streamer de FPS usava moderação com IA. O tempo gasto moderando chat **caiu de 30% da live para 2%**.
 
----
-
+> ---
 > **🚀 Quer automatizar a moderação da sua live?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Alertas personalizados por evento
 
@@ -43,20 +41,13 @@ Sub, doação, raid, novo seguidor. Cada evento merece um alerta diferente. IA p
 |--------|--------------|------|
 | Sub (R$ 7,90) | "Obrigado, [nome]!" | Agradecimento automático |
 | Doação (R$ 20+) | "Muito obrigado! [nome] é demais!" | Destaque no chat |
-| Raid (50+ viewers) | "Bem-vindo, galera do [canal]!" | Alerta especial |
+| Raid (50+ viewers) | "Raid do [canal]! Vamos receber!" | Animação especial |
 
-## Clipe automático dos melhores momentos
+> **Dica prática:** Configure alertas diferentes por valor. Doações acima de R$ 50 merecem um agradecimento personalizado com som e animação exclusivos.
 
-Você joga, a IA identifica e clipa. Sem precisar parar para editar.
+## Checklist para otimizar suas lives
 
-**O que a IA detecta:**
-- **Kill incrível:** "Headshot triplo!" — clipe automático
-- **Momento engraçado:** "Caiu da ponte" — clipe automático
-- **Reação do chat:** "Chat explodiu" — clipe automático
-
-## Checklist para melhorar sua live
-
-- [ ] Configure moderação automática de chat
-- [ ] Ative alertas personalizados por evento
-- [ ] Implemente clipe automático de momentos
-- [ ] Monitore engajamento do chat em cada live
+- [ ] Ative moderação automática de chat com IA (palavras ofensivas, spam, tom agressivo)
+- [ ] Configure alertas personalizados por tipo de evento (sub, doação, raid)
+- [ ] Crie respostas automáticas para perguntas frequentes no chat
+- [ ] Monitore a redução de tempo gasto em moderação no primeiro mês

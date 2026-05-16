@@ -29,36 +29,26 @@ Achar que "essa cor vai bombar" é chute. IA analisa dados reais para dizer o qu
 
 > **Exemplo real:** Uma loja de roupas em São Paulo usava IA de tendências. Os encalhes **caíram de 35% para 12%** da coleção. A margem **subiu 8 pontos percentuais**.
 
----
-
+> ---
 > **🚀 Quer automatizar a previsão de tendências da sua loja?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Reposição automática que nunca deixa faltar
 
 Aquela calça jeans que todo mundo pede. Se falta, você perde venda. IA calcula o ponto ideal de reposição.
 
-### O que a IA considera:
+### O que a IA calcula:
 
-- **Histórico de vendas** por tamanho e cor
-- **Sazonalidade** (verão, inverno, datas especiais)
-- **Prazo do fornecedor** para entrega
-- **Margem de segurança** de 15%
+- **Histórico de vendas:** Quantas unidades saem por semana
+- **Sazonalidade:** Itens que vendem mais no verão ou inverno
+- **Prazo do fornecedor:** Tempo entre pedido e entrega
+- **Estoque de segurança:** Margem para evitar falta repentina
 
-## Precificação dinâmica que maximiza o lucro
+> **Dica prática:** Configure alerta automático quando o estoque de um item chegar a 15 unidades. Tempo suficiente para repor sem correr risco.
 
-Preço fixo perde dinheiro. IA ajusta o preço com base na demanda.
+## Checklist para otimizar o estoque da sua loja
 
-**Como funciona:**
-- Peça com alta demanda: **preço cheio**
-- Peça com baixa saída: **desconto progressivo**
-- Peça no fim da estação: **liquidação automática**
-- Peça em falta no mercado: **preço premium**
-
-## Checklist para otimizar sua loja
-
-- [ ] Configure IA de previsão de tendências
-- [ ] Ative reposição automática de estoque
-- [ ] Implemente precificação dinâmica
-- [ ] Monitore encalhes semanalmente
+- [ ] Ative a previsão de tendências com IA (monitore buscas e redes sociais)
+- [ ] Configure reposição automática baseada em histórico de vendas
+- [ ] Defina estoque de segurança para os 10 itens mais vendidos
+- [ ] Monitore a redução de encalhes no primeiro trimestre

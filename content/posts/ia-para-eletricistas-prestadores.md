@@ -27,11 +27,9 @@ Cliente descreve o problema. IA calcula o serviço e o valor sem deslocamento.
 
 > **Exemplo real:** Um eletricista em SP usava orçamento remoto. Antes, ele perdia **3 horas por dia** em visitas que não viravam serviço. Depois, só ia quando o cliente já tinha aprovado o orçamento. A taxa de conversão **subiu de 30% para 80%**.
 
----
-
+> ---
 > **🚀 Quer automatizar os orçamentos da sua elétrica?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Agendamento inteligente que otimiza rotas
 
@@ -39,24 +37,16 @@ Cliente quer marcar, você perde tempo indo e voltando. IA organiza a rota ideal
 
 ### Como funciona:
 
-- Cliente agenda online ou por WhatsApp
-- IA agrupa serviços por região
-- Sugere rota otimizada para o dia
-- Envia confirmação com horário
+- Cliente agenda pelo WhatsApp ou site
+- IA verifica sua disponibilidade e sugere horários
+- Agrupa serviços por região para evitar deslocamentos desnecessários
+- Envia lembrete automático 24h antes
 
-## Gestão de serviços que nunca perde cliente
+> **Dica prática:** Configure para agendar serviços em regiões próximas no mesmo dia. Reduza o tempo de deslocamento em até **40%**.
 
-Cliente ligou, fez orçamento, sumiu. IA lembra e recupera.
+## Checklist para otimizar seu serviço de elétrica
 
-**Alertas automáticos:**
-- **24h:** Cliente não respondeu — enviar lembrete
-- **7 dias:** Cliente não fechou — oferta especial
-- **30 dias:** Cliente antigo — pedir avaliação
-- **90 dias:** Cliente inativo — campanha de reativação
-
-## Checklist para crescer como eletricista
-
-- [ ] Configure orçamento automático por WhatsApp
-- [ ] Ative agendamento com rota otimizada
-- [ ] Implemente gestão de clientes com lembretes
-- [ ] Monitore taxa de conversão de orçamentos
+- [ ] Configure orçamento automático com diagnóstico remoto via WhatsApp
+- [ ] Implemente agendamento inteligente que otimiza rotas
+- [ ] Ative lembretes automáticos para reduzir faltas
+- [ ] Monitore a taxa de conversão de orçamentos no primeiro mês

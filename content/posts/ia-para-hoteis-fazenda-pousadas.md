@@ -27,11 +27,9 @@ Hóspede chega e já está tudo pronto. Sem papelada, sem espera.
 
 > **Exemplo real:** Um hotel fazenda em Minas Gerais implementou check-in digital. O tempo de recepção **caiu de 15 minutos para 2 minutos**. A satisfação no checkout **subiu 30%**.
 
----
-
+> ---
 > **🚀 Quer automatizar o check-in do seu hotel fazenda?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Recomendações personalizadas de atividades
 
@@ -41,23 +39,17 @@ Folder genérico não funciona. Cada hóspede tem perfil diferente. IA sugere at
 
 | Perfil do hóspede | O que a IA sugere | Resultado |
 |-------------------|-------------------|-----------|
-| Casal sem filhos | Jantar romântico + cavalgada | Experiência memorável |
-| Família com crianças | Passeio a cavalo + piscina | Crianças felizes |
-| Grupo de amigos | Trilha + fogueira à noite | Diversão garantida |
+| Casal sem filhos | Jantar romântico + vinho | Experiência premium |
+| Família com crianças | Trilha curta + piscina + fazendinha | Crianças entretidas |
+| Grupo de amigos | Pesca + futebol + churrasco | Integração social |
 
-## Gestão de reservas que maximiza ocupação
+**Ferramentas:** **GuestJoy** ou **Canary Technologies**. IA pergunta preferências no check-in e sugere atividades personalizadas.
 
-Quarto vazio é receita perdida. IA ajusta preços e promoções em tempo real.
-
-**Como funciona:**
-- Ajusta preço por temporada e demanda
-- Oferece upgrade no check-in digital
-- Envia ofertas para hóspedes antigos
-- Maximiza ocupação em dias fracos
+> **Dica prática:** Configure a IA para perguntar o perfil do hóspede 48h antes. Ela monta um roteiro personalizado e envia por WhatsApp.
 
 ## Checklist para encantar seus hóspedes
 
-- [ ] Configure check-in digital
-- [ ] Ative recomendações personalizadas de atividades
-- [ ] Implemente gestão de reservas inteligente
-- [ ] Monitore satisfação no pós-checkout
+- [ ] Implemente check-in digital com envio de documentos 48h antes
+- [ ] Configure recomendações personalizadas de atividades por perfil
+- [ ] Ative comunicação automática por WhatsApp durante a estadia
+- [ ] Monitore a satisfação no checkout no primeiro mês

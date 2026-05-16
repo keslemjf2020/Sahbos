@@ -43,31 +43,25 @@ O cenário tem 4 módulos simples:
 3. **Consulta:** Busca resposta na base de conhecimento
 4. **Resposta:** Envia de volta pelo WhatsApp
 
----
-
+> ---
 > **🚀 Quer o template pronto?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
-
----
+> ---
 
 ### 3. Monte a base de conhecimento
 
-Crie uma planilha no Google Sheets com as perguntas mais comuns.
+Crie uma planilha no Google Sheets com as perguntas mais frequentes e suas respostas. A IA consulta essa base automaticamente.
 
-| Pergunta típica | Resposta automática |
-|-----------------|---------------------|
-| "Qual o horário?" | "Funcionamos de seg a sex, 8h às 18h" |
-| "Tem estoque?" | "Sim, consulte disponibilidade no link" |
-| "Quanto custa?" | "Planos a partir de R$ 97/mês" |
+| Pergunta do cliente | Resposta automática |
+|---------------------|---------------------|
+| "Qual o horário de funcionamento?" | "Seg a sex, 8h às 18h. Sáb, 8h às 12h." |
+| "Tem [produto] em estoque?" | "Sim, temos. Consulte o link: [link]" |
+| "Quanto custa [serviço]?" | "A partir de R$ 97. Agende uma avaliação." |
 
-## 3 perguntas que seu robô precisa responder
-
-- **"Qual o horário?"** — Horário de funcionamento
-- **"Tem estoque?"** — Disponibilidade de produtos
-- **"Quanto custa?"** — Preços e formas de pagamento
+> **Exemplo real:** Uma loja de roupas configurou chatbot no WhatsApp. As perguntas frequentes caíram de **50 por dia para 10 por dia**. O tempo médio de resposta **caiu de 15 minutos para 10 segundos**.
 
 ## Checklist para automatizar seu WhatsApp
 
-- [ ] Crie conta no provedor WhatsApp Business API
-- [ ] Configure webhook apontando para o Make
-- [ ] Monte base de conhecimento com 10 perguntas
-- [ ] Teste com 5 perguntas reais antes de ativar
+- [ ] Solicite acesso à WhatsApp Business API (via provedor como WATI ou Z-API)
+- [ ] Crie um cenário no Make com webhook + DeepSeek
+- [ ] Monte a planilha com as 10 perguntas mais frequentes do seu negócio
+- [ ] Teste com 3 perguntas reais antes de colocar em produção

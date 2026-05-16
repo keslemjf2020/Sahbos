@@ -44,42 +44,36 @@ Organize os dados em formato tabular. Primeira linha com cabeçalhos. Sem célul
 - **Módulo DeepSeek:** Envia dados para análise com prompt específico
 - **Módulo Google Docs:** Gera relatório formatado
 
----
-
+> ---
 > **🚀 Quer automatizar seus relatórios com IA?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ### 3. Configure o prompt do DeepSeek
 
-O prompt define a qualidade do relatório. Seja específico.
-
-**Prompt que funciona:**
+O prompt define a qualidade do relatório. Seja específico sobre o que quer.
 
 ```
-Analise estes dados de vendas do período [data].
-Gere: 1) Resumo executivo (3 linhas)
-2) Top 3 produtos por receita
-3) Região com maior crescimento
-4) 1 recomendação acionável
-Formato: texto limpo, sem markdown.
+Analise os dados de vendas abaixo e gere um relatório executivo.
+Inclua: total vendido, produto mais vendido, região com melhor performance,
+tendência semanal e 3 recomendações de ação.
+Dados: [cole os dados da planilha]
 ```
+
+> **Dica prática:** Teste o prompt primeiro no chat do DeepSeek. Quando o resultado estiver bom, copie para o Make.
 
 ### 4. Automatize a entrega
 
-O relatório pronto precisa chegar a quem usa.
+Configure o Make para enviar o relatório pronto por e-mail ou salvar no Google Drive.
 
-**Canais de entrega:**
-- **E-mail:** Enviar para lista de gestores
-- **Slack/Teams:** Postar no canal de resultados
-- **Google Drive:** Salvar com data no nome do arquivo
-- **Dashboard:** Atualizar painel no Google Data Studio
+| Canal | Como configurar | Vantagem |
+|-------|----------------|----------|
+| E-mail | Módulo Gmail no Make | Entrega direta na caixa de entrada |
+| Google Docs | Módulo Google Docs | Relatório editável |
+| Slack | Módulo Slack | Notificação em tempo real |
 
 ## Checklist para automatizar relatórios
 
-- [ ] Organize dados em formato tabular limpo
-- [ ] Conecte Google Sheets ao Make
-- [ ] Configure prompt do DeepSeek para análise
-- [ ] Defina trigger (agendamento ou manual)
-- [ ] Configure canal de entrega (e-mail, Slack, Drive)
-- [ ] Teste com dados reais antes de ativar
+- [ ] Organize os dados em formato tabular com cabeçalhos
+- [ ] Crie o cenário no Make com trigger agendado
+- [ ] Teste o prompt do DeepSeek no chat antes de integrar
+- [ ] Configure a entrega automática por e-mail ou Google Drive

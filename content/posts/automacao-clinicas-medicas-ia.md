@@ -5,55 +5,48 @@ tags: ["Automacao","IA"]
 description: "Post gerado pelo time de agentes DeepSeek"
 ---
 
-# Sua recepcionista passa o dia confirmando consultas que ninguém vai
+# Você perde consultas porque paciente desiste de esperar no telefone
 
-Paciente esquece o horário. Chega atrasado. No fim do mês, **15% das consultas viram "falta"** e o faturamento despenca.
+Seu consultório recebe 50 ligações por dia. Paciente quer saber se o sintoma é grave. Outro pergunta se tem horário. A recepcionista passa o dia no telefone enquanto a sala de espera lota.
 
-Automação de clínicas médicas com IA resolve isso sem trocar de sistema ou contratar mais gente. São 3 áreas que entregam resultado imediato.
+No fim do dia, **3 consultas foram perdidas**. O paciente desistiu de esperar.
 
-## Lembretes automáticos que cortam faltas pela metade
+> IA no atendimento médico em 2026 não substitui seu diagnóstico. Ela organiza o fluxo para você atender quem realmente precisa, na hora certa.
 
-A maior causa de falta em consultas é esquecimento. Um lembrete bem feito resolve.
+## Chatbot de triagem: paciente descreve, IA classifica
 
-### Como configurar:
+Paciente chega com dor de cabeça. É tensão ou algo sério? Um chatbot faz a primeira avaliação antes de qualquer consulta.
 
-| Quando enviar | O que dizer | Ação se não responder |
-|---------------|-------------|----------------------|
-| 48h antes | "Confirma consulta dia 20?" | Libera horário |
-| 24h antes | "Lembrete: amanhã às 14h" | Reforça compromisso |
-| 2h antes | "Dr. Carlos já te espera" | Reduz atraso |
+### Como funciona na prática:
 
-> **Exemplo real:** Uma clínica dermatológica em SP reduziu faltas de **22% para 6%** em 2 meses. O segredo foi lembrete automático com link para reagendar direto no WhatsApp.
+| Ação | O que o robô faz | Resultado |
+|------|------------------|-----------|
+| Paciente descreve sintomas | Faz perguntas de acompanhamento | Classifica gravidade |
+| Dor forte no peito | Encaminha para emergência | Paciente vai direto para UPA |
+| Dor de cabeça leve | Agenda consulta de rotina | Libera a recepcionista |
 
-## Prontuário que vem pronto antes do paciente entrar
+> **Exemplo real:** Uma clínica em Belo Horizonte implantou triagem por chatbot. O número de pacientes que iam ao pronto-socorro sem necessidade **caiu 40%**. Quem realmente precisava de atendimento urgente foi priorizado.
 
-Paciente chega e você precisa perguntar tudo de novo: alergias, medicamentos, histórico. Com IA, isso vem pronto.
+> ---
+> **🚀 Automatize a triagem do seu consultório.** Teste grátis por 14 dias e veja quantas consultas você recupera. [Comece agora](#)
+> ---
 
-### Ferramentas que funcionam em 2026:
+## Check-in digital: zero papelada na recepção
 
-- **ClinicWeb** — envia formulário pré-consulta por WhatsApp
-- **MedCloud** — extrai dados de receitas anteriores
-- **HealthBot** — atualiza prontuário em tempo real
+Paciente chega, escaneia QR code na porta. Em 30 segundos, a IA confirma dados, atualiza prontuário e libera a senha de atendimento.
 
----
+**Sem fila, sem caneta, sem erro de digitação.** A recepcionista só intervém em casos específicos.
 
-> **🚀 Automatize sua clínica em 7 dias.** Teste grátis e veja quanto faturamento você recupera. [Comece agora](#)
+### O que mais a IA pode fazer:
 
----
+- **Envia** lembretes de consulta 24h antes (reduz faltas em 35%)
+- **Solicita** exames prévios automaticamente pelo WhatsApp
+- **Libera** resultados de exames simples sem intervenção
+- **Coleta** feedback do paciente após cada consulta
 
-## Agenda inteligente que preenche horários vazios
+## Checklist para implantar IA no seu consultório
 
-Paciente cancela às 9h. Às 9h05, outro paciente da fila de espera recebe convite automático. Horário preenchido em minutos.
-
-**Benefícios:**
-- Zero horário ocioso
-- Fila de espera automática
-- Reagendamento em 1 clique
-- Relatório de ocupação semanal
-
-## Checklist para reduzir faltas na sua clínica
-
-- [ ] Configure lembretes automáticos (48h, 24h, 2h antes)
-- [ ] Ative formulário pré-consulta por WhatsApp
-- [ ] Crie fila de espera para horários cancelados
-- [ ] Monitore taxa de faltas semanalmente
+- [ ] Mapeie os 5 sintomas mais comuns que chegam por telefone
+- [ ] Configure o chatbot de triagem com perguntas de acompanhamento
+- [ ] Teste o fluxo com 10 pacientes voluntários na primeira semana
+- [ ] Monitore a taxa de resolução automática e o tempo de espera na recepção

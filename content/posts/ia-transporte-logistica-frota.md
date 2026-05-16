@@ -27,11 +27,9 @@ Rota fixa não funciona. Trânsito muda, cliente não está, entrega é recusada
 
 > **Exemplo real:** Uma transportadora em São Paulo usava OptimoRoute. A quilometragem média por motorista **caiu 22%**. O número de entregas por dia **subiu de 18 para 24**.
 
----
-
+> ---
 > **🚀 Quer otimizar a logística da sua empresa?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Previsão de demanda por região e horário
 
@@ -41,22 +39,15 @@ Segunda-feira tem mais entregas no centro. Sexta-feira na zona sul. IA distribui
 
 | Dia da semana | Região com maior demanda | Alocação da frota |
 |---------------|--------------------------|-------------------|
-| Segunda-feira | Centro | 5 motoristas |
-| Quarta-feira | Zona Norte | 3 motoristas |
-| Sexta-feira | Zona Sul | 4 motoristas |
+| Segunda | Centro (comércio) | 60% da frota no centro |
+| Quarta | Bairros residenciais | 50% da frota nos bairros |
+| Sexta | Zona sul (entregas noturnas) | 70% da frota na zona sul |
 
-## Gestão de entregas não realizadas
-
-Cliente não estava, endereço errado, recusa. Cada falha gera retrabalho. IA identifica padrões e reduz.
-
-**O que a IA detecta:**
-- **Endereço inconsistente:** "Rua A, 123 — CEP errado"
-- **Cliente ausente:** "3 tentativas, mesmo horário"
-- **Recusa frequente:** "Cliente X recusa 40% das entregas"
+> **Dica prática:** Configure a IA para analisar o histórico de entregas dos últimos 3 meses. A previsão de demanda fica precisa em 2 semanas.
 
 ## Checklist para otimizar sua logística
 
-- [ ] Configure otimização de rotas em tempo real
-- [ ] Ative previsão de demanda por região
-- [ ] Implemente gestão de entregas não realizadas
-- [ ] Monitore quilometragem e entregas por dia
+- [ ] Implemente otimização de rotas em tempo real com IA
+- [ ] Ative a previsão de demanda por região e horário para distribuir a frota
+- [ ] Configure alertas para desvios e imprevistos durante a rota
+- [ ] Monitore a redução de quilometragem e o aumento de entregas por motorista

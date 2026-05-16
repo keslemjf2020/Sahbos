@@ -39,11 +39,9 @@ Precisa de roteiro para YouTube, e-mail de vendas ou texto longo? **Claude Sonne
 
 O **GPT-5** faz de tudo razoavelmente bem. Não é o melhor em nada, mas é o mais versátil.
 
----
-
+> ---
 > **🚀 Quer saber qual IA usar para cada tarefa?** Baixe o guia comparativo gratuito. [Baixar agora](#)
-
----
+> ---
 
 ### Comparação rápida:
 
@@ -53,15 +51,19 @@ O **GPT-5** faz de tudo razoavelmente bem. Não é o melhor em nada, mas é o ma
 | **Claude** | Conteúdo e marketing | US$ 20/mês |
 | **ChatGPT** | Versatilidade geral | Grátis / US$ 20 |
 
-## Como escolher na prática
+## Como escolher na prática: 3 perguntas
 
-- **Programação?** Use DeepSeek
-- **Texto longo?** Use Claude
-- **Tudo um pouco?** Use ChatGPT grátis
+Antes de abrir mais uma aba, responda:
 
-## Checklist para testar as IAs
+- **O que você precisa fazer agora?** Programar → DeepSeek. Escrever → Claude. Variado → ChatGPT
+- **Qual seu orçamento?** Zero → DeepSeek ou ChatGPT grátis. Profissional → Claude ou ChatGPT Plus
+- **Qual o tamanho do texto?** Curto → qualquer um. Longo (>3000 tokens) → Claude
 
-- [ ] Defina a tarefa principal que você precisa resolver
-- [ ] Teste a IA recomendada para aquela tarefa
-- [ ] Compare com uma segunda opção
-- [ ] Escolha uma e use por 1 semana antes de trocar
+> **Exemplo real:** Um desenvolvedor usava ChatGPT para tudo. Gastava 30 minutos em prompts para gerar código. Mudou para DeepSeek e reduziu para 10 minutos. As respostas eram mais diretas e precisas.
+
+## Checklist para escolher sua IA hoje
+
+- [ ] Defina a tarefa principal que você vai executar (código, texto ou ambos)
+- [ ] Teste DeepSeek para programação e Claude para conteúdo
+- [ ] Use ChatGPT como fallback para tarefas variadas
+- [ ] Mantenha apenas 2 ferramentas abertas para não se perder

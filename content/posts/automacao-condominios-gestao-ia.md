@@ -36,25 +36,26 @@ Responder "qual o número do zelador?" 15 vezes por semana é perda de tempo. Um
 - **Regras:** Uso do salão, vagas de garagem, lixo
 - **Boletos:** 2ª via, vencimento, forma de pagamento
 
----
-
+> ---
 > **🚀 Automatize seu condomínio em 7 dias.** Teste grátis por 30 dias e veja quanto tempo você recupera. [Comece agora](#)
+> ---
 
----
+## Agenda do salão de festas sem papelada
 
-## Ata de reunião gerada por IA
+Morador quer reservar o salão. Em vez de ligar para o síndico, ele acessa o WhatsApp. A IA confirma disponibilidade, registra a reserva e envia as regras de uso.
 
-Reunião termina. Você gravou o áudio. A IA transcreve, resume pontos principais e gera a ata pronta para aprovação.
+**Sem planilha, sem troca de e-mails, sem conflito de horários.**
 
-**Benefícios:**
-- Ata em 5 minutos (contra 2 horas manual)
-- Destaque automático de decisões
-- Envio para todos os moradores
-- Histórico pesquisável
+### O que a IA gerencia automaticamente:
 
-## Checklist para digitalizar seu condomínio
+- **Reservas** de salão, churrasqueira e academia
+- **Multas** por atraso na devolução das chaves
+- **Vistorias** de entrada e saída de moradores
+- **Avisos** de manutenção programada (água, gás, elevador)
 
-- [ ] Configure disparo automático de boletos
-- [ ] Ative chatbot para perguntas frequentes
-- [ ] Use IA para gerar atas de reunião
-- [ ] Monitore inadimplência semanalmente
+## Checklist para implantar IA no seu condomínio
+
+- [ ] Mapeie as 10 perguntas mais frequentes no WhatsApp do prédio
+- [ ] Configure o chatbot com respostas automáticas para cada uma
+- [ ] Ative o disparo automático de boletos e lembretes
+- [ ] Monitore a redução de mensagens repetitivas na primeira semana

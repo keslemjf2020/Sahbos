@@ -29,36 +29,24 @@ O maior desperdício na edição é assistir o vídeo inteiro para encontrar ond
 
 > **Exemplo real:** Um youtuber de tecnologia usava Descript para editar vídeos de 20 minutos. O tempo de edição **caiu de 4 horas para 1 hora** por vídeo. Ele passou a publicar **3x mais conteúdo** no mesmo horário.
 
----
-
+> ---
 > **🚀 Quer o guia completo de edição de vídeo com IA?** Baixe grátis. [Baixar agora](#)
-
----
+> ---
 
 ## Legendas automáticas em todos os formatos
 
-Legendas aumentam o alcance em **40%** (YouTube, 2025). Com IA, você gera para todas as plataformas em 1 clique.
+Legendas aumentam o alcance do vídeo. Com IA, você gera legendas precisas em segundos e exporta para qualquer formato.
 
-### Como funciona:
+### Como configurar:
 
-- IA transcreve o áudio automaticamente
-- Gera legendas no formato de cada plataforma
-- Ajusta sincronia quadro a quadro
-- Traduz para outros idiomas (opcional)
+- **Transcrição:** IA transcreve o áudio com precisão de 95%
+- **Tradução:** Gera legendas em inglês, espanhol ou outros idiomas
+- **Formato:** Exporta como SRT, VTT ou queimado no vídeo
+- **Estilo:** Personaliza cor, tamanho e posição da legenda
 
-## Exportação para múltiplas plataformas
+## Checklist para acelerar sua edição de vídeo
 
-Publicar no YouTube, Instagram, TikTok e LinkedIn exige formatos diferentes. IA exporta tudo de uma vez.
-
-**Formatos suportados:**
-- YouTube: 16:9, 1080p
-- Instagram Reels: 9:16, 1080p
-- TikTok: 9:16, 1080p
-- LinkedIn: 16:9, 720p
-
-## Checklist para acelerar sua edição
-
-- [ ] Configure IA para cortes automáticos
-- [ ] Ative legendas automáticas em todos os vídeos
-- [ ] Crie template de exportação para cada plataforma
-- [ ] Reduza tempo de edição em 70%
+- [ ] Grave o áudio com qualidade mínima (microfone USB já resolve)
+- [ ] Use Descript para cortar pausas e hesitações automaticamente
+- [ ] Gere legendas automáticas e traduza para pelo menos inglês
+- [ ] Exporte versões otimizadas para YouTube, Instagram e TikTok

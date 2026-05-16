@@ -36,25 +36,24 @@ Nada pior que começar um serviço e descobrir que a peça não tem no estoque. 
 - **Fornecedor integrado:** Pedido gerado automaticamente
 - **Histórico:** Peças mais usadas por modelo de carro
 
----
+> ---
+> **🚀 Automatize sua oficina em 1 hora.** Teste grátis por 14 dias e veja os erros de diagnóstico desaparecerem. [Comece agora](#)
+> ---
 
-> **🚀 Automatize sua oficina em 1 dia.** Teste grátis por 14 dias. [Comece agora](#)
+## Agendamento que não deixa cliente esperando
 
----
+Cliente liga, você anota em papel, esquece. Ou pior: agenda dois carros para o mesmo horário. IA gerencia a agenda e evita conflitos.
 
-## Agendamento que reduz espera na oficina
+### O que a IA gerencia automaticamente:
 
-Cliente liga, marca horário, chega e espera 40 minutos. Com IA, o fluxo fica previsível.
+- **Agenda:** Visualiza horários disponíveis em tempo real
+- **Lembrete:** Envia WhatsApp 24h antes do serviço
+- **Confirmação:** Cliente confirma presença com um clique
+- **Reagendamento:** Libera horário se cliente não confirmar
 
-**Benefícios:**
-- Agendamento por WhatsApp
-- Lembrete automático 24h antes
-- Tempo estimado por tipo de serviço
-- Fila virtual com aviso de horário
+## Checklist para implantar IA na sua oficina
 
-## Checklist para modernizar sua oficina
-
-- [ ] Configure IA de apoio a diagnóstico
-- [ ] Ative alertas de estoque baixo
-- [ ] Implemente agendamento por WhatsApp
-- [ ] Monitore índice de retorno por erro
+- [ ] Cadastre os 20 diagnósticos mais comuns no banco de dados da IA
+- [ ] Configure alertas de estoque mínimo para as 10 peças mais usadas
+- [ ] Ative o agendamento online com lembretes automáticos no WhatsApp
+- [ ] Monitore a taxa de retorno por erro na primeira quinzena

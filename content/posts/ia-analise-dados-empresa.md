@@ -43,31 +43,26 @@ Crie um cenário com 4 módulos:
 3. **IA:** DeepSeek analisa e gera relatório
 4. **Entrega:** Envia por e-mail
 
----
-
+> ---
 > **🚀 Quer o template pronto?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
-
----
+> ---
 
 ### 3. O que a IA analisa
 
-A IA recebe os dados e responde perguntas específicas. Você define o que quer saber.
+A IA recebe os dados e responde perguntas específicas que você definir no prompt.
 
-**Exemplos de análise:**
-- "Qual mês teve maior crescimento?"
-- "Ticket médio está subindo ou caindo?"
-- "Custos cresceram mais que vendas?"
-- "Quais clientes estão prestes a cancelar?"
+### Exemplos de perguntas que a IA responde:
 
-## 3 relatórios para automatizar esta semana
+- **Tendência:** "Vendas estão subindo ou caindo nos últimos 3 meses?"
+- **Anomalia:** "Houve algum mês fora do padrão? O que aconteceu?"
+- **Correlação:** "Existe relação entre clientes novos e ticket médio?"
+- **Recomendação:** "O que fazer para melhorar o resultado do próximo mês?"
 
-- **Relatório de vendas:** Resumo semanal enviado toda segunda
-- **Análise de estoque:** Produtos parados há mais de 60 dias
-- **Saúde financeira:** Margem, inadimplência e fluxo de caixa
+> **Exemplo real:** Uma loja de roupas alimentava a planilha com vendas diárias. A IA detectou que às quartas-feiras as vendas caíam 30%. A loja criou uma promoção "Quarta do Desconto" e recuperou o faturamento do dia.
 
-## Checklist para sua primeira análise
+## Checklist para transformar dados em decisão
 
-- [ ] Organize dados em formato tabular
-- [ ] Crie conta no Make e conecte ao Sheets
-- [ ] Defina 3 perguntas que quer responder
-- [ ] Agende relatório semanal automático
+- [ ] Organize sua planilha principal em formato tabular (cabeçalho + linhas)
+- [ ] Defina 3 perguntas de negócio que você quer responder toda semana
+- [ ] Configure o fluxo no Make com DeepSeek para gerar o relatório automático
+- [ ] Agende o disparo do relatório por e-mail toda segunda-feira às 9h

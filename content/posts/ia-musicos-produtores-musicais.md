@@ -29,37 +29,26 @@ Bloco criativo é o maior inimigo do músico. IA quebra o gelo e sugere caminhos
 
 > **Exemplo real:** Um compositor usava IA para gerar letras e melodias. O tempo de composição **caiu de 2 semanas para 2 horas**. Ele passou a lançar **1 música por semana**.
 
----
-
+> ---
 > **🚀 Quer o guia completo de IA para produção musical?** Baixe grátis. [Baixar agora](#)
-
----
+> ---
 
 ## Mixagem e masterização automáticas
 
-Mixagem e masterização exigem estúdio e engenheiro de som caro. IA faz em minutos.
+Mixagem e masterização exigem estúdio caro e anos de prática. IA faz isso em minutos com qualidade profissional.
 
-### Ferramentas:
+### Como funciona:
 
-| Ferramenta | O que faz | Preço |
-|------------|-----------|-------|
-| **LANDR** | Masterização automática | Grátis (3 músicas/mês) |
-| **Ozone 11** | Mixagem assistida | US$ 49/mês |
-| **iZotope Neutron** | Mixagem por IA | US$ 29/mês |
+1. **Upload:** Envie sua faixa gravada para a ferramenta
+2. **Análise:** IA identifica frequências, volume e equilíbrio
+3. **Processamento:** Aplica compressão, EQ, limiter e stereo
+4. **Download:** Recebe a faixa masterizada em minutos
 
-## Distribuição inteligente para todas as plataformas
-
-Distribuir música para Spotify, Apple Music, Deezer e YouTube exige agregador. IA otimiza o processo.
-
-**Como funciona:**
-- Envio para todas as plataformas em 1 clique
-- Sugestão de data de lançamento ideal
-- Metadata otimizada para SEO
-- Relatório de desempenho automático
+**Ferramentas:** **LANDR** ou **eMastered** — masterização automática por IA a partir de **US$ 10/mês**.
 
 ## Checklist para produzir música com IA
 
-- [ ] Use IA para gerar letra e melodia base
-- [ ] Grave a voz ou instrumento principal
-- [ ] Finalize com masterização automática
-- [ ] Distribua para todas as plataformas
+- [ ] Use Suno ou Udio para gerar a base instrumental da sua música
+- [ ] Peça para ChatGPT ou Claude gerar a letra com rima e métrica
+- [ ] Grave sua voz ou instrumento sobre a base gerada pela IA
+- [ ] Masterize com LANDR ou eMastered em minutos

@@ -40,21 +40,21 @@ Tudo automático. Você não toca em nada.
 
 IA entrega **80% pronto**. Você ajusta o tom, adiciona um exemplo pessoal e publica.
 
----
-
+> ---
 > **🚀 Quer o template pronto dessa automação?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
-
----
+> ---
 
 ## 3 tipos de post para começar
 
 - **Tutorial prático:** "Como fazer X em 3 passos"
 - **Comparativo:** "Ferramenta A vs. Ferramenta B"
-- **Lista:** "5 maneiras de resolver o problema Y"
+- **Lista:** "5 maneiras de resolver Y"
 
-## Checklist para automatizar seus posts
+Cada tipo tem estrutura previsível. A IA já sabe o formato. Você só define o tema.
 
-- [ ] Crie formulário de captura de ideias
-- [ ] Configure automação no Make (formulário → IA → Docs)
-- [ ] Defina prompt padrão para geração de posts
-- [ ] Publique 1 post por semana com revisão mínima
+## Checklist para automatizar seus posts de blog
+
+- [ ] Crie um formulário Google Forms com título, pontos principais e público
+- [ ] Configure o fluxo no Make: formulário → IA → Google Docs
+- [ ] Defina 3 temas de post para testar o processo
+- [ ] Publique o primeiro artigo e monitore o tempo economizado

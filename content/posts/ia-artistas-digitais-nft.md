@@ -29,36 +29,24 @@ Criar arte do zero leva horas. IA gera variações em segundos para você escolh
 
 > **Exemplo real:** Um artista digital usava Midjourney para gerar bases de personagens. O tempo de criação **caiu de 20 horas para 2 horas** por peça. Ele passou a produzir **5 peças por semana** em vez de 1.
 
----
-
+> ---
 > **🚀 Quer gerar sua primeira arte com IA hoje?** Guia gratuito com prompts prontos. [Baixar agora](#)
-
----
+> ---
 
 ## Análise de mercado que mostra o que vende
 
-Você cria no escuro. IA analisa marketplaces e mostra o que está vendendo agora.
+Você cria no escuro. IA analisa marketplaces e identifica tendências antes de você começar a desenhar.
 
-### O que a IA analisa:
+### O que a IA descobre:
 
-- **Tendências:** Cores, temas e estilos mais vendidos
-- **Preços:** Faixa ideal para seu tipo de arte
-- **Concorrência:** Artistas similares e seus preços
-- **Demanda:** Temas com alta procura e baixa oferta
+- **Cores:** Quais paletas estão vendendo mais este mês
+- **Temas:** Personagens, paisagens ou abstratos com maior demanda
+- **Preço:** Faixa de valor ideal para cada estilo de arte
+- **Concorrência:** Quantos artistas estão criando no mesmo nicho
 
-## Automação de publicação em marketplaces
+## Checklist para vender arte digital com IA
 
-Publicar em 5 marketplaces manualmente toma horas. Com IA, você configura uma vez e publica em todos.
-
-**Marketplaces suportados:**
-- OpenSea
-- Rarible
-- Foundation
-- KnownOrigin
-
-## Checklist para vender sua primeira arte com IA
-
-- [ ] Teste 2 ferramentas de geração de arte
-- [ ] Analise tendências do marketplace
-- [ ] Crie 10 peças com IA + refinamento manual
-- [ ] Publique em 3 marketplaces simultaneamente
+- [ ] Defina o estilo e tema da sua coleção baseado em dados de mercado
+- [ ] Gere 10 variações com IA e selecione as 3 melhores
+- [ ] Refine manualmente os detalhes que a IA não capturou
+- [ ] Publique no marketplace com preço baseado na análise de concorrência

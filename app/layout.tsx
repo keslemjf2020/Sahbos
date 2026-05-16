@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>
               <h4 className="font-semibold mb-3 text-sm text-white">Newsletter</h4>
               <p className="text-slate-500 text-xs mb-3">Receba os melhores artigos toda semana.</p>
-              <form className="flex"><input type="email" placeholder="seu@email.com" className="flex-1 px-3 py-2 rounded-l-lg bg-white/[0.04] border border-white/[0.08] text-xs text-white placeholder-slate-600 focus:outline-none focus:border-cyan-500/50" /><button className="px-3 py-2 rounded-r-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-xs font-semibold hover:opacity-90">OK</button></form>
+              <form className="flex"><input type="email" placeholder="seu@email.com" className="flex-1 px-3 py-2 rounded-l-lg bg-white/[0.04] border border-white/[0.08] text-xs text-white placeholder-slate-600 focus:outline-none focus:border-cyan-500/50" /><button className="px-3 py-2 rounded-r-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-xs font-semibold hover:opacity-90">Inscrever</button></form>
             </div>
           </div>
           <div className="border-t border-white/[0.04] py-4 text-center text-[10px] text-slate-600">© 2026 Automação IA · Alguns links são de afiliados</div>

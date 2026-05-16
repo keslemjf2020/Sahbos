@@ -27,11 +27,9 @@ Cardápio repetido cansa o cliente. IA sugere pratos baseados no que está em al
 
 > **Exemplo real:** Um chef em SP usava IA para criar cardápios sazonais. O tempo de criação **caiu de 3 dias para 4 horas**. A margem média **subiu 12 pontos percentuais**.
 
----
-
+> ---
 > **🚀 Quer automatizar a criação de cardápios do seu restaurante?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Desenvolvimento de receitas com custo calculado
 
@@ -39,24 +37,16 @@ Criar receita nova é chute. IA calcula custo de cada ingrediente e sugere subst
 
 ### O que a IA faz:
 
-- **Calcula custo** por porção automaticamente
-- **Sugere substituições** para ingredientes caros
-- **Ajusta quantidade** para evitar desperdício
-- **Gera ficha técnica** completa
+- **Calcula custo** de cada ingrediente com base no fornecedor
+- **Sugere substituições** por ingredientes mais baratos ou da estação
+- **Ajusta porções** para manter o custo dentro da margem desejada
+- **Gera ficha técnica** com rendimento, tempo de preparo e valor nutricional
 
-## Precificação inteligente que garante margem
-
-Preço errado é prejuízo. IA calcula o preço ideal com base no custo e no mercado.
-
-**Como funciona:**
-- Calcula custo total do prato
-- Aplica margem desejada (70-80%)
-- Compara com preço de concorrentes
-- Sugere preço final competitivo
+> **Dica prática:** Antes de testar uma receita nova, peça para a IA calcular o custo. Se a margem for menor que 65%, ajuste os ingredientes ou o preço.
 
 ## Checklist para otimizar seu cardápio
 
-- [ ] Configure IA para análise de tendências
-- [ ] Ative cálculo automático de custo por receita
-- [ ] Implemente precificação inteligente
-- [ ] Renove cardápio a cada estação
+- [ ] Use IA para analisar tendências e ingredientes da estação
+- [ ] Calcule a margem de cada prato antes de incluir no cardápio
+- [ ] Substitua ingredientes caros por alternativas com margem maior
+- [ ] Monitore a margem média do cardápio no primeiro mês

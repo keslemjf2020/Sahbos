@@ -27,36 +27,24 @@ Em vez de começar do zero ou usar template genérico, a IA cria um layout perso
 
 > **Exemplo real:** Um empreendedor digital usou 10Web AI para criar a landing page do curso dele. **Pronta em 20 minutos** em vez de 2 semanas. Custo: **R$ 0** (plano grátis).
 
----
-
+> ---
 > **🚀 Quer criar sua landing page hoje?** Guia passo a passo com as melhores ferramentas. [Baixar agora](#)
-
----
+> ---
 
 ## Texto que converte sem você escrever
 
-Headline, benefícios, chamada para ação. A IA escreve tudo baseado no seu produto e público-alvo.
+Headline, benefícios, chamada para ação. A IA gera o texto completo da sua landing page baseado no seu produto e público-alvo.
 
-### O que a IA gera:
+### O que a IA escreve automaticamente:
 
-- **Headline** que prende atenção
-- **Subtítulo** que explica o benefício
-- **3 benefícios** principais do seu produto
-- **CTA** que gera clique
-
-## Otimização que dobra sua conversão
-
-Landing page no ar, mas ninguém compra. IA testa variações e mostra o que funciona.
-
-**Como funciona:**
-- Gera 3 versões da página
-- Testa com tráfego real
-- Mostra qual versão converte mais
-- Aplica a vencedora automaticamente
+- **Headline:** Título principal que prende a atenção em segundos
+- **Subtítulo:** Complemento que explica o valor do seu produto
+- **Benefícios:** Lista de 3 a 5 vantagens para o cliente
+- **CTA:** Botão de chamada para ação com texto persuasivo
 
 ## Checklist para criar sua landing page com IA
 
-- [ ] Escolha ferramenta de IA (10Web ou Framer)
-- [ ] Descreva seu produto e público-alvo
-- [ ] Gere layout e revise detalhes
-- [ ] Publique e otimize com testes
+- [ ] Defina o objetivo da página (venda, captura de lead, evento)
+- [ ] Descreva o layout para a IA (tom, cores, seções necessárias)
+- [ ] Gere o texto com IA (headline, benefícios, CTA)
+- [ ] Publique e teste com tráfego pago (R$ 50 de teste é suficiente)

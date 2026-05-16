@@ -27,11 +27,9 @@ A guerra entre OpenAI, DeepSeek, Google e Anthropic beneficiou você. Todas mant
 
 > **Na prática:** Um freelancer de marketing usa DeepSeek para resumir relatórios de 30 páginas em 5 minutos. De graça.
 
----
-
+> ---
 > **🚀 Quer explorar ferramentas IA gratuitas?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Canva Magic Studio: design sem pagar
 
@@ -39,24 +37,14 @@ A guerra entre OpenAI, DeepSeek, Google e Anthropic beneficiou você. Todas mant
 
 **O que gera de graça:**
 - **Posts para Instagram:** 10 variações por mês
-- **Thumbnails para YouTube:** 5 por mês
-- **Apresentações:** 3 completas por mês
-- **Logos:** 2 opções por mês
+- **Thumbnails para YouTube:** 5 designs diferentes
+- **Logos e identidade visual:** 3 opções completas
 
-## Make: automação sem programar
+> **Dica prática:** Use as 50 gerações do Canva para criar um mês inteiro de conteúdo visual. Planeje antes para não desperdiçar.
 
-1.000 operações por mês no plano grátis. Conecta Google Sheets, Gmail, Slack, Telegram e 1500+ apps.
+## Checklist para usar IA gratuita
 
-**Automações que cabem no grátis:**
-- **E-mail automático:** Responder formulário com confirmação
-- **Planilha viva:** Atualizar dados de vendas automaticamente
-- **Notificação:** Alertar no Telegram quando lead chegar
-- **Backup:** Salvar anexos do Gmail no Drive
-
-## Checklist para usar IA de graça
-
-- [ ] Crie conta no DeepSeek Chat (500 usos/dia)
-- [ ] Configure Canva IA para design mensal
-- [ ] Ative Make para 3 automações essenciais
-- [ ] Teste ChatGPT Free para conversas rápidas
-- [ ] Monitore limites para não exceder
+- [ ] Cadastre-se no DeepSeek Chat para análise de documentos e textos
+- [ ] Use o Canva Magic Studio para criar conteúdo visual mensal
+- [ ] Configure automações no Make com o plano grátis de 1.000 operações
+- [ ] Monitore o uso mensal de cada ferramenta para não estourar os limites

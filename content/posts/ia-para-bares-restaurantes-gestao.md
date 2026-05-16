@@ -27,11 +27,9 @@ Em vez de preço fixo, o cardápio se adapta ao horário, demanda e estoque.
 
 > **Exemplo real:** Um bar em Curitiba implementou cardápio inteligente. Próximo ao vencimento de insumos, a IA aplicava desconto automático e destacava o prato. O desperdício **caiu 40% em 2 meses**.
 
----
-
+> ---
 > **🚀 Quer automatizar a gestão do seu bar ou restaurante?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Controle de estoque que prevê a demanda
 
@@ -41,22 +39,14 @@ Faltar cerveja no sábado é venda perdida. Ter insumo parado é dinheiro parado
 
 - **Histórico de vendas** por dia da semana
 - **Sazonalidade** (feriado, fim de semana, evento)
-- **Prazo do fornecedor** para entrega
-- **Margem de segurança** de 15%
+- **Prazo do fornecedor** para cada insumo
+- **Estoque de segurança** para dias de pico
 
-## Gestão de pedidos que acelera o serviço
+> **Dica prática:** Configure alerta automático quando o estoque de um insumo chegar a 20% do consumo semanal. Tempo suficiente para repor sem correr risco.
 
-Pedido anotado errado, bebida errada, cliente insatisfeito. IA elimina o erro humano.
+## Checklist para otimizar seu bar ou restaurante
 
-**Como funciona:**
-- Garçom usa tablet ou comanda digital
-- Pedido vai direto para cozinha e bar
-- IA prioriza pedidos por tempo de preparo
-- Cliente recebe notificação quando fica pronto
-
-## Checklist para modernizar seu bar
-
-- [ ] Configure cardápio digital com IA
-- [ ] Ative controle de estoque inteligente
-- [ ] Implemente gestão de pedidos digital
-- [ ] Monitore desperdício semanalmente
+- [ ] Implemente cardápio digital com IA (preços dinâmicos e sugestões)
+- [ ] Configure controle de estoque com previsão de demanda
+- [ ] Ative alertas automáticos para reposição de insumos
+- [ ] Monitore a redução de desperdício e ruptura no primeiro mês

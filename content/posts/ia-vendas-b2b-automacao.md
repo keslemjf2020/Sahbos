@@ -39,38 +39,27 @@ Lead chega no Telegram. IA pergunta, analisa e decide se vale seguir.
 
 > **Dica prática:** Configure 3 perguntas de qualificação. Se o lead responder todas, é quente. Se não, entra em nutrição automática.
 
----
-
-> **🚀 Quer automatizar a prospecção da sua empresa?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
+> **🚀 Quer automatizar a prospecção de vendas da sua empresa?** Teste grátis por 14 dias. [Comece agora](#)
+> ---
 
 ## Follow-up automático que não parece robô
 
-Esquecer follow-up é o maior erro de vendas. IA gerencia o timing e o tom.
+Lead pediu para pensar. Você esquece. IA lembra e envia mensagem personalizada no timing certo.
 
 ### Como funciona:
 
-| Dias sem resposta | O que a IA envia | Tom |
-|-------------------|------------------|-----|
-| 3 dias | "Oi [nome], só lembrando do convite" | Amigável |
-| 7 dias | "Vi que não respondeu, posso ajudar?" | Útil |
-| 14 dias | "Última chance, oferta termina" | Urgente |
+| Dia após contato | Mensagem da IA | Objetivo |
+|------------------|----------------|----------|
+| 1 dia | "Oi [nome], viu o material que enviei?" | Reforçar oferta |
+| 3 dias | "Uma dúvida que surgiu: [pergunta personalizada]" | Engajar com valor |
+| 7 dias | "Fechou com concorrente? Posso ajudar com [dor específica]" | Recuperar lead frio |
 
-## Análise de conversão que mostra o gargalo
+> **Exemplo real:** Uma empresa de software usava follow-up automático com IA. A taxa de conversão de leads frios **subiu de 5% para 18%** em 3 meses.
 
-Vender sem métricas é chute. IA mostra onde o funil quebra.
+## Checklist para automatizar vendas B2B
 
-**O que a IA analisa:**
-- **Taxa de abertura:** E-mails abertos vs. enviados
-- **Taxa de resposta:** Leads que responderam vs. contatados
-- **Taxa de conversão:** Leads que fecharam vs. qualificados
-- **Gargalo:** Onde os leads estão travando
-
-## Checklist para automatizar suas vendas B2B
-
-- [ ] Configure canal de entrada (Telegram, WhatsApp)
-- [ ] Ative orquestrador (Make ou n8n)
-- [ ] Implemente bot de qualificação com IA
-- [ ] Configure follow-up automático com tom humano
-- [ ] Monitore taxas de conversão semanalmente
+- [ ] Configure canal de entrada (Telegram, WhatsApp ou formulário)
+- [ ] Crie 3 perguntas de qualificação automática com IA
+- [ ] Implemente follow-up automático com 3 mensagens em timing diferente
+- [ ] Monitore a taxa de conversão de leads frios no primeiro mês

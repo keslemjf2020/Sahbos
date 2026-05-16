@@ -36,25 +36,26 @@ Boleto chega por e-mail. Você abre, digita os dados no sistema, agenda o pagame
 - **Alerta:** Notificação 3 dias antes do vencimento
 - **Execução:** Pagamento realizado sem intervenção
 
----
+> ---
+> **🚀 Automatize suas contas a pagar em 1 hora.** Teste grátis por 14 dias e veja as multas desaparecerem. [Comece agora](#)
+> ---
 
-> **🚀 Automatize suas contas a pagar em 1 hora.** Teste grátis por 14 dias. [Comece agora](#)
+## Fluxo de caixa que prevê apertos antes deles acontecerem
 
----
+Saber se vai faltar dinheiro no mês que vem é essencial. Com IA, você não precisa mais chutar.
 
-## Fluxo de caixa que prevê o futuro
+### O que a IA projeta automaticamente:
 
-Não precisa mais chutar. A IA analisa os últimos 6 meses e projeta os próximos 90 dias.
+- **Receitas futuras:** Baseado em contratos e notas emitidas
+- **Despesas fixas:** Aluguel, salários, fornecedores recorrentes
+- **Despesas variáveis:** Média histórica dos últimos 6 meses
+- **Saldo projetado:** Gráfico com alerta de saldo negativo
 
-**O que ela mostra:**
-- Saldo projetado para cada semana
-- Alertas de possíveis apertos
-- Sugestões de antecipação de recebíveis
-- Comparativo com meses anteriores
+> **Exemplo real:** Uma pequena indústria de embalagens usou IA para projetar fluxo de caixa. Descobriu que em 45 dias teria saldo negativo. Conseguiu renegociar prazos com fornecedores **antes** do aperto. Economizou R$ 12 mil em juros.
 
-## Checklist para automatizar seu financeiro
+## Checklist para automatizar suas contas
 
-- [ ] Configure conciliação bancária automática
-- [ ] Ative leitura de boletos por e-mail
-- [ ] Programe pagamentos recorrentes
-- [ ] Monitore fluxo de caixa projetado semanalmente
+- [ ] Conecte sua conta bancária ao sistema de conciliação automática
+- [ ] Configure a leitura automática de boletos que chegam por e-mail
+- [ ] Ative os alertas de vencimento com 3, 5 e 7 dias de antecedência
+- [ ] Monitore a projeção de fluxo de caixa semanalmente na primeira quinzena

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog-automacao-beryl.vercel.app/sitemap.xml

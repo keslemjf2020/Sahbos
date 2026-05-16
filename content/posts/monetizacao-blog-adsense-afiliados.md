@@ -25,11 +25,9 @@ O erro mais comum é jogar anúncio em qualquer lugar e torcer. Posicionamento e
 
 > **Dica prática:** Coloque um anúncio in-article depois do segundo parágrafo. O leitor já está engajado e mais propenso a clicar. Teste por 30 dias e compare o **RPM**.
 
----
-
+> ---
 > **🚀 Quer aumentar a receita do seu blog?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Marketing de afiliados: o produto certo faz tudo funcionar
 
@@ -41,23 +39,13 @@ Promover produto errado é o motivo número 1 de baixa conversão. Não adianta 
 |----------|-----------------|-------------|
 | Relevância | Produto resolve problema do leitor? | Alta |
 | Comissão | Quanto você ganha por venda? | > 20% |
-| Conversão | Produto converte bem? | > 3% |
-| Suporte | Afiliado tem material de apoio? | Sim |
+| Conversão | Produto tem boa taxa de conversão? | > 3% |
 
-## Conteúdo que vende sem parecer propaganda
-
-O leitor moderno detecta texto de venda em segundos. Conteúdo útil que resolve um problema converte mais que review genérico.
-
-**Estrutura que funciona:**
-- **Problema real:** "Seu site carrega em 8 segundos"
-- **Solução prática:** "Testamos 5 plugins de cache"
-- **Recomendação honesta:** "O WP Rocket é o melhor custo-benefício"
-- **Link de afiliado:** Natural, no contexto
+> **Exemplo real:** Um blog de produtividade promovia um curso de gestão de tempo. A comissão era de 40%. A taxa de conversão **subiu de 1,5% para 4,2%** quando trocaram o produto por um mais relevante ao público.
 
 ## Checklist para monetizar seu blog
 
-- [ ] Posicione anúncios in-article após 2º parágrafo
-- [ ] Escolha produtos de afiliado com alta relevância
-- [ ] Crie conteúdo que resolve problema, não vende
-- [ ] Teste posições de anúncio por 30 dias
-- [ ] Monitore RPM e taxa de conversão semanalmente
+- [ ] Posicione anúncios in-article após o segundo parágrafo
+- [ ] Teste 3 produtos de afiliados diferentes por 30 dias
+- [ ] Priorize produtos com comissão acima de 20% e relevância alta
+- [ ] Monitore o RPM e a taxa de conversão de afiliados semanalmente

@@ -29,36 +29,24 @@ Paciente quer marcar, mas seu horário disponível não encaixa. Você perde o p
 
 > **Exemplo real:** Uma clínica em São Paulo implementou agendamento inteligente. A taxa de faltas **caiu de 20% para 5%** em 3 meses. O faturamento **subiu R$ 4.000/mês**.
 
----
-
+> ---
 > **🚀 Automatize sua clínica em 1 dia.** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Lembretes que reduzem faltas em 70%
 
-Paciente confirma e esquece. Com IA, o lembrete é personalizado e enviado no melhor horário.
+Paciente confirma e esquece. Com IA, você envia lembretes automáticos no WhatsApp sem precisar de secretária.
 
 ### Como configurar:
 
-- **48h antes:** "Confirme sua consulta de segunda"
-- **24h antes:** "Lembrete: consulta amanhã às 14h"
-- **2h antes:** "Estamos te esperando!"
-- **Se não confirmar:** "Vaga liberada para outro paciente"
+- **48h antes:** "Lembrete: consulta dia 15/05 às 14h. Confirme presença."
+- **24h antes:** Reenvio para quem não confirmou
+- **2h antes:** "Seu horário é daqui a 2 horas. Estamos prontos."
+- **Cancelamento:** Se paciente não confirmar, horário é liberado automaticamente
 
-## Gestão financeira que não deixa dinheiro na mesa
+## Checklist para implantar IA na sua clínica
 
-Procedimento feito, pagamento pendente. IA cobra automaticamente e oferece parcelamento.
-
-**Benefícios:**
-- Cobrança automática pós-procedimento
-- Parcelamento no cartão em segundos
-- Relatório de inadimplência semanal
-- Ofertas personalizadas para reativar pacientes
-
-## Checklist para modernizar seu consultório
-
-- [ ] Configure agendamento online com IA
-- [ ] Ative lembretes automáticos personalizados
-- [ ] Implemente cobrança recorrente automática
-- [ ] Monitore taxa de faltas semanalmente
+- [ ] Configure o agendamento online com link para o paciente
+- [ ] Ative os lembretes automáticos no WhatsApp (48h, 24h e 2h)
+- [ ] Implemente a liberação automática de horários não confirmados
+- [ ] Monitore a taxa de faltas na primeira quinzena

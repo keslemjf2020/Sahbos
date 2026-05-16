@@ -27,11 +27,9 @@ Estar no lugar certo na hora certa é o segredo para corridas longas e bem pagas
 
 > **Exemplo real:** Um motorista em São Paulo usava IA de previsão. O ganho por hora **subiu de R$ 10 para R$ 22**. A quilometragem diária **caiu de 180 km para 120 km**.
 
----
-
+> ---
 > **🚀 Quer otimizar suas corridas com IA?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Escolha inteligente de corridas
 
@@ -40,24 +38,16 @@ Aceitar toda corrida é erro. Algumas não compensam o tempo e combustível. IA 
 ### Como funciona:
 
 | Corrida oferecida | O que a IA calcula | Decisão |
-|-------------------|--------------------|---------|
-| 5 km, R$ 8 | Lucro líquido: R$ 3 | Recusar |
-| 15 km, R$ 25 | Lucro líquido: R$ 15 | Aceitar |
-| 8 km, R$ 18 (tarifa dinâmica) | Lucro líquido: R$ 12 | Aceitar |
+|-------------------|--------------------|----------|
+| 8 km, R$ 12 | R$ 1,50 por km, 15 min | Recusar (baixo retorno) |
+| 15 km, R$ 35 | R$ 2,33 por km, 25 min | Aceitar (bom retorno) |
+| 3 km, R$ 8 | R$ 2,66 por km, 8 min | Aceitar (rápido e compensa) |
 
-## Análise de lucro líquido por corrida
+> **Dica prática:** Configure a IA para aceitar automaticamente corridas acima de R$ 2 por km. Você elimina as corridas ruins e foca nas que realmente valem a pena.
 
-Ganho bruto não é lucro. IA calcula o que realmente sobra no seu bolso.
+## Checklist para aumentar seu lucro como motorista
 
-**Cálculo automático:**
-- **Receita:** Valor da corrida
-- **Custos:** Combustível + desgaste + pedágio
-- **Tempo:** Minutos gastos
-- **Lucro:** O que realmente sobra
-
-## Checklist para ganhar mais como motorista
-
-- [ ] Configure previsão de horários e regiões
-- [ ] Ative escolha inteligente de corridas
-- [ ] Implemente análise de lucro líquido
-- [ ] Monitore ganho por hora semanalmente
+- [ ] Ative a previsão de horários e regiões com maior demanda
+- [ ] Configure critérios mínimos de valor por km para aceitar corridas
+- [ ] Posicione-se em áreas estratégicas antes dos horários de pico
+- [ ] Monitore o aumento do ganho por hora e a redução de quilometragem

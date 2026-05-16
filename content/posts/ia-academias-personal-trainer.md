@@ -36,28 +36,26 @@ Aluno não aparece há 15 dias. A IA detecta e dispara uma mensagem automática.
 ### Como configurar:
 
 - **15 dias sem treino:** "Sentimos sua falta, vem treinar!"
-- **30 dias sem treino:** "Oferecemos 1 aula grátis com personal"
-- **45 dias sem treino:** "Plano congelado até você voltar"
+- **30 dias sem treino:** Oferta de reativação com desconto
 
----
+> ---
+> **🚀 Automatize sua academia em 1 hora.** Teste grátis por 14 dias e veja a retenção subir. [Comece agora](#)
+> ---
 
-> **🚀 Automatize sua academia em 1 dia.** Teste grátis por 14 dias. [Comece agora](#)
+## Agendamento que não deixa horário vazio
 
----
+Aluno agenda, não aparece, e o horário fica vazio. Com IA, você recupera esses horários automaticamente.
 
-## Gestão financeira que não deixa dinheiro na mesa
+### O que a IA gerencia:
 
-Mensalidade venceu e o aluno não pagou. Com IA, a cobrança é automática e personalizada.
+- **Confirmação:** Envia WhatsApp 24h antes do horário
+- **Liberação:** Horário não confirmado é liberado para outros alunos
+- **Lista de espera:** Alunos interessados são notificados automaticamente
+- **Análise:** Identifica horários com maior taxa de falta
 
-**Benefícios:**
-- Cobrança automática no vencimento
-- Lembrete para alunos com pagamento atrasado
-- Relatório de inadimplência semanal
-- Ofertas personalizadas para reativar alunos
+## Checklist para implantar IA na sua academia
 
-## Checklist para modernizar sua academia
-
-- [ ] Configure IA para gerar treinos personalizados
-- [ ] Ative alertas automáticos de alunos ausentes
-- [ ] Implemente cobrança recorrente automática
-- [ ] Monitore taxa de retenção semanalmente
+- [ ] Configure a IA para gerar treinos personalizados automáticos
+- [ ] Ative os alertas de inatividade (15 e 30 dias sem treino)
+- [ ] Implemente confirmação automática de agendamentos
+- [ ] Monitore a taxa de cancelamento na primeira quinzena

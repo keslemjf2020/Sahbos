@@ -27,11 +27,9 @@ Escrever "lindo apartamento com 2 quartos, sala ampla" 50 vezes por semana toma 
 
 > **Dica prática:** Em 2 minutos, o anúncio está pronto para 3 plataformas diferentes.
 
----
-
+> ---
 > **🚀 Quer automatizar os anúncios dos seus imóveis?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Qualificação automática de leads
 
@@ -46,17 +44,18 @@ Nem todo lead está pronto para comprar. Alguns só estão curiosos. IA separa q
 
 ## Atendimento 24h que não deixa lead escapar
 
-Lead chega às 22h de sábado. Sem IA, ele espera até segunda. Com IA, ele é atendido na hora.
+Lead chega às 22h de sábado. Sem IA, ele espera até segunda-feira. Com IA, ele é atendido na hora.
 
-**O que o chatbot faz:**
-- Responde perguntas sobre o imóvel
-- Envia fotos e vídeos
-- Agenda visita no calendário
-- Qualifica e avisa você
+### O que a IA faz:
 
-## Checklist para vender mais imóveis
+- **Responde dúvidas** sobre imóveis, valores e disponibilidade
+- **Agenda visita** automaticamente com base na sua agenda
+- **Envia documentos** (fotos, planta, matrícula) sem você tocar
+- **Faz follow-up** automático após 24h sem resposta
 
-- [ ] Configure descrições automáticas para anúncios
-- [ ] Ative qualificação de leads por IA
-- [ ] Implemente chatbot 24h no WhatsApp
-- [ ] Monitore taxa de conversão semanalmente
+## Checklist para vender mais imóveis com IA
+
+- [ ] Automatize descrições de imóveis para site, Instagram e WhatsApp
+- [ ] Configure qualificação automática de leads com perguntas-chave
+- [ ] Ative chatbot no WhatsApp para atendimento 24h
+- [ ] Monitore o tempo de resposta e a taxa de conversão no primeiro mês

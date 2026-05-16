@@ -29,36 +29,26 @@ Preço fixo não funciona mais. Concorrente muda, demanda muda, validade muda. I
 
 > **Exemplo real:** Um supermercado em Curitiba usava precificação dinâmica. As vendas de produtos próximos ao vencimento **subiram 60%**. O desperdício **caiu 45%** em 3 meses.
 
----
-
+> ---
 > **🚀 Quer automatizar a precificação do seu supermercado?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Reposição automática que nunca deixa faltar
 
-Produto em falta é venda perdida. IA calcula o ponto ideal de reposição.
+Produto em falta é venda perdida. IA calcula o ponto ideal de reposição baseado em histórico e sazonalidade.
 
-### O que a IA considera:
+### O que a IA calcula:
 
-- **Histórico de vendas** por horário e dia da semana
-- **Sazonalidade** (fim de semana, feriado, promoção)
-- **Prazo do fornecedor** para entrega
-- **Margem de segurança** de 10%
+- **Histórico de vendas:** Quantas unidades saem por dia
+- **Sazonalidade:** Produtos que vendem mais em datas específicas
+- **Prazo do fornecedor:** Tempo entre pedido e entrega
+- **Estoque de segurança:** Margem para picos inesperados de demanda
 
-## Gestão de validade que elimina desperdício
+> **Dica prática:** Configure alerta automático quando o estoque de um item chegar a 20 unidades. Tempo suficiente para repor sem correr risco de ruptura.
 
-Produto venceu no estoque é dinheiro no lixo. IA alerta antes de perder.
+## Checklist para automatizar seu supermercado
 
-**Alertas automáticos:**
-- **60 dias:** Produto com risco médio
-- **30 dias:** Produto com risco alto
-- **15 dias:** Desconto automático sugerido
-- **7 dias:** Doação ou descarte programado
-
-## Checklist para modernizar seu supermercado
-
-- [ ] Configure precificação dinâmica com IA
-- [ ] Ative reposição automática de estoque
-- [ ] Implemente alertas de validade
-- [ ] Monitore desperdício semanalmente
+- [ ] Ative a precificação dinâmica com IA (monitore concorrentes e validade)
+- [ ] Configure reposição automática baseada em histórico de vendas
+- [ ] Defina estoque de segurança para os 50 itens mais vendidos
+- [ ] Monitore a redução de desperdício e ruptura no primeiro mês

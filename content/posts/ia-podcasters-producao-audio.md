@@ -27,11 +27,9 @@ Convidado grava do celular, você do computador. Áudio inconsistente. IA equali
 
 > **Exemplo real:** Um podcaster de entrevistas usava Riverside. O tempo de pós-produção de áudio **caiu de 2 horas para 15 minutos**.
 
----
-
+> ---
 > **🚀 Quer automatizar a produção do seu podcast?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Edição automática que remove silêncios e vícios de linguagem
 
@@ -42,22 +40,16 @@ Editar manualmente "hããã", "tipo", "né" e silêncios é repetitivo. IA faz e
 | O que a IA remove | Como faz | Resultado |
 |-------------------|----------|-----------|
 | Silêncios longos | Detecta e corta automaticamente | Episódio mais dinâmico |
-| Vícios de linguagem | Remove "hããã", "tipo", "né" | Áudio mais profissional |
-| Interrupções | Suaviza cortes bruscos | Transições naturais |
+| Vícios de linguagem ("hããã", "tipo", "né") | Remove com precisão | Áudio profissional |
+| Interrupções e sobreposições | Separa e organiza as falas | Fluxo natural |
 
-## Geração automática de descrições e posts
+**Ferramentas:** **Descript** ou **Adobe Podcast**. IA identifica e remove automaticamente.
 
-Depois de editar, ainda precisa escrever descrição, notas e posts. IA gera tudo em minutos.
+> **Dica prática:** Grave com o Descript ativado. A edição acontece em tempo real. Ao final da gravação, o episódio já está 80% pronto.
 
-**O que a IA gera:**
-- **Descrição do episódio:** 150 palavras com gancho
-- **Notas do episódio:** 5 tópicos principais com timestamps
-- **Posts para redes sociais:** 3 versões (Instagram, Twitter, LinkedIn)
-- **Legendas para YouTube e Spotify:** SEO otimizado
+## Checklist para otimizar seu podcast
 
-## Checklist para acelerar seu podcast
-
-- [ ] Configure gravação remota com IA
-- [ ] Ative edição automática de áudio
-- [ ] Implemente geração de descrições e posts
-- [ ] Reduza pós-produção em 80%
+- [ ] Use Riverside ou Descript para gravação remota com qualidade automática
+- [ ] Ative a remoção automática de silêncios e vícios de linguagem
+- [ ] Configure a distribuição automática para todas as plataformas
+- [ ] Monitore a redução de tempo de pós-produção no primeiro mês

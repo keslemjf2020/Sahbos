@@ -44,36 +44,27 @@ Crie uma planilha no Google Sheets com perguntas frequentes e respostas.
 | "estoque", "disponível" | "Consulte disponibilidade no site" |
 | "prazo", "entrega" | "Prazo médio de 5 dias úteis" |
 
----
-
+> ---
 > **🚀 Quer o template pronto do chatbot?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
+> ---
 
----
+### 3. Conecte a IA para entender perguntas
 
-### 3. Configure a IA para responder
+Adicione o módulo **DeepSeek** no Make. Configure o prompt para que a IA leia a mensagem do cliente e busque a resposta na planilha.
 
-DeepSeek recebe a pergunta do cliente, consulta a base e gera a resposta. Se não encontrar, encaminha para você.
+O prompt ideal:
 
-**Regras de funcionamento:**
+> "Você é um atendente virtual. Responda a pergunta do cliente com base na planilha. Se não encontrar, peça para aguardar um humano."
 
-- Pergunta conhecida → Resposta automática
-- Pergunta complexa → Encaminha para humano
-- Cliente irritado → Prioriza atendimento humano
-- Fora do horário → Responde com "retornaremos amanhã"
+### 4. Envie a resposta de volta
 
-### 4. Teste e refine
+Adicione o módulo **WhatsApp** no Make para enviar a resposta gerada pela IA de volta ao cliente.
 
-Envie 10 perguntas diferentes para o robô. Veja se respondeu certo. Ajuste a base de conhecimento.
+Pronto. Seu chatbot está funcionando 24h por dia.
 
-## 3 perguntas que seu chatbot precisa responder
+## Checklist para montar seu chatbot hoje
 
-- "Quanto custa?" — Preços e planos
-- "Tem em estoque?" — Disponibilidade de produtos
-- "Qual o prazo?" — Prazo de entrega ou serviço
-
-## Checklist para seu primeiro chatbot
-
-- [ ] Crie conta no Make e no DeepSeek
-- [ ] Monte base de conhecimento no Sheets
-- [ ] Configure fluxo webhook → IA → resposta
-- [ ] Teste com 10 perguntas reais de clientes
+- [ ] Crie uma conta no Make (grátis) e no provedor WhatsApp Business
+- [ ] Monte a planilha com as 10 perguntas mais frequentes do seu negócio
+- [ ] Configure o fluxo: Webhook → DeepSeek → WhatsApp
+- [ ] Teste com 3 perguntas reais antes de colocar em produção

@@ -27,11 +27,9 @@ Cliente fiel merece benefício. Mas você precisa saber quem ele é.
 
 > **Exemplo real:** Uma rede de postos em Goiânia implementou reconhecimento de placa com fidelidade. A recompra em 30 dias **subiu de 40% para 65%**. O ticket médio **aumentou 15%** com ofertas personalizadas.
 
----
-
+> ---
 > **🚀 Quer automatizar a fidelidade do seu posto?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Gestão de tanques que evita falta de combustível
 
@@ -41,23 +39,15 @@ Gasolina, etanol, diesel acabam no pior momento. IA prevê o consumo e alerta an
 
 | Combustível | Consumo diário | Alerta da IA |
 |-------------|----------------|--------------|
-| Gasolina | 15.000 litros | "Tanque vai acabar em 2 dias" |
-| Etanol | 8.000 litros | "Tanque vai acabar em 3 dias" |
-| Diesel | 7.000 litros | "Tanque vai acabar em 5 dias" |
+| Gasolina | 15.000 L | "Reposição em 2 dias" |
+| Etanol | 8.000 L | "Reposição em 4 dias" |
+| Diesel | 7.000 L | "Reposição em 3 dias" |
 
-## Precificação dinâmica que responde à concorrência
+> **Dica prática:** Configure a IA para alertar com 3 dias de antecedência. Dá tempo de negociar com fornecedor e evitar prejuízo.
 
-Posto vizinho baixou o preço. Sem IA, você descobre quando perdeu 20% do movimento.
+## Checklist para otimizar seu posto de gasolina
 
-**Como funciona:**
-- Monitora preços da concorrência automaticamente
-- Ajusta preço para manter margem e competitividade
-- Sugere promoções estratégicas por horário
-- Maximiza lucro sem perder clientes
-
-## Checklist para fidelizar clientes no posto
-
-- [ ] Configure reconhecimento de placa na entrada
-- [ ] Ative programa de fidelidade inteligente
-- [ ] Implemente gestão de tanques com alertas
-- [ ] Monitore preços da concorrência semanalmente
+- [ ] Implemente reconhecimento de placa com programa de fidelidade automático
+- [ ] Configure alertas de reposição de tanques com 3 dias de antecedência
+- [ ] Crie ofertas personalizadas para clientes que não visitam há mais de 30 dias
+- [ ] Monitore o aumento de recompra e ticket médio no primeiro mês

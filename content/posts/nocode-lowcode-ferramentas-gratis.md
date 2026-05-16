@@ -45,44 +45,35 @@ Alternativa open-source ao Make. **Ilimitado** no plano grátis (self-hosted). I
 
 **Ideal para:** Quem quer controle total sem pagar.
 
----
-
+> ---
 > **🚀 Quer automatizar seu negócio com no-code?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Melhores ferramentas low-code gratuitas
 
 ### 1. n8n
 
-Open-source, self-hosted. Interface visual com nós de código (JavaScript, Python). **Ilimitado** no self-hosted.
+Alternativa open-source ao Make. **Self-hosted** ou cloud grátis (20 execuções/dia). Interface visual com nós de código JavaScript.
 
-**Ideal para:** Quem sabe JavaScript/Python básico e quer flexibilidade.
+**Ideal para:** Quem sabe um pouco de lógica e quer flexibilidade.
 
 ### 2. Node-RED
 
-IBM. Visual + JavaScript. **100% gratuito**. Conecta APIs, IoT, bancos de dados.
+Ferramenta da IBM para IoT e APIs. **100% gratuita** e open-source. Interface visual com nós de código.
 
-**Ideal para:** Desenvolvedores que querem prototipar rápido.
+**Ideal para:** Integrações técnicas com APIs, bancos de dados e dispositivos.
 
 ### 3. Dify
 
-Open-source. Interface visual com nós de IA. Ideal para agentes e chatbots. **Ilimitado** no self-hosted.
+Plataforma low-code para criar agentes de IA. **Gratuito** para uso pessoal. Interface visual com nós de prompt e código.
 
-**Ideal para:** Quem quer integrar IA em automações.
+**Ideal para:** Quem quer criar chatbots e automações com IA sem programar do zero.
 
-## Comparativo rápido
+> **Dica prática:** Comece com Make (no-code). Se bater no limite de flexibilidade, migre para n8n (low-code). A transição é suave porque a lógica visual é similar.
 
-| Ferramenta | Tipo | Grátis | Ideal para |
-|------------|------|--------|------------|
-| Make | No-code | 1000 ops/mês | Iniciantes |
-| n8n | Low-code | Ilimitado (self) | Quem programa |
-| Activepieces | No-code | Ilimitado (self) | Controle total |
+## Checklist para escolher sua ferramenta
 
-## Checklist para começar a automatizar
-
-- [ ] Defina 1 tarefa repetitiva para automatizar
-- [ ] Escolha no-code (iniciante) ou low-code (programa)
-- [ ] Crie a primeira automação em 30 minutos
-- [ ] Teste e ajuste por 1 semana
-- [ ] Expanda para 3 automações no primeiro mês
+- [ ] Defina seu nível: nunca automatizou (no-code) ou já tem lógica básica (low-code)
+- [ ] Teste Make ou Zapier para automações simples e rápidas
+- [ ] Migre para n8n ou Activepieces se precisar de mais flexibilidade
+- [ ] Monitore o número de automações ativas e o custo mensal de cada ferramenta

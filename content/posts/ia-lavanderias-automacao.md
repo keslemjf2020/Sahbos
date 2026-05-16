@@ -29,11 +29,9 @@ Cliente quer lavar mas não quer sair de casa. IA gerencia o pedido do início a
 
 > **Exemplo real:** Uma lavanderia em Florianópolis implementou pedido online com IA. O volume de pedidos **dobrou em 60 dias**. Os extravios **caíram de 5 para 0** por mês.
 
----
-
+> ---
 > **🚀 Quer automatizar os pedidos da sua lavanderia?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Rastreamento de peças que elimina extravio
 
@@ -41,24 +39,16 @@ Cada peça recebe uma etiqueta digital. Você sabe onde está a qualquer momento
 
 ### Como funciona:
 
-- **Etiqueta digital** vinculada ao pedido
-- **Scanner** registra entrada e saída
-- **Cliente recebe** foto das peças no WhatsApp
-- **Relatório** mostra peças em cada etapa
+1. **Entrada:** Peça é etiquetada com QR code ou RFID
+2. **Processo:** Cada etapa (lavagem, secagem, passadoria) é registrada
+3. **Saída:** Peça é desvinculada na entrega ao cliente
+4. **Histórico:** Cliente vê o status em tempo real pelo WhatsApp
 
-## Gestão de entregas que otimiza rotas
-
-Motoboy perde tempo indo e voltando. IA organiza a rota ideal.
-
-**Benefícios:**
-- Rotas otimizadas por região
-- Notificação automática ao cliente
-- Comprovante de entrega digital
-- Histórico de coletas e entregas
+> **Dica prática:** Use etiquetas térmicas com QR code. Custo de **R$ 0,02 por peça**. Elimina totalmente o extravio.
 
 ## Checklist para digitalizar sua lavanderia
 
-- [ ] Configure pedido online com WhatsApp
-- [ ] Implemente etiqueta digital por peça
-- [ ] Ative rastreamento em tempo real
-- [ ] Otimize rotas de coleta e entrega
+- [ ] Configure pedido online via WhatsApp Business API + Make
+- [ ] Implemente etiquetagem digital (QR code ou RFID) para cada peça
+- [ ] Ative notificações automáticas de status para o cliente
+- [ ] Monitore a redução de extravios e reclamações no primeiro mês

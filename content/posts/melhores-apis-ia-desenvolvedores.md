@@ -41,11 +41,9 @@ A referência do mercado. Suporta texto, imagem, áudio e vídeo.
 
 **Vantagem:** Melhor performance geral, ecossistema maduro
 
----
-
+> ---
 > **🚀 Quer escolher a API ideal para seu projeto?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ### DeepSeek (V3 / R1)
 
@@ -53,42 +51,33 @@ Modelo chinês com performance comparável ao GPT-4 por **90% menos**.
 
 | Modelo | Input (1M tokens) | Output (1M tokens) |
 |--------|-------------------|--------------------|
-| DeepSeek V3 | $0,27 | $1,10 |
-| DeepSeek R1 | $0,55 | $2,19 |
+| V3 | $0,27 | $1,10 |
+| R1 | $0,55 | $2,19 |
 
-**Contexto máximo:** 128K tokens (V3) / 64K tokens (R1)
+**Contexto máximo:** 128K tokens
 
-**Casos de uso:** Raciocínio complexo, código, economia máxima
+**Casos de uso:** Automação, processamento de texto em grande escala
 
-**Vantagem:** Custo 10x menor que OpenAI para mesma qualidade
+**Vantagem:** Custo muito baixo para tarefas intensivas
+
+> **Dica prática:** Use DeepSeek para automações com Make ou n8n. O custo é tão baixo que você pode processar milhões de tokens por dia.
 
 ### Google Gemini (2.0 Flash / 2.5 Pro)
 
-Modelo do Google com contexto de **1M tokens** e preço competitivo.
+Modelo do Google com integração nativa com o ecossistema Google Cloud.
 
 | Modelo | Input (1M tokens) | Output (1M tokens) |
 |--------|-------------------|--------------------|
-| Gemini 2.0 Flash | $0,10 | $0,40 |
-| Gemini 2.5 Pro | $1,25 | $5,00 |
+| 2.0 Flash | $0,10 | $0,40 |
+| 2.5 Pro | $1,25 | $10,00 |
 
-**Contexto máximo:** 1.000.000 tokens
+**Contexto máximo:** 1M tokens (Flash) / 128K tokens (Pro)
 
-**Casos de uso:** Documentos longos, análise de vídeo, multimodal
+**Casos de uso:** Análise de documentos longos, integração com Google Workspace
 
-**Vantagem:** Contexto gigante e menor latência
+## Checklist para escolher sua API de IA
 
-## Como escolher a API certa
-
-| Cenário | API recomendada | Motivo |
-|---------|-----------------|--------|
-| Orçamento apertado | DeepSeek V3 | 90% mais barato |
-| Documentos longos | Gemini 2.0 Flash | 1M tokens de contexto |
-| Performance máxima | GPT-4.1 | Melhor geral |
-
-## Checklist para integrar IA no seu projeto
-
-- [ ] Defina orçamento por chamada de API
-- [ ] Teste 2 APIs concorrentes com seu caso de uso
-- [ ] Compare latência e qualidade das respostas
-- [ ] Implemente fallback entre APIs
-- [ ] Monitore custo mensal de tokens
+- [ ] Defina o orçamento por mês e o volume de tokens necessário
+- [ ] Teste o modelo com sua tarefa específica antes de integrar
+- [ ] Avalie a latência: modelos menores são mais rápidos
+- [ ] Considere o contexto máximo necessário para seus documentos

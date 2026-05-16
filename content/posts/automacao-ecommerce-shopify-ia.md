@@ -37,25 +37,24 @@ Escrever descrição de 50 produtos é cansativo e demora. Com IA, você gera to
 - Ajusta SEO automaticamente
 - Publica direto no Shopify
 
----
-
+> ---
 > **🚀 Automatize sua loja Shopify em 1 hora.** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Gestão de estoque com alertas inteligentes
 
-Produto chegando ao fim. A IA avisa antes de acabar. Sem cliente frustrado, sem venda perdida.
+Acabar com estoque no meio de uma promoção é prejuízo na certa. IA monitora seus níveis e dispara alertas antes do problema.
 
-**Benefícios:**
-- Alerta automático quando estoque está baixo
-- Sugestão de reabastecimento com base em vendas
-- Relatório semanal de produtos mais vendidos
-- Integração com fornecedores
+### O que a IA monitora automaticamente:
 
-## Checklist para automatizar sua loja
+- **Nível crítico:** Alerta quando estoque chega a 10 unidades
+- **Reposição:** Sugere quantidade ideal para recompra
+- **Sazonalidade:** Ajusta alertas conforme época do ano
+- **Fornecedor:** Dispara pedido automático para parceiros cadastrados
 
-- [ ] Configure chatbot com acesso ao estoque
-- [ ] Gere descrições de produtos em lote com IA
-- [ ] Ative alertas de estoque baixo
-- [ ] Monitore vendas fora do horário comercial
+## Checklist para implantar IA na sua loja Shopify
+
+- [ ] Conecte seu catálogo ao chatbot (Tidio ou Gorgias)
+- [ ] Gere descrições em lote para os 20 produtos mais vendidos
+- [ ] Configure alertas de estoque mínimo para cada categoria
+- [ ] Monitore a redução de perguntas repetitivas na primeira semana

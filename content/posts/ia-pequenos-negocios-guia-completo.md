@@ -28,11 +28,9 @@ Configure respostas para as 5 perguntas mais frequentes. Depois, crie um gatilho
 
 > **Exemplo real:** Uma loja que atendia 30 clientes por dia passou a atender **80 com a mesma equipe**. O robô qualifica. A vendedora só entra no final para fechar.
 
----
-
+> ---
 > **🚀 Quer automatizar o atendimento do seu negócio?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Conteúdo para redes sociais em minutos
 
@@ -41,22 +39,14 @@ Manter Instagram, TikTok e YouTube atualizado consome horas que você podia esta
 ### Como usar:
 
 - **ChatGPT** ou **Claude** para criar legendas e roteiros
-- Cole o tema do post e peça 3 versões
-- Escolha a melhor, ajuste o tom e publique
-- Repita para cada plataforma
+- Cole o tema do post e peça 3 versões com tom de venda
+- Adapte para cada rede social em segundos
 
-## Gestão de estoque que avisa antes de faltar
+> **Dica prática:** Crie um template no ChatGPT com seu tom de voz. Toda semana, peça 10 ideias de posts. Escolha as 3 melhores e publique.
 
-Produto acaba, cliente vai embora. IA prevê quando repor.
+## Checklist para automatizar seu pequeno negócio
 
-**Alertas automáticos:**
-- **Estoque baixo:** "Produto X vai acabar em 3 dias"
-- **Validade próxima:** "Produto Y vence em 7 dias"
-- **Reposição:** "Comprar 20 unidades do produto Z"
-
-## Checklist para aplicar IA no seu negócio
-
-- [ ] Configure chatbot para perguntas frequentes
-- [ ] Ative criação de conteúdo com IA
-- [ ] Implemente gestão de estoque inteligente
-- [ ] Monitore tempo economizado semanalmente
+- [ ] Configure chatbot no WhatsApp para responder as 5 perguntas mais frequentes
+- [ ] Crie gatilho automático para envio de catálogo quando perguntarem "preço"
+- [ ] Use IA para gerar conteúdo semanal para redes sociais
+- [ ] Monitore a redução de tempo gasto em atendimento e criação de conteúdo

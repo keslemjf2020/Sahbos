@@ -30,35 +30,25 @@ O iFood tem API para parceiros. Com o **Make**, você configura um webhook que r
 iFood → Webhook Make → IA processa → Impressora
 ```
 
----
-
+> ---
 > **🚀 Quer o template pronto da automação?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
-
----
+> ---
 
 ### 2. Configure o fluxo de automação
 
 O cenário no Make tem 5 módulos:
 
 1. **Trigger:** Webhook recebe pedido do iFood
-2. **Verificação:** IA confere estoque dos itens
-3. **Separação:** Direciona para impressora da cozinha certa
-4. **Estoque:** Atualiza automaticamente
-5. **Cliente:** Envia confirmação no WhatsApp
+2. **Processamento:** IA lê itens e verifica disponibilidade
+3. **Impressão:** Envia comanda para impressora da cozinha
+4. **Estoque:** Atualiza automaticamente no sistema
+5. **Cliente:** Dispara WhatsApp com confirmação e prazo
 
-### 3. Integre com seu sistema
+> **Exemplo real:** Um restaurante em São Paulo automatizou os pedidos do iFood. O tempo entre o pedido chegar e a comanda sair **caiu de 3 minutos para 10 segundos**. O funcionário foi realocado para atendimento presencial.
 
-A IA se conecta ao seu **PDV** ou **planilha de estoque**. Se um item estiver em falta, o pedido é sinalizado antes de ir para a cozinha.
+## Checklist para automatizar pedidos do iFood
 
-## 3 benefícios imediatos
-
-- **Funcionário liberado** para atendimento ao cliente
-- **Zero erro** na confirmação de pedidos
-- **Estoque sempre atualizado** em tempo real
-
-## Checklist para automatizar seu delivery
-
-- [ ] Solicite acesso à API do iFood
-- [ ] Configure webhook no Make
-- [ ] Integre com sistema de estoque
-- [ ] Teste com 10 pedidos antes de ativar
+- [ ] Solicite acesso à API do iFood para parceiros
+- [ ] Crie um cenário no Make com webhook para capturar pedidos
+- [ ] Configure a IA para ler itens, verificar estoque e direcionar para impressora
+- [ ] Ative a notificação automática ao cliente (confirmação + prazo)

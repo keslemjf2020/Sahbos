@@ -30,36 +30,24 @@ Nem todo lead está pronto para comprar ou alugar. IA identifica quem vale seu t
 
 > **Exemplo real:** Uma imobiliária em Brasília usava IA para qualificar leads. Antes, o corretor atendia 50 leads por mês e fechava 5. Com a IA, ele passou a atender **20 leads qualificados** e fechar **12**. Produtividade **dobrou**.
 
----
-
+> ---
 > **🚀 Quer automatizar a qualificação de leads da sua imobiliária?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Atendimento 24h que não deixa lead escapar
 
-Lead chega às 22h de sábado. Sem IA, ele espera até segunda. Com IA, ele é atendido na hora.
+Lead chega às 22h de sábado. Corretor está offline. O lead vai para a concorrência. Com IA, o atendimento não para.
 
-### Como funciona:
+### Como configurar:
 
-- **Chatbot no WhatsApp** responde perguntas básicas
-- **Agenda visita** automaticamente no calendário
-- **Envia fotos e vídeos** do imóvel
-- **Qualifica e encaminha** para corretor no horário comercial
+- **Chatbot no WhatsApp:** Responde dúvidas sobre imóveis, valores e disponibilidade
+- **Visita virtual:** Agenda visita automaticamente com base na agenda do corretor
+- **Documentação:** Envia lista de documentos necessários para locação ou compra
+- **Follow-up:** Dispara mensagem automática após 24h sem resposta do lead
 
-## Gestão de contratos que acelera o fechamento
+## Checklist para acelerar vendas na sua imobiliária
 
-Contrato de locação ou venda. Troca de documentos, assinaturas, vencimentos. IA organiza tudo.
-
-**Benefícios:**
-- Documentos enviados automaticamente
-- Assinatura digital integrada
-- Lembretes de vencimento de aluguel
-- Relatório de contratos ativos
-
-## Checklist para modernizar sua imobiliária
-
-- [ ] Configure qualificação automática de leads
-- [ ] Ative chatbot 24h no WhatsApp
-- [ ] Implemente gestão digital de contratos
-- [ ] Monitore taxa de conversão de leads
+- [ ] Configure IA para qualificar leads com perguntas de renda, bairro e urgência
+- [ ] Ative chatbot no WhatsApp para atendimento 24h
+- [ ] Implemente agendamento automático de visitas
+- [ ] Monitore o percentual de leads qualificados vs. fechados no primeiro mês

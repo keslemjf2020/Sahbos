@@ -27,11 +27,9 @@ Ferramentas criam documentos jurídicos completos a partir de um questionário s
 
 > **Exemplo real:** Um escritório de direito imobiliário reduziu de **2 horas para 15 minutos** a criação de contratos de locação.
 
----
-
+> ---
 > **🚀 Quer automatizar a geração de contratos do seu escritório?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Análise e revisão de documentos com IA
 
@@ -41,22 +39,14 @@ Ler contratos de 50 páginas procurando cláusulas específicas toma tempo. IA f
 
 - **Cláusulas de risco** — multas, prazos curtos, juros abusivos
 - **Inconsistências** — dados conflitantes entre cláusulas
-- **Omissões** — itens obrigatórios que faltam
-- **Jurisprudência** — decisões recentes sobre o tema
+- **Omissões** — itens importantes que não foram incluídos
+- **Jurisprudência** — decisões recentes que afetam o caso
 
-## Gestão de prazos que nunca perde data
+> **Dica prática:** Use IA para revisar contratos antes de enviar ao cliente. Reduza o risco de erros em **90%**.
 
-Prazo perdido é responsabilidade civil. IA gerencia e alerta.
+## Checklist para automatizar seu escritório
 
-**Alertas automáticos:**
-- **30 dias:** Prazo se aproximando
-- **15 dias:** Risco médio
-- **7 dias:** Risco alto
-- **1 dia:** Emergência
-
-## Checklist para modernizar seu escritório
-
-- [ ] Configure geração automática de contratos
-- [ ] Ative análise de documentos por IA
-- [ ] Implemente gestão de prazos com alertas
-- [ ] Monitore produtividade semanalmente
+- [ ] Configure geração automática de contratos com JusDocs ou Docassemble
+- [ ] Use IA para revisar cláusulas de risco e inconsistências
+- [ ] Implemente pesquisa de jurisprudência automatizada
+- [ ] Monitore a redução de tempo gasto em documentos no primeiro mês

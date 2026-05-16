@@ -34,25 +34,27 @@ Você vai criar um robô que lê e-mails de pedido, extrai os dados e envia conf
 2. **IA:** DeepSeek extrai produto, quantidade e cliente
 3. **Ação:** Make envia confirmação via WhatsApp
 
----
-
+> ---
 > **🚀 Crie seu primeiro robô hoje.** Template gratuito incluso. [Comece agora](#)
+> ---
 
----
+## 3 processos para automatizar ainda esta semana
 
-## 3 processos para automatizar esta semana
+Nem toda automação precisa ser complexa. Comece pelos processos que mais consomem seu tempo.
 
-Nem toda tarefa vale a pena automatizar. Comece pelas que tomam mais tempo e são mais repetitivas.
+### Processos com retorno imediato:
 
-### Prioridades:
+| Processo | Tempo manual | Com RPA + IA |
+|----------|-------------|--------------|
+| Leitura de e-mails de pedido | 30 min/dia | 2 min/dia |
+| Conciliação de extratos | 2 horas/mês | 5 min/mês |
+| Disparo de cobrança | 1 hora/dia | Zero |
 
-- **Cobrança:** Boleto venceu → WhatsApp automático
-- **Relatórios:** Dados da semana → PDF enviado por e-mail
-- **Agendamento:** Cliente marca horário → Confirmação automática
+> **Exemplo real:** Uma distribuidora de alimentos automatizou a leitura de e-mails de pedido. O processo que tomava **30 minutos por dia** passou a ser feito em **2 minutos**. Em um mês, recuperaram **10 horas** de trabalho.
 
-## Checklist para sua primeira automação
+## Checklist para automatizar seus primeiros processos
 
-- [ ] Identifique 1 processo repetitivo que toma mais de 2h/semana
-- [ ] Mapeie as etapas: gatilho → dados → ação
-- [ ] Configure no Make sem código
-- [ ] Teste com 5 casos reais antes de escalar
+- [ ] Identifique 3 tarefas repetitivas que você faz toda semana
+- [ ] Escolha UMA para automatizar (comece pela mais simples)
+- [ ] Configure o fluxo no Make usando o template gratuito
+- [ ] Teste com dados reais antes de colocar em produção

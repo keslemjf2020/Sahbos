@@ -33,35 +33,33 @@ Lançado em janeiro de 2026, o Midjourney v7 trouxe qualidade fotorealista e **u
 - Capas de blog com tipografia integrada
 - Imagens para redes sociais com estilo consistente
 
----
-
+> ---
 > **🚀 Quer o guia completo de prompts para cada ferramenta?** Baixe grátis. [Baixar agora](#)
-
----
+> ---
 
 ## DALL-E 4: melhor para edição e consistência
 
-DALL-E 4 se destaca pela **edição por texto** e **consistência de personagem**. Você descreve a mudança e a IA aplica sem perder o contexto.
+O DALL-E 4 se destaca pela capacidade de **editar imagens existentes por texto** e manter personagens consistentes entre diferentes cenas.
 
 ### Onde brilha:
 
-- Editar imagem existente: "troque o fundo para praia"
-- Manter personagem consistente em várias cenas
-- Integração direta com ChatGPT para ajustes
+- Editar parte específica da imagem ("troque o fundo para azul")
+- Manter o mesmo personagem em várias imagens
+- Integrar diretamente com ChatGPT para criar e refinar
 
-## Stable Diffusion 4: melhor para controle total
+## Stable Diffusion 4: melhor para controle técnico
 
-Stable Diffusion 4 é **open-source**. Você controla cada aspecto da geração. Ideal para quem quer personalização máxima.
+Para quem quer controle total sobre o resultado, o Stable Diffusion 4 é a escolha. Por ser open-source, você pode treinar o modelo com seu próprio estilo.
 
 ### Onde brilha:
 
 - Imagens técnicas e diagramas
-- Controle de pose, ângulo e iluminação
-- Modelos personalizados (LoRA) para seu estilo
+- Treinar o modelo com sua identidade visual
+- Gerar em lote dezenas de variações
 
-## Checklist para criar artes com IA
+## Checklist para escolher sua ferramenta de design
 
-- [ ] Defina o tipo de arte que precisa criar
-- [ ] Escolha a ferramenta certa para cada caso
-- [ ] Teste com prompts descritivos (detalhes, estilo, cores)
-- [ ] Refine manualmente e publique
+- [ ] Defina o tipo de arte que você mais cria (thumbnail, capa, post, técnica)
+- [ ] Teste Midjourney v7 para impacto visual (thumbs e capas)
+- [ ] Teste DALL-E 4 para edição e consistência de personagem
+- [ ] Teste Stable Diffusion 4 para controle técnico e lotes

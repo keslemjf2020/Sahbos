@@ -27,11 +27,9 @@ Cada cliente tem preferências: profissional, serviço, produtos. IA gerencia tu
 
 > **Exemplo real:** Uma barbearia em Porto Alegre implementou agendamento online com perfil. O tempo de check-in **caiu de 5 minutos para 10 segundos**. A taxa de falta **caiu de 25% para 5%**.
 
----
-
+> ---
 > **🚀 Quer automatizar o agendamento do seu salão?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Lembretes automáticos que reduzem falta
 
@@ -41,22 +39,15 @@ Cliente esquece o horário e você perde dinheiro. IA envia lembretes em múltip
 
 | Quando dispara | O que a IA envia | Resultado |
 |----------------|------------------|-----------|
-| 24 horas antes | "Seu corte é amanhã às 14h" | Confirmação |
-| 2 horas antes | "Estamos te esperando!" | Presença garantida |
-| 15 minutos após o horário | "Perdeu o horário? Remarque aqui" | Recuperação |
+| 24 horas antes | "Seu horário é amanhã às 14h" | Cliente confirma |
+| 2 horas antes | "Faltam 2h para seu corte" | Cliente se prepara |
+| 30 minutos antes | "Estamos te esperando!" | Presença garantida |
 
-## Gestão de estoque de produtos
+> **Dica prática:** Configure 3 lembretes automáticos. A taxa de falta cai para menos de 5%.
 
-Shampoo, pomada, condicionador acabam no pior momento. IA prevê o consumo.
+## Checklist para organizar seu salão ou barbearia
 
-**Alertas automáticos:**
-- **Estoque baixo:** "Pomada modeladora vai acabar em 3 dias"
-- **Validade próxima:** "Shampoo profissional vence em 15 dias"
-- **Reposição:** "Comprar 5 unidades do condicionador"
-
-## Checklist para organizar seu salão
-
-- [ ] Configure agendamento online com perfil do cliente
-- [ ] Ative lembretes automáticos de horário
-- [ ] Implemente gestão de estoque de produtos
-- [ ] Monitore taxa de falta semanalmente
+- [ ] Implemente agendamento online com perfil do cliente (profissional, serviço, produtos)
+- [ ] Configure lembretes automáticos com 24h, 2h e 30 minutos de antecedência
+- [ ] Crie cadastro digital do cliente com histórico de serviços
+- [ ] Monitore a redução de faltas e o aumento de clientes fiéis no primeiro mês

@@ -27,31 +27,26 @@ Paciente chega com dor de cabeça. É tensão ou algo sério? Um chatbot faz a p
 
 > **Exemplo real:** Uma clínica em Belo Horizonte implantou triagem por chatbot. O número de pacientes que iam ao pronto-socorro sem necessidade **caiu 40%**. Quem realmente precisava de atendimento urgente foi priorizado.
 
----
-
+> ---
 > **🚀 Automatize a triagem do seu consultório.** Teste grátis por 14 dias e veja quantas consultas você recupera. [Comece agora](#)
-
----
+> ---
 
 ## Check-in digital: zero papelada na recepção
 
-Paciente chega, escaneia QR code na porta. Em 30 segundos, preenche ficha, confirma dados e libera senha.
+Paciente chega, escaneia QR code na porta. Em 30 segundos, a IA confirma dados, atualiza prontuário e libera a senha de atendimento.
 
-**Benefícios:**
-- Fila virtual com aviso por WhatsApp
-- Documentos enviados antes da consulta
-- Prontuário atualizado automaticamente
-- Recepcionista livre para casos complexos
+**Sem fila, sem caneta, sem erro de digitação.** A recepcionista só intervém em casos específicos.
 
-## Agendamento inteligente
+### O que mais a IA pode fazer:
 
-O sistema aprende os horários de maior procura. Sugere slots ideais para cada especialidade.
+- **Envia** lembretes de consulta 24h antes (reduz faltas em 35%)
+- **Solicita** exames prévios automaticamente pelo WhatsApp
+- **Libera** resultados de exames simples sem intervenção
+- **Coleta** feedback do paciente após cada consulta
 
-**Resultado:** Redução de **25%** em faltas. Paciente recebe lembrete automático 24h antes.
+## Checklist para implantar IA no seu consultório
 
-## Checklist para digitalizar seu consultório
-
-- [ ] Configure um chatbot de triagem no WhatsApp
-- [ ] Implemente QR code para check-in digital
-- [ ] Ative lembretes automáticos de consulta
-- [ ] Treine a equipe para focar em casos complexos
+- [ ] Mapeie os 5 sintomas mais comuns que chegam por telefone
+- [ ] Configure o chatbot de triagem com perguntas de acompanhamento
+- [ ] Teste o fluxo com 10 pacientes voluntários na primeira semana
+- [ ] Monitore a taxa de resolução automática e o tempo de espera na recepção

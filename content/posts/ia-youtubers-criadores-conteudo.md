@@ -27,11 +27,9 @@ Roteiro fraco é a principal causa de vídeo abandonado nos primeiros 30 segundo
 
 > **Exemplo real:** Um youtuber de tecnologia usava IA para roteiros. A retenção média **subiu de 35% para 58%**. O tempo de criação de roteiro **caiu de 1 hora para 10 minutos**.
 
----
-
+> ---
 > **🚀 Quer automatizar a produção do seu canal?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Edição automatizada que corta silêncios e erros
 
@@ -43,21 +41,15 @@ Editar manualmente cada "hããã", pausa e erro de fala é repetitivo. IA faz em
 |-----------------------|-----------|-----------|
 | Silêncios longos | Corta automaticamente | Vídeo mais dinâmico |
 | Vícios de linguagem | Remove "tipo", "né", "hããã" | Áudio profissional |
-| Erros de fala | Marca para revisão | Edição precisa |
+| Erros de fala | Detecta e marca para corte | Edição mais rápida |
 
-## Thumbnail e SEO gerados por IA
+**Ferramentas:** **Descript** ou **Adobe Premiere** com IA de edição.
 
-Thumbnail ruim = ninguém clica. SEO ruim = ninguém encontra. IA resolve ambos.
+> **Dica prática:** Grave com o Descript ativado. A edição acontece em tempo real. Ao final da gravação, o vídeo já está 70% pronto.
 
-**O que a IA gera:**
-- **Título:** 5 opções com palavras-chave de alto volume
-- **Thumbnail:** Descrição da imagem ideal (rosto, expressão, texto)
-- **Tags:** 15 tags relevantes para o nicho
-- **Descrição:** 200 palavras com SEO otimizado
+## Checklist para otimizar seu canal no YouTube
 
-## Checklist para acelerar seu canal
-
-- [ ] Configure roteiro com IA para cada vídeo
-- [ ] Ative edição automatizada de áudio
-- [ ] Implemente thumbnail e SEO gerados por IA
-- [ ] Monitore retenção e views semanalmente
+- [ ] Use IA para criar roteiros com gancho forte nos primeiros 30 segundos
+- [ ] Ative edição automatizada que remove silêncios e vícios de linguagem
+- [ ] Gere thumbnails e títulos com IA baseada em SEO
+- [ ] Monitore o aumento de retenção e views no primeiro mês

@@ -37,29 +37,21 @@ Cada item dessa lista pode ser automatizado com IA.
 
 Use **DeepSeek** + **Make** para criar um chatbot que responde as 10 perguntas mais comuns.
 
----
-
+> ---
 > **🚀 Quer o mapa completo de automações para seu negócio?** Baixe grátis. [Baixar agora](#)
-
----
+> ---
 
 ### Automatize agendamento de reuniões
 
-**Calendly** ou **Book Like A Boss** com IA elimina a troca de e-mails para achar um horário.
+**Calendly** ou **Book Like A Boss** com IA elimina a troca de e-mails para achar horário. Cliente vê sua agenda, escolhe e confirma.
 
 ### Automatize posts em redes sociais
 
-**Buffer** ou **Hootsuite** com IA gera e agenda posts para o mês inteiro.
+Com **Make** + **ChatGPT**, você cria calendário de posts, gera texto e imagem, e agenda publicação. Tudo automático.
 
-## 3 automações para começar hoje
+## Checklist para recuperar 60% do seu tempo
 
-- **Chatbot no WhatsApp** — Responde perguntas frequentes
-- **Agendamento automático** — Cliente marca sozinho
-- **Posts agendados** — Conteúdo programado para o mês
-
-## Checklist para automatizar seu dia
-
-- [ ] Liste 5 tarefas repetitivas que faz toda semana
-- [ ] Configure automação para a tarefa mais chata
-- [ ] Teste por 1 semana e meça tempo economizado
-- [ ] Escale para as outras 4 tarefas
+- [ ] Liste as 5 tarefas que você mais repete na semana
+- [ ] Configure chatbot para responder as 10 perguntas mais comuns
+- [ ] Ative o agendamento automático de reuniões (Calendly)
+- [ ] Automatize posts em redes sociais com Make + ChatGPT

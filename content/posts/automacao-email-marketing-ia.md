@@ -41,29 +41,32 @@ Crie um cenário com 3 módulos:
 2. **IA** — DeepSeek gera e-mail personalizado
 3. **Ação** — Mailchimp dispara o e-mail
 
----
-
+> ---
 > **🚀 Automatize seu email marketing em 30 minutos.** Teste grátis com template pronto. [Comece agora](#)
-
----
+> ---
 
 ### 3. Personalize com dados reais
 
-A IA recebe o nome, segmento e última compra. Gera um e-mail único para cada contato.
+A IA recebe o nome, segmento e última compra do contato. Ela gera um e-mail com:
 
-**Exemplo de prompt:**
-> "Escreva um e-mail para {Nome}, cliente {Segmento}, que comprou em {Última compra}. Sugira produtos complementares."
+- **Assunto** personalizado com o nome do cliente
+- **Oferta** baseada no segmento (Premium ou Básico)
+- **Call to action** direcionado ao comportamento de compra
 
-## Tipos de campanha que rodam sozinhas
+> **Exemplo real:** Uma loja de suplementos usou esse fluxo para reativar clientes inativos. A taxa de abertura **subiu 45%** e as vendas **cresceram 22%** em 30 dias.
 
-- **Boas-vindas:** Novo assinante recebe 3 e-mails automáticos
-- **Carrinho abandonado:** Lembrete após 1h, 24h e 72h
-- **Reativação:** Cliente inativo há 90 dias recebe oferta especial
-- **Pós-venda:** Confirmação + pesquisa de satisfação
+## Campanhas que disparam sozinhas
 
-## Checklist para sua primeira automação
+Com o fluxo configurado, você define gatilhos automáticos:
 
-- [ ] Configure planilha com dados dos contatos
-- [ ] Crie conta no Make e Mailchimp
-- [ ] Monte o fluxo: Sheets → IA → Disparo
-- [ ] Teste com 5 contatos antes de escalar
+- **Boas-vindas:** Novo contato entra na base, recebe sequência de 3 e-mails
+- **Abandono de carrinho:** Cliente adiciona produto mas não finaliza compra
+- **Reativação:** Cliente sem compra há 90 dias recebe oferta especial
+- **Pós-venda:** Cliente compra e recebe dicas de uso do produto
+
+## Checklist para automatizar seu email marketing
+
+- [ ] Crie a planilha no Google Sheets com nome, e-mail e segmento
+- [ ] Conecte Make ao Sheets e ao Mailchimp (ou similar)
+- [ ] Configure o prompt da IA com tom da sua marca e dados do cliente
+- [ ] Teste o fluxo com 5 contatos antes de disparar para a base toda

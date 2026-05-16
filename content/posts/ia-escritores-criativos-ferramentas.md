@@ -29,11 +29,9 @@ A pior parte de escrever é a primeira frase. IA resolve isso com prompts direci
 
 > "Preciso de 5 aberturas diferentes para um artigo sobre [tema]. A primeira frase deve prender a atenção. Opções: pergunta provocativa, dado chocante, cena descritiva."
 
----
-
+> ---
 > **🚀 Quer uma biblioteca de prompts prontos para escritores?** Baixe grátis. [Baixar agora](#)
-
----
+> ---
 
 ## Revisão que não perde sua voz
 
@@ -42,22 +40,15 @@ IA revisa gramática, estilo e fluidez. Mas mantém seu tom e suas escolhas cria
 ### O que a IA revisa:
 
 - **Gramática:** Ortografia, concordância, pontuação
-- **Estilo:** Frases longas, repetições, clichês
-- **Fluidez:** Transições entre parágrafos
-- **Tom:** Formal, informal, técnico, poético
+- **Estilo:** Frases longas, repetições, voz passiva
+- **Fluidez:** Transições entre parágrafos, ritmo da leitura
+- **Clareza:** Termos vagos, ambiguidades, redundâncias
 
-## Estruturação de textos longos
+> **Exemplo real:** Um escritor de ficção usava Sudowrite para revisar capítulos. A IA sugeria cortes e reescritas, mas ele decidia o que aceitar. O tempo de revisão **caiu de 3 horas para 45 minutos** por capítulo.
 
-Artigos, capítulos, roteiros. IA organiza o conteúdo em seções lógicas.
+## Checklist para escrever mais com IA
 
-**Como funciona:**
-- Você descreve o tema e os pontos principais
-- IA sugere estrutura com títulos e subtítulos
-- Você aprova e começa a escrever cada seção
-
-## Checklist para escrever com IA
-
-- [ ] Use prompts para gerar 5 aberturas diferentes
-- [ ] Escolha a melhor e peça IA para expandir
-- [ ] Revise gramática e estilo com IA
-- [ ] Ajuste o tom final com sua voz autoral
+- [ ] Use prompts de abertura para quebrar o bloqueio criativo
+- [ ] Gere 5 opções de primeira frase e escolha a melhor
+- [ ] Escreva o rascunho completo sem revisar (IA revisa depois)
+- [ ] Revise com IA mantendo sua voz autoral (você decide o que aceitar)

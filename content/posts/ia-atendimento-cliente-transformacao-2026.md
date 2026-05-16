@@ -31,29 +31,27 @@ A tecnologia de voz generativa amadureceu. **GPT-4o Realtime** e **ElevenLabs** 
 
 > **Exemplo real:** Klarna anunciou em 2024 que seu assistente de IA fazia o trabalho de **700 agentes humanos**, reduzindo o tempo de resolução de 11 minutos para 2 minutos.
 
----
-
+> ---
 > **🚀 Quer implementar IA no seu atendimento?** Guia prático com ferramentas e custos. [Baixar agora](#)
-
----
+> ---
 
 ## 3 áreas para começar hoje
 
 ### Chatbot no WhatsApp
 
-Resolve **80% das perguntas** frequentes (preço, estoque, prazo). Integração simples com **Make** + **DeepSeek**. Custo: centavos por conversa.
+Resolve **80% das perguntas frequentes** sem humano. Configuração em 1 tarde com Make + DeepSeek.
 
 ### Agente de voz
 
-Atende chamadas de suporte nível 1. **ElevenLabs** ou **PlayAI** fazem voz natural. Custo: US$ 0,10 por minuto.
+Atende chamadas telefônicas com IA. Ideal para suporte técnico e agendamentos. Ferramentas: **ElevenLabs** ou **PlayAI**.
 
-### Automação de e-mail
+### Classificação de tickets
 
-Responde e-mails de suporte automaticamente. **Zendesk** ou **Freshdesk** integram com IA. Custo: incluso no plano.
+IA lê, classifica por urgência e direciona para o setor certo. Reduz tempo de resposta em **70%**.
 
-## Checklist para reduzir custo de atendimento
+## Checklist para reduzir custos de atendimento
 
-- [ ] Calcule custo atual por ticket (humano)
-- [ ] Configure chatbot para 80% das perguntas
-- [ ] Teste agente de voz para suporte nível 1
-- [ ] Monitore redução de custo e satisfação
+- [ ] Mapeie os 10 problemas mais frequentes do seu suporte
+- [ ] Configure chatbot no WhatsApp para resolver 80% desses problemas
+- [ ] Implemente classificação automática de tickets por urgência
+- [ ] Monitore a taxa de resolução automática e satisfação do cliente

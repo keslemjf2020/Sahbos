@@ -29,36 +29,26 @@ Criar conteúdo no chute é loteria. IA analisa o que está funcionando e sugere
 
 > **Exemplo real:** Uma influenciadora de maquiagem usava IA para roteiros. O tempo de criação de conteúdo **caiu de 3 horas para 20 minutos**. O engajamento **subiu 35%** em 2 meses.
 
----
-
+> ---
 > **🚀 Quer o guia completo de IA para influenciadores?** Baixe grátis. [Baixar agora](#)
-
----
+> ---
 
 ## Métricas que mostram o que funciona
 
 Número de seguidores não paga conta. Engajamento sim. IA mostra o que realmente gera resultado.
 
-### O que a IA monitora:
+### O que a IA analisa:
 
-- **Taxa de engajamento** por tipo de conteúdo
-- **Melhor horário** para cada plataforma
-- **Retenção** média dos vídeos
-- **Comparação** com concorrentes do mesmo nicho
+- **Taxa de retenção:** Onde os usuários param de assistir
+- **CTR:** Quantos clicam no link da descrição
+- **Comentários:** O que a audiência está pedindo
+- **Melhor horário:** Quando sua audiência está ativa
 
-## Monetização inteligente que não depende de marca
-
-Criador de conteúdo vive de publi. Mas publi paga mal e é instável. IA sugere fontes de receita.
-
-**Fontes sugeridas pela IA:**
-- **Produto digital:** E-book, curso, template
-- **Assinatura:** Conteúdo exclusivo (Patreon, Apoia.se)
-- **Consultoria:** Atendimento personalizado
-- **Afiliados:** Produtos que sua audiência consome
+> **Dica prática:** Se a retenção cai nos primeiros 30 segundos, seu gancho está fraco. Se cai no meio, o conteúdo está arrastado. IA identifica o ponto exato.
 
 ## Checklist para crescer com IA
 
-- [ ] Configure IA para sugerir roteiros semanais
-- [ ] Ative monitoramento de métricas de engajamento
-- [ ] Crie 1 produto digital baseado no que sua audiência pede
-- [ ] Publique no horário ideal indicado pela IA
+- [ ] Use IA para gerar roteiros baseados em trending topics do seu nicho
+- [ ] Analise métricas de retenção para ajustar gancho e ritmo do conteúdo
+- [ ] Publique no horário ideal da sua audiência (IA descobre)
+- [ ] Monitore o engajamento (comentários e CTR) em vez de seguidores

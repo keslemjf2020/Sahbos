@@ -27,11 +27,9 @@ Criar plano de aula do zero toda semana cansa. Com IA, você gera um plano compl
 
 > **Dica prática:** Salve os planos gerados em um drive. No início do ano, peça para a IA criar o cronograma do semestre inteiro. Você ajusta uma vez e usa o ano todo.
 
----
-
+> ---
 > **🚀 Quer automatizar a preparação das suas aulas?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Correção de redações e provas com IA
 
@@ -41,23 +39,17 @@ Corrigir 40 redações manualmente toma um fim de semana. IA faz o primeiro filt
 
 | O que a IA avalia | O que sinaliza | Seu trabalho |
 |-------------------|----------------|--------------|
-| Coerência, coesão, gramática | Nota sugerida | Validar e ajustar |
-| Ortografia, concordância | Erros destacados | Revisar casos duvidosos |
-| Tema, argumentação, conclusão | Estrutura avaliada | Dar feedback personalizado |
+| Gramática e ortografia | Erros corrigidos automaticamente | Revisar casos duvidosos |
+| Coerência e coesão | Parágrafos mal estruturados | Dar feedback qualitativo |
+| Argumentação | Tese fraca ou contraditória | Orientar individualmente |
 
-## Criação de provas e exercícios variados
+**Ferramentas:** **Corrector IA** ou **Grammarly** para português. IA corrige erros básicos e você foca no conteúdo.
 
-Criar prova diferente para cada turma é repetitivo. IA gera versões variadas.
+> **Exemplo real:** Uma professora de português reduziu o tempo de correção de redações de **8 horas para 2 horas** por turma. Ela passou a dar feedback mais detalhado para cada aluno.
 
-**Como funciona:**
-- Define tema e nível de dificuldade
-- IA gera 3 versões diferentes
-- Inclui gabarito automático
-- Você só revisa e aplica
+## Checklist para otimizar seu tempo como professor
 
-## Checklist para ganhar tempo como professor
-
-- [ ] Configure planos de aula automáticos
-- [ ] Ative correção de redações com IA
-- [ ] Implemente criação de provas variadas
-- [ ] Reduza preparação de aula em 80%
+- [ ] Use IA para gerar planos de aula completos em 2 minutos
+- [ ] Automatize a correção de gramática e ortografia nas redações
+- [ ] Crie o cronograma do semestre inteiro com IA no início do ano
+- [ ] Monitore a redução de horas gastas em tarefas burocráticas

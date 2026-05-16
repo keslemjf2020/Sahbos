@@ -27,11 +27,9 @@ Olhar 1500 fotos para escolher 300 é cansativo. Você acaba deixando passar a m
 
 > **Exemplo real:** Um fotógrafo de casamentos reduziu o tempo de seleção de **4 horas para 40 minutos**. A IA descartava automaticamente fotos tremidas, com olhos fechados ou mal expostas.
 
----
-
+> ---
 > **🚀 Quer automatizar a pós-produção das suas fotos?** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Edição em lote com presets de IA
 
@@ -48,15 +46,18 @@ Aplicar o mesmo ajuste em 500 fotos manualmente é repetitivo. IA edita todas de
 
 Cliente espera 15 dias. Com IA, entrega em 48 horas.
 
-**Como funciona:**
-- IA seleciona e edita automaticamente
-- Gera galeria online privada
-- Envia link por WhatsApp
-- Cliente baixa as fotos que quiser
+### Como funciona:
 
-## Checklist para acelerar sua entrega
+1. **Upload:** Fotos selecionadas vão para a nuvem automaticamente
+2. **Edição:** IA aplica o preset em lote
+3. **Galeria:** Cliente recebe link com galeria online organizada
+4. **Download:** Cliente baixa as fotos que quiser em alta resolução
 
-- [ ] Configure seleção inteligente de fotos
-- [ ] Ative edição em lote com IA
-- [ ] Implemente galeria online automática
-- [ ] Reduza prazo de entrega para 48 horas
+**Ferramentas:** **Pixieset** ou **Pic-Time** com integração de IA.
+
+## Checklist para acelerar sua pós-produção
+
+- [ ] Use IA para selecionar automaticamente as melhores fotos
+- [ ] Crie um preset de edição com IA e aplique em lote
+- [ ] Configure galeria online para entrega automática ao cliente
+- [ ] Monitore a redução do tempo de entrega no primeiro mês

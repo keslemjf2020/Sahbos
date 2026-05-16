@@ -29,36 +29,24 @@ Andar a lavoura para verificar toma o dia inteiro. E você ainda perde áreas co
 
 > **Exemplo real:** Uma fazenda de soja em Mato Grosso detectou uma praga no talhão 7 três dias antes de se espalhar. O alerta permitiu aplicar defensivo localizado, **economizando 40% no custo**.
 
----
-
+> ---
 > **🚀 Automatize o monitoramento da sua lavoura.** Teste grátis por 14 dias. [Comece agora](#)
-
----
+> ---
 
 ## Previsão climática que salva sua safra
 
-Não é mais "vai chover ou não?". A IA combina dados históricos, satélites e sensores para prever com 90% de precisão em 7 dias.
+Não é mais "vai chover ou não?". A IA combina dados históricos, satélites e sensores para prever o clima nos próximos 15 dias com 90% de precisão.
 
-### O que você ganha:
+### O que a IA prevê:
 
-- **Janela de plantio:** Sabe o melhor dia para semear
-- **Irrigação:** Aplica água só quando necessário
-- **Colheita:** Evita perder grãos por chuva inesperada
-- **Economia:** Reduz em 30% o uso de água e insumos
+- **Janela de plantio:** Melhor data para semear baseada em chuva e temperatura
+- **Risco de geada:** Alerta com 7 dias de antecedência
+- **Irrigação inteligente:** Quantidade exata de água para cada talhão
+- **Colheita:** Momento ideal baseado em umidade do grão
 
-## Gestão financeira da fazenda em tempo real
+## Checklist para implantar IA na sua fazenda
 
-Custo de insumo, preço da commodity, margem por talhão. Tudo atualizado automaticamente.
-
-**Benefícios:**
-- Margem por talhão visível no celular
-- Alerta de custo acima do esperado
-- Comparativo safra atual vs. anterior
-- Relatório pronto para o banco
-
-## Checklist para digitalizar sua fazenda
-
-- [ ] Configure monitoramento por satélite
-- [ ] Ative alertas climáticos personalizados
-- [ ] Integre sensores de solo e irrigação
-- [ ] Monitore margem por talhão semanalmente
+- [ ] Instale sensores de solo nos 3 talhões mais produtivos
+- [ ] Configure o monitoramento por satélite com alertas no celular
+- [ ] Ative a previsão climática de 15 dias com recomendações de manejo
+- [ ] Monitore os alertas de praga e estresse hídrico na primeira safra

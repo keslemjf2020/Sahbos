@@ -36,25 +36,24 @@ O vai-e-vem de e-mails para achar um horário comum é um dos maiores desperdíc
 - Confirmação automática com link de videoconferência
 - Lembrete enviado 24h antes
 
----
-
+> ---
 > **🚀 Automatize seu processo seletivo em 1 hora.** Teste grátis por 14 dias. [Comece agora](#)
+> ---
 
----
+## Perguntas frequentes que o robô responde sozinho
 
-## Onboarding que começa antes do primeiro dia
+Candidatos enviam as mesmas perguntas repetitivas sobre a vaga. IA responde automaticamente sem ocupar o RH.
 
-Documentos, crachá, e-mail corporativo, acesso aos sistemas. Tudo isso pode ser resolvido antes do funcionário pisar na empresa.
+### O que o chatbot responde:
 
-**Benefícios:**
-- Documentos enviados e assinados digitalmente
-- Acessos liberados no primeiro dia
-- Treinamento inicial enviado por e-mail
-- Checklist automático de integração
+- **Requisitos:** Formação, experiência, habilidades técnicas
+- **Benefícios:** Salário, vale-refeição, plano de saúde
+- **Processo:** Etapas, prazos, formato das entrevistas
+- **Feedback:** Status da candidatura, resultado final
 
 ## Checklist para automatizar seu RH
 
-- [ ] Configure triagem automática de currículos
-- [ ] Ative agendamento de entrevistas online
-- [ ] Crie fluxo de onboarding digital
-- [ 】Monitore tempo médio de contratação
+- [ ] Configure a triagem automática de currículos com IA
+- [ ] Ative o agendamento online de entrevistas (Calendly ou similar)
+- [ ] Crie um chatbot para responder perguntas frequentes sobre a vaga
+- [ ] Monitore o tempo de fechamento de vaga na primeira semana

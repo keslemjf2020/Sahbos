@@ -37,25 +37,26 @@ Fornecedor atrasou? O cronograma tradicional vira papel inútil. Com IA, ele se 
 - **Ajuste:** Atraso detectado → cronograma recalcula
 - **Alerta:** Notifica equipe sobre mudanças
 
----
+> ---
+> **🚀 Automatize seu próximo evento em 1 hora.** Teste grátis por 14 dias e veja o no-show cair. [Comece agora](#)
+> ---
 
-> **🚀 Automatize seu próximo evento em 1 hora.** Teste grátis com template pronto. [Comece agora](#)
+## Check-in de convidados sem fila
 
----
+Convidado chega, escaneia QR code no celular. Em 5 segundos, a IA confirma identidade, imprime crachá e libera acesso ao evento.
 
-## Gestão de fornecedores centralizada
+**Zero papel, zero fila, zero erro de digitação.** A equipe de recepção só intervém em casos específicos.
 
-Chega de 15 conversas no WhatsApp. Um hub central com status de cada fornecedor em tempo real.
+### O que a IA gerencia automaticamente:
 
-**Benefícios:**
-- Status: Confirmado / A caminho / Atrasado
-- Contato direto por chat integrado
-- Documentos (contratos, notas) em um só lugar
-- Histórico de eventos anteriores
+- **Lista VIP:** Identifica convidados especiais e notifica host
+- **Restrições:** Alergias alimentares, acessibilidade, preferências
+- **Networking:** Sugere conexões entre convidados com interesses em comum
+- **Feedback:** Dispara pesquisa de satisfação 1 hora após o evento
 
-## Checklist para seu evento sem estresse
+## Checklist para implantar IA no seu evento
 
-- [ ] Configure sequência de lembretes automáticos
-- [ ] Crie cronograma adaptativo com IA
-- [ ] Centralize fornecedores em um hub
-- [ ] Teste o fluxo com 10 convidados antes
+- [ ] Configure a sequência de convites e lembretes automáticos
+- [ ] Mapeie todos os fornecedores e dependências do cronograma
+- [ ] Teste o check-in digital com 10 convidados antes do evento
+- [ ] Monitore a taxa de confirmação e o no-show na primeira edição

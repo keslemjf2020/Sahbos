@@ -32,11 +32,9 @@ Open-source e auto-hospedável. Gratuito se você tem servidor. Requer conhecime
 **Ideal para:** Quem quer controle total sem pagar mensalidade.
 **Preço:** Grátis (self-hosted) | Pago a partir de US$ 20/mês (cloud).
 
----
-
+> ---
 > **🚀 Quer o guia completo com tutorial de cada ferramenta?** Baixe grátis. [Baixar agora](#)
-
----
+> ---
 
 ### Comparação rápida:
 
@@ -44,20 +42,24 @@ Open-source e auto-hospedável. Gratuito se você tem servidor. Requer conhecime
 |------------|-------------|---------------|------|
 | **Make** | Média | US$ 9/mês | 1500+ |
 | **Zapier** | Fácil | US$ 19/mês | 5000+ |
-| **n8n** | Difícil | Grátis | 400+ |
-| **Activepieces** | Média | Grátis | 200+ |
-| **Pipedream** | Difícil | Grátis | 1000+ |
+| **n8n** | Difícil | Grátis (self) | Ilimitado |
 
-## Como escolher na prática
+## Activepieces e Pipedream: as alternativas
 
-- **Nunca automatizou?** Comece com **Zapier** ou **Make**
-- **Tem orçamento zero?** Use **n8n** ou **Activepieces**
-- **Sabe programar?** **Pipedream** ou **n8n** são melhores
-- **Precisa de suporte?** **Make** ou **Zapier** têm comunidade ativa
+**Activepieces** é open-source como n8n, mas com interface mais amigável. Ideal para quem quer simplicidade sem pagar.
 
-## Checklist para escolher sua ferramenta
+**Pipedream** é focado em desenvolvedores. Permite escrever código Node.js, Python e Go dentro dos fluxos. Mais flexível, menos visual.
 
-- [ ] Defina seu orçamento mensal para automação
-- [ ] Liste os apps que precisa conectar
-- [ ] Teste a versão grátis da ferramenta escolhida
-- [ 】Automatize 1 processo antes de escalar
+### Como escolher na prática:
+
+- **Orçamento zero:** n8n ou Activepieces (self-hosted)
+- **Iniciante total:** Zapier (mais fácil, mas mais caro)
+- **Equilíbrio custo-benefício:** Make (mais usado no Brasil)
+- **Desenvolvedor:** Pipedream (código puro)
+
+## Checklist para escolher sua ferramenta de automação
+
+- [ ] Defina seu orçamento mensal para automação (grátis, US$ 9 ou US$ 19+)
+- [ ] Avalie seu nível técnico (iniciante, intermediário ou desenvolvedor)
+- [ ] Teste Make por 30 dias (plano grátis) como primeira opção
+- [ ] Escolha n8n ou Activepieces se tiver servidor e quiser zero custo
