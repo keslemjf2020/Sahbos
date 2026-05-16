@@ -4,7 +4,8 @@ import { postsFull } from "../posts-full";
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
   const post = postsFull[params.slug as keyof typeof postsFull];
-  if (!post) return <div className="min-h-screen bg-[#0a0a0f] flex items-center justify-center"><div className="text-center"><h1 className="text-6xl font-bold gradient-text mb-4">404</h1><p className="text-slate-500 mb-6">Artigo nao encontrado</p><Link href="/" className="text-cyan-400 hover:underline text-sm inline-flex items-center gap-1"><ArrowLeft className="w-3 h-3" />Voltar</Link></div></div>;
+  const totalSlugs = Object.keys(postsFull).length;
+  if (!post) return <div className="min-h-screen bg-[#0a0a0f] flex items-center justify-center"><div className="text-center"><h1 className="text-6xl font-bold gradient-text mb-4">404</h1><p className="text-slate-500 mb-2">Artigo nao encontrado: {params.slug}</p><p className="text-slate-600 text-xs">Total slugs carregados: {totalSlugs}</p><Link href="/" className="text-cyan-400 hover:underline text-sm inline-flex items-center gap-1 mt-4"><ArrowLeft className="w-3 h-3" />Voltar</Link></div></div>;
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
