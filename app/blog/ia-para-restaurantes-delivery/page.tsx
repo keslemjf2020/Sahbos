@@ -1,18 +1,87 @@
-import{Metadata}from'next';import Link from'next/link';
-export const metadata:Metadata={title:'IA para Restaurantes: Cardapio Inteligente e Automacao - Automacao IA'};
-export default function Page(){const content=`# Seu restaurante tem 40 itens no cardápio, mas 70% dos pedidos são só 5 pratos\n\nGarçom anota errado duas vezes por semana. No fim do mês, descobre que um ingrediente estragou porque ninguém avisou. O cliente pede algo que não tem no estoque.\n\n**IA para restaurantes** resolve esses problemas sem trocar de sistema ou contratar mais gente.\n\n## Cardápio inteligente que sugere o que vender mais\n\nEm vez de cardápio fixo, IA sugere pratos baseados no cliente, horário e estoque.\n\n### Como funciona na prática:\n\n| O que a IA analisa | O que sugere | Resultado |\n|--------------------|--------------|-----------|\n| Cliente já pediu antes | Pratos que ele ainda não experimentou | Ticket médio +18% |\n| Horário de almoço | Pratos executivos rápidos | Rotatividade maior |\n| Estoque alto de insumo | Prato em destaque com desconto | Desperdício menor |\n\n**Ferramentas:** Cardápio digital com QR Code + IA integrada.\n\n> **Exemplo real:** Um restaurante italiano em São Paulo implementou cardápio inteligente. O ticket médio **subiu 18%** porque a IA sugeria pratos mais caros e harmonizações com vinhos que o cliente nunca experimentaria sozinho.\n\n> ---\n> **🚀 Quer automatizar o cardápio do seu restaurante?** Teste grátis por 14 dias. [Comece agora](#)\n> ---\n\n## Atendimento automatizado que elimina erro de pedido\n\nPedidos anotados errado geram retrabalho e insatisfação. IA elimina o erro humano.\n\n### Como funciona:\n\n| Como era | Como fica com IA |\n|----------|------------------|\n| Garçom anota no papel e passa para cozinha | Cliente pede pelo QR Code direto na cozinha |\n| Pedido volta porque leitura errada | Zero erro de comunicação |\n| Cliente espera 10 minutos para chamar o garçom | Pedido enviado em 30 segundos |\n\n**Ferramentas:** **Menu IA** ou **Cardápio Digital** com pedido direto do cliente.\n\n> **Dica prática:** Coloque o QR Code na mesa e na conta. Cliente pede, paga e sai sem chamar o garçom. Rotatividade **aumenta 25%**.\n\n## Checklist para otimizar seu restaurante\n\n- [ ] Implemente cardápio digital com IA de sugestões personalizadas\n- [ ] Ative pedido direto pelo QR Code para eliminar erros\n- [ ] Configure integração com estoque para evitar pratos indisponíveis\n- [ ] Monitore o aumento do ticket médio e da rotatividade no primeiro mês`.split('\\n').map((l,i)=>{
-  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
-  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
-  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
-return(<div className="min-h-screen bg-[#0a0a0f]">
-  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA para Restaurantes: Cardapio Inteligente e Automacao</h1>
-    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>•</span><span>3 min</span></div>
-  </div></div>
-  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-</div>);}
+import { Metadata } from 'next';
+import Link from 'next/link';
+import AudioPlayer from '../../../components/AudioPlayer';
+
+export const metadata: Metadata = { title: 'IA para Restaurantes: Cardapio Inteligente e Automacao - Automacao IA' };
+
+export default function Page() {
+  const raw = `# Seu restaurante tem 40 itens no cardápio, mas 70% dos pedidos são só 5 pratos
+
+Garçom anota errado duas vezes por semana. No fim do mês, descobre que um ingrediente estragou porque ninguém avisou. O cliente pede algo que não tem no estoque.
+
+**IA para restaurantes** resolve esses problemas sem trocar de sistema ou contratar mais gente.
+
+## Cardápio inteligente que sugere o que vender mais
+
+Em vez de cardápio fixo, IA sugere pratos baseados no cliente, horário e estoque.
+
+### Como funciona na prática:
+
+| O que a IA analisa | O que sugere | Resultado |
+|--------------------|--------------|-----------|
+| Cliente já pediu antes | Pratos que ele ainda não experimentou | Ticket médio +18% |
+| Horário de almoço | Pratos executivos rápidos | Rotatividade maior |
+| Estoque alto de insumo | Prato em destaque com desconto | Desperdício menor |
+
+**Ferramentas:** Cardápio digital com QR Code + IA integrada.
+
+> **Exemplo real:** Um restaurante italiano em São Paulo implementou cardápio inteligente. O ticket médio **subiu 18%** porque a IA sugeria pratos mais caros e harmonizações com vinhos que o cliente nunca experimentaria sozinho.
+
+> ---
+> **🚀 Quer automatizar o cardápio do seu restaurante?** Teste grátis por 14 dias. [Comece agora](#)
+> ---
+
+## Atendimento automatizado que elimina erro de pedido
+
+Pedidos anotados errado geram retrabalho e insatisfação. IA elimina o erro humano.
+
+### Como funciona:
+
+| Como era | Como fica com IA |
+|----------|------------------|
+| Garçom anota no papel e passa para cozinha | Cliente pede pelo QR Code direto na cozinha |
+| Pedido volta porque leitura errada | Zero erro de comunicação |
+| Cliente espera 10 minutos para chamar o garçom | Pedido enviado em 30 segundos |
+
+**Ferramentas:** **Menu IA** ou **Cardápio Digital** com pedido direto do cliente.
+
+> **Dica prática:** Coloque o QR Code na mesa e na conta. Cliente pede, paga e sai sem chamar o garçom. Rotatividade **aumenta 25%**.
+
+## Checklist para otimizar seu restaurante
+
+- [ ] Implemente cardápio digital com IA de sugestões personalizadas
+- [ ] Ative pedido direto pelo QR Code para eliminar erros
+- [ ] Configure integração com estoque para evitar pratos indisponíveis
+- [ ] Monitore o aumento do ticket médio e da rotatividade no primeiro mês`;
+  const content = raw.split('\\n').map((l,i) => {
+    if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
+    if (l.startsWith('[')) { const m = l.match(/\[(.+?)\]\((.+?)\)/); if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>; }
+    if (!l.trim()) return <br key={i} />;
+    return <p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;
+  });
+  const plainText = raw.replace(/[#*>`\-\[\]\(\)\|]/g,' ').slice(0,3000);
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">Home</Link>
+            <span>›</span>
+            <Link href={`/categoria/${'IA'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">IA</Link>
+            <span>›</span>
+            <span className="text-slate-400 truncate max-w-[200px]">IA para Restaurantes: Cardapio Inteligente e Automacao</span>
+          </div>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-3">IA</span>
+          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">IA para Restaurantes: Cardapio Inteligente e Automacao</h1>
+          <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
+          <AudioPlayer text={plainText} />
+        </div>
+      </div>
+      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+    </div>
+  );
+}

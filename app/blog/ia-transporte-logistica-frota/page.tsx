@@ -1,18 +1,85 @@
-import{Metadata}from'next';import Link from'next/link';
-export const metadata:Metadata={title:'IA na Logistica: Otimize Rotas e Entregas - Automacao IA'};
-export default function Page(){const content=`# Seu motorista sai com 25 entregas e faz só 10 até as 14h\n\nPassa 3 vezes pelo mesmo bairro. Perde 2 horas no trânsito. Volta com 5 entregas não realizadas. Amanhã, a mesma rota ineficiente se repete. **R$ 5.000 a mais de combustível** no fim do mês.\n\n**IA na logística** transforma esse cenário.\n\n## Otimização de rotas em tempo real\n\nRota fixa não funciona. Trânsito muda, cliente não está, entrega é recusada. IA recalcula em tempo real.\n\n### Como funciona na prática:\n\n| O que a IA analisa | O que recalcula | O motorista recebe |\n|--------------------|-----------------|--------------------|\n| Endereços e trânsito | Rota mais eficiente | "Próxima entrega: Rua X, 123" |\n| Janelas de entrega | Ordem ideal das paradas | "Desvio de 2 minutos" |\n| Capacidade do veículo | Peso e volume por viagem | "Volte à base às 16h" |\n\n**Ferramentas:** **Route4Me** ou **OptimoRoute**. IA recalcula durante a rota se houver imprevisto.\n\n> **Exemplo real:** Uma transportadora em São Paulo usava OptimoRoute. A quilometragem média por motorista **caiu 22%**. O número de entregas por dia **subiu de 18 para 24**.\n\n> ---\n> **🚀 Quer otimizar a logística da sua empresa?** Teste grátis por 14 dias. [Comece agora](#)\n> ---\n\n## Previsão de demanda por região e horário\n\nSegunda-feira tem mais entregas no centro. Sexta-feira na zona sul. IA distribui a frota com antecedência.\n\n### Como funciona:\n\n| Dia da semana | Região com maior demanda | Alocação da frota |\n|---------------|--------------------------|-------------------|\n| Segunda | Centro (comércio) | 60% da frota no centro |\n| Quarta | Bairros residenciais | 50% da frota nos bairros |\n| Sexta | Zona sul (entregas noturnas) | 70% da frota na zona sul |\n\n> **Dica prática:** Configure a IA para analisar o histórico de entregas dos últimos 3 meses. A previsão de demanda fica precisa em 2 semanas.\n\n## Checklist para otimizar sua logística\n\n- [ ] Implemente otimização de rotas em tempo real com IA\n- [ ] Ative a previsão de demanda por região e horário para distribuir a frota\n- [ ] Configure alertas para desvios e imprevistos durante a rota\n- [ ] Monitore a redução de quilometragem e o aumento de entregas por motorista`.split('\\n').map((l,i)=>{
-  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
-  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
-  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
-return(<div className="min-h-screen bg-[#0a0a0f]">
-  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA na Logistica: Otimize Rotas e Entregas</h1>
-    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>•</span><span>3 min</span></div>
-  </div></div>
-  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-</div>);}
+import { Metadata } from 'next';
+import Link from 'next/link';
+import AudioPlayer from '../../../components/AudioPlayer';
+
+export const metadata: Metadata = { title: 'IA na Logistica: Otimize Rotas e Entregas - Automacao IA' };
+
+export default function Page() {
+  const raw = `# Seu motorista sai com 25 entregas e faz só 10 até as 14h
+
+Passa 3 vezes pelo mesmo bairro. Perde 2 horas no trânsito. Volta com 5 entregas não realizadas. Amanhã, a mesma rota ineficiente se repete. **R\$ 5.000 a mais de combustível** no fim do mês.
+
+**IA na logística** transforma esse cenário.
+
+## Otimização de rotas em tempo real
+
+Rota fixa não funciona. Trânsito muda, cliente não está, entrega é recusada. IA recalcula em tempo real.
+
+### Como funciona na prática:
+
+| O que a IA analisa | O que recalcula | O motorista recebe |
+|--------------------|-----------------|--------------------|
+| Endereços e trânsito | Rota mais eficiente | "Próxima entrega: Rua X, 123" |
+| Janelas de entrega | Ordem ideal das paradas | "Desvio de 2 minutos" |
+| Capacidade do veículo | Peso e volume por viagem | "Volte à base às 16h" |
+
+**Ferramentas:** **Route4Me** ou **OptimoRoute**. IA recalcula durante a rota se houver imprevisto.
+
+> **Exemplo real:** Uma transportadora em São Paulo usava OptimoRoute. A quilometragem média por motorista **caiu 22%**. O número de entregas por dia **subiu de 18 para 24**.
+
+> ---
+> **🚀 Quer otimizar a logística da sua empresa?** Teste grátis por 14 dias. [Comece agora](#)
+> ---
+
+## Previsão de demanda por região e horário
+
+Segunda-feira tem mais entregas no centro. Sexta-feira na zona sul. IA distribui a frota com antecedência.
+
+### Como funciona:
+
+| Dia da semana | Região com maior demanda | Alocação da frota |
+|---------------|--------------------------|-------------------|
+| Segunda | Centro (comércio) | 60% da frota no centro |
+| Quarta | Bairros residenciais | 50% da frota nos bairros |
+| Sexta | Zona sul (entregas noturnas) | 70% da frota na zona sul |
+
+> **Dica prática:** Configure a IA para analisar o histórico de entregas dos últimos 3 meses. A previsão de demanda fica precisa em 2 semanas.
+
+## Checklist para otimizar sua logística
+
+- [ ] Implemente otimização de rotas em tempo real com IA
+- [ ] Ative a previsão de demanda por região e horário para distribuir a frota
+- [ ] Configure alertas para desvios e imprevistos durante a rota
+- [ ] Monitore a redução de quilometragem e o aumento de entregas por motorista`;
+  const content = raw.split('\\n').map((l,i) => {
+    if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
+    if (l.startsWith('[')) { const m = l.match(/\[(.+?)\]\((.+?)\)/); if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>; }
+    if (!l.trim()) return <br key={i} />;
+    return <p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;
+  });
+  const plainText = raw.replace(/[#*>`\-\[\]\(\)\|]/g,' ').slice(0,3000);
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">Home</Link>
+            <span>›</span>
+            <Link href={`/categoria/${'IA'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">IA</Link>
+            <span>›</span>
+            <span className="text-slate-400 truncate max-w-[200px]">IA na Logistica: Otimize Rotas e Entregas</span>
+          </div>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-3">IA</span>
+          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">IA na Logistica: Otimize Rotas e Entregas</h1>
+          <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
+          <AudioPlayer text={plainText} />
+        </div>
+      </div>
+      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+    </div>
+  );
+}

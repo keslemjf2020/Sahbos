@@ -1,18 +1,97 @@
-import{Metadata}from'next';import Link from'next/link';
-export const metadata:Metadata={title:'Como Criar Imagens e Thumbnails com IA para Blog e YouTube - Automacao IA'};
-export default function Page(){const content=`# Você perde horas no Canva ou paga um designer para cada arte\n\nThumbnail para YouTube, capa para blog, imagem para post. Cada uma leva 30 minutos. No fim do mês, são 10 horas só com design.\n\nEm 2026, **Midjourney v7**, **DALL-E 4** e **Stable Diffusion 4** entregam resultados profissionais em segundos. Este guia mostra qual ferramenta usar para cada tipo de arte.\n\n## Qual ferramenta usar para cada tipo de arte\n\nCada ferramenta tem seu ponto forte. A escolha certa depende do que você precisa criar.\n\n### Comparativo direto:\n\n| Ferramenta | Melhor para | Preço | Diferencial |\n|------------|-------------|-------|-------------|\n| **Midjourney v7** | Thumbnails dramáticas, capas de blog | US$ 30/mês | Estilo consistente, 4K nativo |\n| **DALL-E 4** | Edição por texto, consistência de personagem | US$ 20/mês (via ChatGPT) | Integração com ChatGPT |\n| **Stable Diffusion 4** | Controle total, imagens técnicas | Grátis (local) ou US$ 10/mês (cloud) | Open-source, personalizável |\n\n## Midjourney v7: melhor para impacto visual\n\nLançado em janeiro de 2026, o Midjourney v7 trouxe qualidade fotorealista e **upscale 4K nativo**. O diferencial é o controle de estilo via "style references" — você mantém a mesma identidade visual em todas as imagens.\n\n### Onde brilha:\n\n- Thumbnails para YouTube com alto contraste\n- Capas de blog com tipografia integrada\n- Imagens para redes sociais com estilo consistente\n\n> ---\n> **🚀 Quer o guia completo de prompts para cada ferramenta?** Baixe grátis. [Baixar agora](#)\n> ---\n\n## DALL-E 4: melhor para edição e consistência\n\nO DALL-E 4 se destaca pela capacidade de **editar imagens existentes por texto** e manter personagens consistentes entre diferentes cenas.\n\n### Onde brilha:\n\n- Editar parte específica da imagem ("troque o fundo para azul")\n- Manter o mesmo personagem em várias imagens\n- Integrar diretamente com ChatGPT para criar e refinar\n\n## Stable Diffusion 4: melhor para controle técnico\n\nPara quem quer controle total sobre o resultado, o Stable Diffusion 4 é a escolha. Por ser open-source, você pode treinar o modelo com seu próprio estilo.\n\n### Onde brilha:\n\n- Imagens técnicas e diagramas\n- Treinar o modelo com sua identidade visual\n- Gerar em lote dezenas de variações\n\n## Checklist para escolher sua ferramenta de design\n\n- [ ] Defina o tipo de arte que você mais cria (thumbnail, capa, post, técnica)\n- [ ] Teste Midjourney v7 para impacto visual (thumbs e capas)\n- [ ] Teste DALL-E 4 para edição e consistência de personagem\n- [ ] Teste Stable Diffusion 4 para controle técnico e lotes`.split('\\n').map((l,i)=>{
-  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
-  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
-  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
-return(<div className="min-h-screen bg-[#0a0a0f]">
-  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">Como Criar Imagens e Thumbnails com IA para Blog e YouTube</h1>
-    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>•</span><span>3 min</span></div>
-  </div></div>
-  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-</div>);}
+import { Metadata } from 'next';
+import Link from 'next/link';
+import AudioPlayer from '../../../components/AudioPlayer';
+
+export const metadata: Metadata = { title: 'Como Criar Imagens e Thumbnails com IA para Blog e YouTube - Automacao IA' };
+
+export default function Page() {
+  const raw = `# Você perde horas no Canva ou paga um designer para cada arte
+
+Thumbnail para YouTube, capa para blog, imagem para post. Cada uma leva 30 minutos. No fim do mês, são 10 horas só com design.
+
+Em 2026, **Midjourney v7**, **DALL-E 4** e **Stable Diffusion 4** entregam resultados profissionais em segundos. Este guia mostra qual ferramenta usar para cada tipo de arte.
+
+## Qual ferramenta usar para cada tipo de arte
+
+Cada ferramenta tem seu ponto forte. A escolha certa depende do que você precisa criar.
+
+### Comparativo direto:
+
+| Ferramenta | Melhor para | Preço | Diferencial |
+|------------|-------------|-------|-------------|
+| **Midjourney v7** | Thumbnails dramáticas, capas de blog | US\$ 30/mês | Estilo consistente, 4K nativo |
+| **DALL-E 4** | Edição por texto, consistência de personagem | US\$ 20/mês (via ChatGPT) | Integração com ChatGPT |
+| **Stable Diffusion 4** | Controle total, imagens técnicas | Grátis (local) ou US\$ 10/mês (cloud) | Open-source, personalizável |
+
+## Midjourney v7: melhor para impacto visual
+
+Lançado em janeiro de 2026, o Midjourney v7 trouxe qualidade fotorealista e **upscale 4K nativo**. O diferencial é o controle de estilo via "style references" — você mantém a mesma identidade visual em todas as imagens.
+
+### Onde brilha:
+
+- Thumbnails para YouTube com alto contraste
+- Capas de blog com tipografia integrada
+- Imagens para redes sociais com estilo consistente
+
+> ---
+> **🚀 Quer o guia completo de prompts para cada ferramenta?** Baixe grátis. [Baixar agora](#)
+> ---
+
+## DALL-E 4: melhor para edição e consistência
+
+O DALL-E 4 se destaca pela capacidade de **editar imagens existentes por texto** e manter personagens consistentes entre diferentes cenas.
+
+### Onde brilha:
+
+- Editar parte específica da imagem ("troque o fundo para azul")
+- Manter o mesmo personagem em várias imagens
+- Integrar diretamente com ChatGPT para criar e refinar
+
+## Stable Diffusion 4: melhor para controle técnico
+
+Para quem quer controle total sobre o resultado, o Stable Diffusion 4 é a escolha. Por ser open-source, você pode treinar o modelo com seu próprio estilo.
+
+### Onde brilha:
+
+- Imagens técnicas e diagramas
+- Treinar o modelo com sua identidade visual
+- Gerar em lote dezenas de variações
+
+## Checklist para escolher sua ferramenta de design
+
+- [ ] Defina o tipo de arte que você mais cria (thumbnail, capa, post, técnica)
+- [ ] Teste Midjourney v7 para impacto visual (thumbs e capas)
+- [ ] Teste DALL-E 4 para edição e consistência de personagem
+- [ ] Teste Stable Diffusion 4 para controle técnico e lotes`;
+  const content = raw.split('\\n').map((l,i) => {
+    if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
+    if (l.startsWith('[')) { const m = l.match(/\[(.+?)\]\((.+?)\)/); if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>; }
+    if (!l.trim()) return <br key={i} />;
+    return <p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;
+  });
+  const plainText = raw.replace(/[#*>`\-\[\]\(\)\|]/g,' ').slice(0,3000);
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">Home</Link>
+            <span>›</span>
+            <Link href={`/categoria/${'IA'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">IA</Link>
+            <span>›</span>
+            <span className="text-slate-400 truncate max-w-[200px]">Como Criar Imagens e Thumbnails com IA para Blog e YouTube</span>
+          </div>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-3">IA</span>
+          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">Como Criar Imagens e Thumbnails com IA para Blog e YouTube</h1>
+          <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
+          <AudioPlayer text={plainText} />
+        </div>
+      </div>
+      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+    </div>
+  );
+}

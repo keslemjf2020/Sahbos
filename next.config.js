@@ -1,9 +1,3 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  async rewrites() {
-    return [
-      { source: '/favicon.ico', destination: '/favicon.svg' },
-    ];
-  },
-};
+const nextConfig = {};
 module.exports = nextConfig;

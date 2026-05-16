@@ -1,18 +1,86 @@
-import{Metadata}from'next';import Link from'next/link';
-export const metadata:Metadata={title:'IA no Delivery: Automatize Pedidos e Entregas do Seu Restaurante - Automacao IA'};
-export default function Page(){const content=`# Seu restaurante recebe 80 pedidos do iFood por dia e você tem um funcionário só para isso\n\nCada pedido exige: ler os itens, confirmar disponibilidade, imprimir comanda, enviar para cozinha, atualizar estoque. Isso consome **6 horas de trabalho** de um funcionário.\n\nEm 2026, **62% dos restaurantes brasileiros** já automatizam parte do processo de delivery (ABRASEL, 2025). Este guia mostra como usar IA para automatizar pedidos do iFood, da confirmação até a impressão na cozinha.\n\n## O que a IA resolve de fato\n\n| Problema | Como era | Com IA |\n|----------|----------|--------|\n| Confirmação do pedido | Funcionário lê e confirma manualmente | IA lê, verifica estoque e confirma em segundos |\n| Separação por área | Funcionário imprime e leva para cada cozinha | Pedido vai direto para impressora certa |\n| Atualização de estoque | Funcionário atualiza no final do dia | Estoque atualiza automaticamente |\n| Notificação ao cliente | Funcionário avisa quando sai para entrega | IA dispara WhatsApp automático |\n\n## Passo a passo: iFood + Make + IA\n\n### 1. Capture o pedido automaticamente\n\nO iFood tem API para parceiros. Com o **Make**, você configura um webhook que recebe cada novo pedido em tempo real.\n\n\`\`\`\niFood → Webhook Make → IA processa → Impressora\n\`\`\`\n\n> ---\n> **🚀 Quer o template pronto da automação?** Baixe grátis e configure em 30 minutos. [Comece agora](#)\n> ---\n\n### 2. Configure o fluxo de automação\n\nO cenário no Make tem 5 módulos:\n\n1. **Trigger:** Webhook recebe pedido do iFood\n2. **Processamento:** IA lê itens e verifica disponibilidade\n3. **Impressão:** Envia comanda para impressora da cozinha\n4. **Estoque:** Atualiza automaticamente no sistema\n5. **Cliente:** Dispara WhatsApp com confirmação e prazo\n\n> **Exemplo real:** Um restaurante em São Paulo automatizou os pedidos do iFood. O tempo entre o pedido chegar e a comanda sair **caiu de 3 minutos para 10 segundos**. O funcionário foi realocado para atendimento presencial.\n\n## Checklist para automatizar pedidos do iFood\n\n- [ ] Solicite acesso à API do iFood para parceiros\n- [ ] Crie um cenário no Make com webhook para capturar pedidos\n- [ ] Configure a IA para ler itens, verificar estoque e direcionar para impressora\n- [ ] Ative a notificação automática ao cliente (confirmação + prazo)`.split('\\n').map((l,i)=>{
-  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
-  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
-  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
-return(<div className="min-h-screen bg-[#0a0a0f]">
-  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA no Delivery: Automatize Pedidos e Entregas do Seu Restaurante</h1>
-    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>•</span><span>3 min</span></div>
-  </div></div>
-  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-</div>);}
+import { Metadata } from 'next';
+import Link from 'next/link';
+import AudioPlayer from '../../../components/AudioPlayer';
+
+export const metadata: Metadata = { title: 'IA no Delivery: Automatize Pedidos e Entregas do Seu Restaurante - Automacao IA' };
+
+export default function Page() {
+  const raw = `# Seu restaurante recebe 80 pedidos do iFood por dia e você tem um funcionário só para isso
+
+Cada pedido exige: ler os itens, confirmar disponibilidade, imprimir comanda, enviar para cozinha, atualizar estoque. Isso consome **6 horas de trabalho** de um funcionário.
+
+Em 2026, **62% dos restaurantes brasileiros** já automatizam parte do processo de delivery (ABRASEL, 2025). Este guia mostra como usar IA para automatizar pedidos do iFood, da confirmação até a impressão na cozinha.
+
+## O que a IA resolve de fato
+
+| Problema | Como era | Com IA |
+|----------|----------|--------|
+| Confirmação do pedido | Funcionário lê e confirma manualmente | IA lê, verifica estoque e confirma em segundos |
+| Separação por área | Funcionário imprime e leva para cada cozinha | Pedido vai direto para impressora certa |
+| Atualização de estoque | Funcionário atualiza no final do dia | Estoque atualiza automaticamente |
+| Notificação ao cliente | Funcionário avisa quando sai para entrega | IA dispara WhatsApp automático |
+
+## Passo a passo: iFood + Make + IA
+
+### 1. Capture o pedido automaticamente
+
+O iFood tem API para parceiros. Com o **Make**, você configura um webhook que recebe cada novo pedido em tempo real.
+
+\`\`\`
+iFood → Webhook Make → IA processa → Impressora
+\`\`\`
+
+> ---
+> **🚀 Quer o template pronto da automação?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
+> ---
+
+### 2. Configure o fluxo de automação
+
+O cenário no Make tem 5 módulos:
+
+1. **Trigger:** Webhook recebe pedido do iFood
+2. **Processamento:** IA lê itens e verifica disponibilidade
+3. **Impressão:** Envia comanda para impressora da cozinha
+4. **Estoque:** Atualiza automaticamente no sistema
+5. **Cliente:** Dispara WhatsApp com confirmação e prazo
+
+> **Exemplo real:** Um restaurante em São Paulo automatizou os pedidos do iFood. O tempo entre o pedido chegar e a comanda sair **caiu de 3 minutos para 10 segundos**. O funcionário foi realocado para atendimento presencial.
+
+## Checklist para automatizar pedidos do iFood
+
+- [ ] Solicite acesso à API do iFood para parceiros
+- [ ] Crie um cenário no Make com webhook para capturar pedidos
+- [ ] Configure a IA para ler itens, verificar estoque e direcionar para impressora
+- [ ] Ative a notificação automática ao cliente (confirmação + prazo)`;
+  const content = raw.split('\\n').map((l,i) => {
+    if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
+    if (l.startsWith('[')) { const m = l.match(/\[(.+?)\]\((.+?)\)/); if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>; }
+    if (!l.trim()) return <br key={i} />;
+    return <p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;
+  });
+  const plainText = raw.replace(/[#*>`\-\[\]\(\)\|]/g,' ').slice(0,3000);
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">Home</Link>
+            <span>›</span>
+            <Link href={`/categoria/${'Automacao'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">Automacao</Link>
+            <span>›</span>
+            <span className="text-slate-400 truncate max-w-[200px]">IA no Delivery: Automatize Pedidos e Entregas do Seu Restaurante</span>
+          </div>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-3">Automacao</span>
+          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">IA no Delivery: Automatize Pedidos e Entregas do Seu Restaurante</h1>
+          <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
+          <AudioPlayer text={plainText} />
+        </div>
+      </div>
+      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+    </div>
+  );
+}

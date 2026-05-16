@@ -1,18 +1,85 @@
-import{Metadata}from'next';import Link from'next/link';
-export const metadata:Metadata={title:'IA para Traducao: Como Criar Conteudo Multilingue - Automacao IA'};
-export default function Page(){const content=`# Você quer expandir seu blog para inglês e espanhol, mas contratar tradutor custa R$ 0,30 por palavra\n\nUm post de 1000 palavras sai por R$ 300. Para 3 idiomas, R$ 900 por post. Multiplique por 4 posts mensais. Orçamento vai para o espaço.\n\n**IA para tradução** resolve isso. Traduz em minutos, adapta o tom para cada cultura e publica sem gastar fortuna.\n\n## Tradução automática com contexto\n\nGoogle Tradutor é genérico e sem contexto. IAs atuais entendem tom, público e intenção.\n\n### Como funciona na prática:\n\n| O que você pede | O que a IA considera | Resultado |\n|-----------------|----------------------|-----------|\n| "Traduza para inglês" | Público americano, 25-40 anos | Tom informal e direto |\n| "Adapte exemplos culturais" | "Feijoada" vira "barbecue" | Conteúdo localizado |\n| "Mantenha o tom profissional" | "Trânsito de SP" vira "NYC traffic" | Leitor se identifica |\n\n**Ferramentas:** **ChatGPT**, **Claude** ou **DeepL Pro**. Dê contexto no prompt, não apenas "traduza".\n\n> **Prompt que funciona:** "Traduza este post do português para o inglês. Público americano, 25-40 anos, interessado em produtividade. Tom informal e direto. Adapte exemplos culturais."\n\n> ---\n> **🚀 Quer traduzir seu conteúdo com IA?** Teste grátis por 14 dias. [Comece agora](#)\n> ---\n\n## Adaptação cultural automática\n\nTraduzir palavra por palavra não basta. IA adapta referências, humor e exemplos para cada cultura.\n\n### Como funciona:\n\n| Exemplo brasileiro | Adaptação americana | Adaptação espanhola |\n|--------------------|---------------------|---------------------|\n| "Futebol" | "Soccer" | "Fútbol" |\n| "Feijoada no sábado" | "BBQ on Sunday" | "Paella on Sunday" |\n| "Trânsito de São Paulo" | "NYC rush hour" | "Atasco en Madrid" |\n\n> **Dica prática:** No prompt, especifique o país. "Inglês para Estados Unidos" é diferente de "Inglês para Reino Unido".\n\n## Checklist para traduzir conteúdo com IA\n\n- [ ] Defina o país e o perfil do público para cada idioma\n- [ ] Use prompts com contexto: tom, idade, referências culturais\n- [ ] Revise a tradução final para garantir naturalidade\n- [ ] Monitore o engajamento do conteúdo traduzido no primeiro mês`.split('\\n').map((l,i)=>{
-  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
-  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
-  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
-return(<div className="min-h-screen bg-[#0a0a0f]">
-  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA para Traducao: Como Criar Conteudo Multilingue</h1>
-    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>•</span><span>3 min</span></div>
-  </div></div>
-  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-</div>);}
+import { Metadata } from 'next';
+import Link from 'next/link';
+import AudioPlayer from '../../../components/AudioPlayer';
+
+export const metadata: Metadata = { title: 'IA para Traducao: Como Criar Conteudo Multilingue - Automacao IA' };
+
+export default function Page() {
+  const raw = `# Você quer expandir seu blog para inglês e espanhol, mas contratar tradutor custa R\$ 0,30 por palavra
+
+Um post de 1000 palavras sai por R\$ 300. Para 3 idiomas, R\$ 900 por post. Multiplique por 4 posts mensais. Orçamento vai para o espaço.
+
+**IA para tradução** resolve isso. Traduz em minutos, adapta o tom para cada cultura e publica sem gastar fortuna.
+
+## Tradução automática com contexto
+
+Google Tradutor é genérico e sem contexto. IAs atuais entendem tom, público e intenção.
+
+### Como funciona na prática:
+
+| O que você pede | O que a IA considera | Resultado |
+|-----------------|----------------------|-----------|
+| "Traduza para inglês" | Público americano, 25-40 anos | Tom informal e direto |
+| "Adapte exemplos culturais" | "Feijoada" vira "barbecue" | Conteúdo localizado |
+| "Mantenha o tom profissional" | "Trânsito de SP" vira "NYC traffic" | Leitor se identifica |
+
+**Ferramentas:** **ChatGPT**, **Claude** ou **DeepL Pro**. Dê contexto no prompt, não apenas "traduza".
+
+> **Prompt que funciona:** "Traduza este post do português para o inglês. Público americano, 25-40 anos, interessado em produtividade. Tom informal e direto. Adapte exemplos culturais."
+
+> ---
+> **🚀 Quer traduzir seu conteúdo com IA?** Teste grátis por 14 dias. [Comece agora](#)
+> ---
+
+## Adaptação cultural automática
+
+Traduzir palavra por palavra não basta. IA adapta referências, humor e exemplos para cada cultura.
+
+### Como funciona:
+
+| Exemplo brasileiro | Adaptação americana | Adaptação espanhola |
+|--------------------|---------------------|---------------------|
+| "Futebol" | "Soccer" | "Fútbol" |
+| "Feijoada no sábado" | "BBQ on Sunday" | "Paella on Sunday" |
+| "Trânsito de São Paulo" | "NYC rush hour" | "Atasco en Madrid" |
+
+> **Dica prática:** No prompt, especifique o país. "Inglês para Estados Unidos" é diferente de "Inglês para Reino Unido".
+
+## Checklist para traduzir conteúdo com IA
+
+- [ ] Defina o país e o perfil do público para cada idioma
+- [ ] Use prompts com contexto: tom, idade, referências culturais
+- [ ] Revise a tradução final para garantir naturalidade
+- [ ] Monitore o engajamento do conteúdo traduzido no primeiro mês`;
+  const content = raw.split('\\n').map((l,i) => {
+    if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
+    if (l.startsWith('[')) { const m = l.match(/\[(.+?)\]\((.+?)\)/); if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>; }
+    if (!l.trim()) return <br key={i} />;
+    return <p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;
+  });
+  const plainText = raw.replace(/[#*>`\-\[\]\(\)\|]/g,' ').slice(0,3000);
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">Home</Link>
+            <span>›</span>
+            <Link href={`/categoria/${'Marketing'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">Marketing</Link>
+            <span>›</span>
+            <span className="text-slate-400 truncate max-w-[200px]">IA para Traducao: Como Criar Conteudo Multilingue</span>
+          </div>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-3">Marketing</span>
+          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">IA para Traducao: Como Criar Conteudo Multilingue</h1>
+          <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
+          <AudioPlayer text={plainText} />
+        </div>
+      </div>
+      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+    </div>
+  );
+}

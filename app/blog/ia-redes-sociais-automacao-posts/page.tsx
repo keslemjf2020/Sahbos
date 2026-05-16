@@ -1,18 +1,87 @@
-import{Metadata}from'next';import Link from'next/link';
-export const metadata:Metadata={title:'Automatize suas Redes Sociais com IA em 2026 - Automacao IA'};
-export default function Page(){const content=`# Você posta em 5 plataformas, 30 posts por semana. Seu dia não tem 24 horas\n\nEntre criar arte, escrever legenda, editar vídeo e responder comentários, o resultado é: posta quando dá, engajamento cai, algoritmo te esquece.\n\n**Automatizar redes sociais com IA** resolve esse problema. Você cria uma vez, a IA distribui e analisa.\n\n## Criação de conteúdo em massa com IA\n\nEscrever legenda para cada post é repetitivo. IA gera variações em segundos baseadas no mesmo tema.\n\n### Como funciona na prática:\n\n| O que você define | O que a IA gera | Onde usar |\n|-------------------|-----------------|-----------|\n| Tema da semana | 10 ideias de posts | Planejamento |\n| "Dicas de produtividade" | Legendas para Instagram, LinkedIn, TikTok | 3 plataformas |\n| Tom profissional ou descontraído | Variações com CTA | Toda a semana |\n\n**Ferramentas:** **ChatGPT** ou **Claude**. Crie um template com seu tom de voz e salve como "meu estilo de legenda".\n\n> **Dica prática:** Toda semana, cole o tema e peça 5 variações. Nunca mais escreva do zero.\n\n> ---\n> **🚀 Quer automatizar suas redes sociais com IA?** Teste grátis por 14 dias. [Comece agora](#)\n> ---\n\n## Agendamento inteligente por plataforma\n\nCada plataforma tem melhor horário de postagem. Postar no mesmo horário para todas é erro. IA descobre o timing certo.\n\n### Como funciona:\n\n| Plataforma | Melhor horário | O que a IA faz |\n|------------|----------------|----------------|\n| Instagram | 11h-13h, 19h-21h | Agenda posts no pico |\n| LinkedIn | 7h-9h, 12h-13h | Publica no horário profissional |\n| TikTok | 18h-22h | Programa para o melhor engajamento |\n\n**Ferramentas:** **Buffer** ou **Later** com IA de agendamento.\n\n> **Exemplo real:** Uma agência de marketing usava agendamento inteligente. O engajamento médio **subiu 35%** apenas com a mudança de horário de postagem.\n\n## Checklist para automatizar suas redes sociais\n\n- [ ] Crie um template de tom de voz no ChatGPT para gerar legendas rápidas\n- [ ] Use ferramentas de agendamento inteligente com IA para cada plataforma\n- [ ] Programe posts para os horários de pico de cada rede social\n- [ ] Monitore o aumento de engajamento no primeiro mês`.split('\\n').map((l,i)=>{
-  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
-  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
-  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
-return(<div className="min-h-screen bg-[#0a0a0f]">
-  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">Automatize suas Redes Sociais com IA em 2026</h1>
-    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>•</span><span>3 min</span></div>
-  </div></div>
-  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-</div>);}
+import { Metadata } from 'next';
+import Link from 'next/link';
+import AudioPlayer from '../../../components/AudioPlayer';
+
+export const metadata: Metadata = { title: 'Automatize suas Redes Sociais com IA em 2026 - Automacao IA' };
+
+export default function Page() {
+  const raw = `# Você posta em 5 plataformas, 30 posts por semana. Seu dia não tem 24 horas
+
+Entre criar arte, escrever legenda, editar vídeo e responder comentários, o resultado é: posta quando dá, engajamento cai, algoritmo te esquece.
+
+**Automatizar redes sociais com IA** resolve esse problema. Você cria uma vez, a IA distribui e analisa.
+
+## Criação de conteúdo em massa com IA
+
+Escrever legenda para cada post é repetitivo. IA gera variações em segundos baseadas no mesmo tema.
+
+### Como funciona na prática:
+
+| O que você define | O que a IA gera | Onde usar |
+|-------------------|-----------------|-----------|
+| Tema da semana | 10 ideias de posts | Planejamento |
+| "Dicas de produtividade" | Legendas para Instagram, LinkedIn, TikTok | 3 plataformas |
+| Tom profissional ou descontraído | Variações com CTA | Toda a semana |
+
+**Ferramentas:** **ChatGPT** ou **Claude**. Crie um template com seu tom de voz e salve como "meu estilo de legenda".
+
+> **Dica prática:** Toda semana, cole o tema e peça 5 variações. Nunca mais escreva do zero.
+
+> ---
+> **🚀 Quer automatizar suas redes sociais com IA?** Teste grátis por 14 dias. [Comece agora](#)
+> ---
+
+## Agendamento inteligente por plataforma
+
+Cada plataforma tem melhor horário de postagem. Postar no mesmo horário para todas é erro. IA descobre o timing certo.
+
+### Como funciona:
+
+| Plataforma | Melhor horário | O que a IA faz |
+|------------|----------------|----------------|
+| Instagram | 11h-13h, 19h-21h | Agenda posts no pico |
+| LinkedIn | 7h-9h, 12h-13h | Publica no horário profissional |
+| TikTok | 18h-22h | Programa para o melhor engajamento |
+
+**Ferramentas:** **Buffer** ou **Later** com IA de agendamento.
+
+> **Exemplo real:** Uma agência de marketing usava agendamento inteligente. O engajamento médio **subiu 35%** apenas com a mudança de horário de postagem.
+
+## Checklist para automatizar suas redes sociais
+
+- [ ] Crie um template de tom de voz no ChatGPT para gerar legendas rápidas
+- [ ] Use ferramentas de agendamento inteligente com IA para cada plataforma
+- [ ] Programe posts para os horários de pico de cada rede social
+- [ ] Monitore o aumento de engajamento no primeiro mês`;
+  const content = raw.split('\\n').map((l,i) => {
+    if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
+    if (l.startsWith('[')) { const m = l.match(/\[(.+?)\]\((.+?)\)/); if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>; }
+    if (!l.trim()) return <br key={i} />;
+    return <p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;
+  });
+  const plainText = raw.replace(/[#*>`\-\[\]\(\)\|]/g,' ').slice(0,3000);
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">Home</Link>
+            <span>›</span>
+            <Link href={`/categoria/${'Automacao'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">Automacao</Link>
+            <span>›</span>
+            <span className="text-slate-400 truncate max-w-[200px]">Automatize suas Redes Sociais com IA em 2026</span>
+          </div>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-3">Automacao</span>
+          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">Automatize suas Redes Sociais com IA em 2026</h1>
+          <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-16</span><span>·</span><span>3 min</span></div>
+          <AudioPlayer text={plainText} />
+        </div>
+      </div>
+      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+    </div>
+  );
+}

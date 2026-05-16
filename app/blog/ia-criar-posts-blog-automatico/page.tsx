@@ -1,18 +1,92 @@
-import{Metadata}from'next';import Link from'next/link';
-export const metadata:Metadata={title:'Como Criar Posts de Blog com IA em 5 Minutos (Sem Escrever Nada) - Automacao IA'};
-export default function Page(){const content=`# Você passa horas escrevendo posts de blog que ninguém lê\n\nPesquisar, estruturar, revisar. 70% do tempo vai em tarefas repetitivas. No fim, o artigo fica pronto, mas você está exausto.\n\n**IA generativa** resolve isso em minutos. O segredo não é só apertar "gerar" — é ter um processo que transforma ideias soltas em artigos completos sem você digitar uma linha.\n\n## O processo em 3 etapas\n\n### 1. Capture a ideia\n\nUse um formulário simples (Google Forms ou Typeform) para coletar:\n\n| O que coletar | Exemplo |\n|---------------|---------|\n| Título provisório | "Como automatizar WhatsApp" |\n| 3 pontos principais | Resposta automática, agendamento, base de conhecimento |\n| Público-alvo | Donos de pequenos negócios |\n\nVocê preenche em **30 segundos**. O formulário dispara a automação.\n\n### 2. Dispare a automação\n\nCom o **Make**, conecte o formulário ao ChatGPT ou Claude:\n\n1. **Webhook** recebe os dados do formulário\n2. **OpenAI** gera o post completo com base no prompt\n3. **Google Docs** salva o artigo formatado\n4. **WordPress** publica direto (opcional)\n\nTudo automático. Você não toca em nada.\n\n### 3. Revise e publique\n\nIA entrega **80% pronto**. Você ajusta o tom, adiciona um exemplo pessoal e publica.\n\n> ---\n> **🚀 Quer o template pronto dessa automação?** Baixe grátis e configure em 30 minutos. [Comece agora](#)\n> ---\n\n## 3 tipos de post para começar\n\n- **Tutorial prático:** "Como fazer X em 3 passos"\n- **Comparativo:** "Ferramenta A vs. Ferramenta B"\n- **Lista:** "5 maneiras de resolver Y"\n\nCada tipo tem estrutura previsível. A IA já sabe o formato. Você só define o tema.\n\n## Checklist para automatizar seus posts de blog\n\n- [ ] Crie um formulário Google Forms com título, pontos principais e público\n- [ ] Configure o fluxo no Make: formulário → IA → Google Docs\n- [ ] Defina 3 temas de post para testar o processo\n- [ ] Publique o primeiro artigo e monitore o tempo economizado`.split('\\n').map((l,i)=>{
-  if(l.startsWith('## '))return<h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
-  if(l.startsWith('### '))return<h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
-  if(l.startsWith('|'))return<p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
-  if(l.startsWith('- [ ]'))return<p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly/>{l.slice(5)}</p>;
-  if(l.startsWith('[')){const m=l.match(/\[(.+?)\]\((.+?)\)/);if(m)return<p key={i} className="my-2"><a href={m[2]} target="_blank" className="text-cyan-400 underline">{m[1]}</a></p>}
-  if(!l.trim())return<br key={i}/>;return<p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;});
-return(<div className="min-h-screen bg-[#0a0a0f]">
-  <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
-    <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
-    <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
-    <h1 className="text-4xl font-bold leading-tight mb-4 text-white">Como Criar Posts de Blog com IA em 5 Minutos (Sem Escrever Nada)</h1>
-    <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-15</span><span>•</span><span>3 min</span></div>
-  </div></div>
-  <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
-</div>);}
+import { Metadata } from 'next';
+import Link from 'next/link';
+import AudioPlayer from '../../../components/AudioPlayer';
+
+export const metadata: Metadata = { title: 'Como Criar Posts de Blog com IA em 5 Minutos (Sem Escrever Nada) - Automacao IA' };
+
+export default function Page() {
+  const raw = `# Você passa horas escrevendo posts de blog que ninguém lê
+
+Pesquisar, estruturar, revisar. 70% do tempo vai em tarefas repetitivas. No fim, o artigo fica pronto, mas você está exausto.
+
+**IA generativa** resolve isso em minutos. O segredo não é só apertar "gerar" — é ter um processo que transforma ideias soltas em artigos completos sem você digitar uma linha.
+
+## O processo em 3 etapas
+
+### 1. Capture a ideia
+
+Use um formulário simples (Google Forms ou Typeform) para coletar:
+
+| O que coletar | Exemplo |
+|---------------|---------|
+| Título provisório | "Como automatizar WhatsApp" |
+| 3 pontos principais | Resposta automática, agendamento, base de conhecimento |
+| Público-alvo | Donos de pequenos negócios |
+
+Você preenche em **30 segundos**. O formulário dispara a automação.
+
+### 2. Dispare a automação
+
+Com o **Make**, conecte o formulário ao ChatGPT ou Claude:
+
+1. **Webhook** recebe os dados do formulário
+2. **OpenAI** gera o post completo com base no prompt
+3. **Google Docs** salva o artigo formatado
+4. **WordPress** publica direto (opcional)
+
+Tudo automático. Você não toca em nada.
+
+### 3. Revise e publique
+
+IA entrega **80% pronto**. Você ajusta o tom, adiciona um exemplo pessoal e publica.
+
+> ---
+> **🚀 Quer o template pronto dessa automação?** Baixe grátis e configure em 30 minutos. [Comece agora](#)
+> ---
+
+## 3 tipos de post para começar
+
+- **Tutorial prático:** "Como fazer X em 3 passos"
+- **Comparativo:** "Ferramenta A vs. Ferramenta B"
+- **Lista:** "5 maneiras de resolver Y"
+
+Cada tipo tem estrutura previsível. A IA já sabe o formato. Você só define o tema.
+
+## Checklist para automatizar seus posts de blog
+
+- [ ] Crie um formulário Google Forms com título, pontos principais e público
+- [ ] Configure o fluxo no Make: formulário → IA → Google Docs
+- [ ] Defina 3 temas de post para testar o processo
+- [ ] Publique o primeiro artigo e monitore o tempo economizado`;
+  const content = raw.split('\\n').map((l,i) => {
+    if (l.startsWith('> ')) return <blockquote key={i} className="border-l-4 border-cyan-500 pl-4 my-4 text-slate-300 italic">{l.slice(2)}</blockquote>;
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('- [ ]')) return <p key={i} className="flex items-center gap-2 text-slate-300 my-1"><input type="checkbox" className="w-4 h-4 rounded accent-cyan-500" readOnly />{l.slice(5)}</p>;
+    if (l.startsWith('[')) { const m = l.match(/\[(.+?)\]\((.+?)\)/); if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>; }
+    if (!l.trim()) return <br key={i} />;
+    return <p key={i} className="text-slate-300 leading-relaxed mb-2">{l}</p>;
+  });
+  const plainText = raw.replace(/[#*>`\-\[\]\(\)\|]/g,' ').slice(0,3000);
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]">
+        <div className="max-w-3xl mx-auto px-6 py-12">
+          <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+            <Link href="/" className="hover:text-cyan-400 transition-colors">Home</Link>
+            <span>›</span>
+            <Link href={`/categoria/${'IA'.toLowerCase()}`} className="hover:text-cyan-400 transition-colors">IA</Link>
+            <span>›</span>
+            <span className="text-slate-400 truncate max-w-[200px]">Como Criar Posts de Blog com IA em 5 Minutos (Sem Escrever Nada)</span>
+          </div>
+          <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-3">IA</span>
+          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-3 text-white">Como Criar Posts de Blog com IA em 5 Minutos (Sem Escrever Nada)</h1>
+          <div className="flex items-center gap-4 text-sm text-slate-500 mb-4"><span>2026-05-15</span><span>·</span><span>3 min</span></div>
+          <AudioPlayer text={plainText} />
+        </div>
+      </div>
+      <article className="max-w-3xl mx-auto px-6 py-12"><div className="prose prose-invert max-w-none">{content}</div></article>
+    </div>
+  );
+}
