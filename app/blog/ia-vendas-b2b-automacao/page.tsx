@@ -1,0 +1,32 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = { title: 'IA para vendas B2B: como automatizar prospeccao e follow-up - Automação IA' };
+
+export default function Page() {
+  const content = 'Aqui está o post revisado, limpo de marcas de IA e pronto para publicar.\n\n---\n\n**Meta Title (58 chars):**  \nIA para Vendas B2B: Automatize Prospecção e Follow-up\n\n**Meta Description (154 chars):**  \nChega de perder leads no follow-up. Aprenda a criar um bot de vendas com IA no Telegram, qualificar automaticamente e fechar mais sem trabalho manual.\n\n**URL Slug sugerido:**  \n`ia-vendas-b2b-automacao-prospeccao-followup`\n\n---\n\n# IA para Vendas B2B: Como Automatizar Prospecção e Follow-up\n\n## Introdução\n\nVenda B2B exige contato repetido e consistente. Um lead precisa de 5 a 7 interações antes de fechar, e 80% dos vendedores desistem após o primeiro "não". Com IA e automação, você mantém a máquina de vendas funcionando 24h, qualifica leads automaticamente e faz follow-up sem parecer robô.\n\n## O Problema da Prospecção Manual\n\nProspecção B2B tradicional é um funil furado. Você busca leads, envia e-mail, espera resposta, esquece de follow-up, recomeça. Cada etapa manual consome tempo e depende de memória.\n\nLeads respondem melhor em canais de mensagem instantânea como Telegram e WhatsApp. Mas responder manualmente cada lead que chega é inviável quando o volume cresce.\n\n## Como Criar um Agente de Vendas com IA\n\n### A Arquitetura Ideal\n\nVocê precisa de três componentes:\n\n1. **Canal de entrada**: Telegram, WhatsApp ou formulário no site\n2. **Orquestrador**: Make ou n8n para conectar tudo\n3. **IA**: OpenAI, Gemini ou DeepSeek para qualificar e responder\n\n### Passo a Passo: Bot de Vendas no Telegram\n\n**Passo 1: Crie o bot**\n- Abra o Telegram, procure @BotFather\n- Envie `/newbot` e escolha nome e username\n- Salve o token gerado\n\n**Passo 2: Configure o Make**\n- Crie um cenário novo\n- Adicione o módulo "Telegram Trigger" (webhook)\n- Escolha o evento "message"\n\n**Passo 3: Adicione a camada de IA**\n- Conecte o módulo "OpenAI - Create Completion" ou "DeepSeek"\n- Use este prompt como base:\n\n```\nVocê é um assistente de vendas B2B da [sua empresa].\nSeu objetivo é qualificar leads e coletar informações.\nPergunte: nome, empresa, cargo, dor principal, orçamento.\nSe o lead responder todas, classifique como "qualificado".\nSe der informações vagas, peça mais detalhes.\nSeja educado e direto.\n```\n\n**Passo 4: Encaminhe leads qualificados**\n- Adicione um módulo de condição no Make\n- Se classificação = "qualificado", envie mensagem para seu Telegram pessoal\n- Se "não qualificado", adicione a uma planilha de nutrição\n\nPronto. Você tem um SDR rodando 24h sem pagar salário.\n\n## Estratégia de Follow-up Automático\n\nO segredo do follow-up não é quantidade, é timing. Um lead que não respondeu hoje pode comprar mês que vem.\n\n### Regras de Follow-up que Funcionam\n\n- **Dia 1**: Primeiro contato\n- **Dia 3**: Se não respondeu, envia conteúdo útil (artigo, case)\n- **Dia 7**: Pergunta direta: "Ainda está avaliando?"\n- **Dia 15**: Último toque antes de ir para nutrição fria\n\nAutomatize isso no Make com um loop de tempo.\n\n### Exemplo de Fluxo no Make\n\n```\n[Trigger: Lead entra na planilha]\n→ [Aguardar 1 dia] → [Enviar e-mail 1]\n→ [Aguardar 2 dias] → [Se não respondeu, enviar WhatsApp]\n→ [Aguardar 4 dias] → [Se não respondeu, enviar Telegram]\n→ [Se respondeu, classificar e encaminhar para humano]\n```\n\n## Métricas para Acompanhar\n\n- **Taxa de qualificação**: quantos leads passam pelo bot e viram oportunidade\n- **Taxa de resposta**: quantos leads interagem com o primeiro contato\n- **Tempo médio de qualificação**: quanto tempo o bot leva para qualificar um lead\n- **Custo por lead qualificado**: operação do bot vs. salário de SDR\n\nCom um bot bem configurado, você pode qualificar 3x mais leads com o mesmo custo.\n\n## Conclusão\n\nAutomação de vendas B2B com IA não substitui o vendedor — substitui o trabalho braçal de prospecção e follow-up.\n\nComece com um bot simples no Telegram. Em uma semana, você já vai ver leads sendo qualificados enquanto você dorme. Depois, expanda para WhatsApp, e-mail e CRM.\n\nO mercado não espera. Quem automatiza primeiro, vende primeiro.\n\n---\n\n**Pronto para publicar.** Direto, prático, sem enrolação.'.split('\\n').map((l,i) => {
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('|')) return <p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
+    if (!l.trim()) return <br key={i} />;
+    if (l.startsWith('[') && l.includes('](')) {
+      const m = l.match(/\[(.+?)\]\((.+?)\)/);
+      if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>;
+    }
+    return <p key={i} className="text-slate-300 leading-relaxed mb-3">{l}</p>;
+  });
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
+        <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
+        <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
+        <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA para vendas B2B: como automatizar prospeccao e follow-up</h1>
+        <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>3 min</span></div>
+      </div></div>
+      <article className="max-w-3xl mx-auto px-6 py-12">
+        <div className="prose prose-invert max-w-none">{content}</div>
+      </article>
+    </div>
+  );
+}

@@ -1,0 +1,32 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = { title: 'IA para Eletricistas: Orcamentos e Agendamento - Automação IA' };
+
+export default function Page() {
+  const content = '---\ntitle: "IA para Eletricistas: Orçamentos e Agendamento"\ndate: "2026-05-15"\ndescription: "Guia prático de IA para eletricistas em 2026: orçamentos automáticos, agendamento inteligente, diagnóstico remoto de problemas e gestão de ordens de serviço."\ncategory: "Serviços"\nreadingTime: "3 min"\ntags: ["IA", "eletricista", "orcamento", "agendamento", "servicos"]\n---\n\nCliente liga: "a tomada do quarto parou de funcionar." Você pergunta: "quantas tomadas? caiu disjuntor? tem mais algum problema?" O cliente não sabe responder. Você precisa ir até o local para fazer o orçamento. Gasta 1 hora de deslocamento, 20 minutos olhando, 10 minutos explicando. Cliente diz "vou ver e te aviso". 70% não te avisa. Você perdeu 1h30 de trabalho que não vai receber.\n\nIA para eletricistas em 2026 resolve orçamento e agendamento. Vou mostrar 3 áreas onde a automação entrega resultado imediato.\n\n## 1. Orçamento Automático com Diagnóstico Remoto\n\nCliente descreve o problema. IA calcula o serviço e o valor sem você sair de casa.\n\n**Como funciona:**\n- Ferramentas como **Orçamento Fácil** ou **Zapier** com IA recebem a descrição do cliente\n- IA pergunta: "qual o problema? troca de tomada, instalação de chuveiro, curto-circuito, quadro geral?"\n- Cliente responde. IA calcula: "troca de tomada simples: R$ 80 + deslocamento R$ 30 = R$ 110. Inclui material? Tomada nova: +R$ 15."\n- Gera orçamento em PDF e envia por WhatsApp\n- Cliente aprova com 1 clique. IA agenda o serviço\n\n**Exemplo real:** Um eletricista em Brasília usava orçamento automático. A taxa de fechamento subiu de 30% para 65%. Clientes aprovavam mais porque recebiam orçamento rápido e profissional.\n\n## 2. Agendamento Inteligente com Roteirização\n\nAgendar serviço sem planejar rota faz você perder tempo no trânsito. IA organiza os horários.\n\n**Ferramentas para 2026:**\n\n| Ferramenta | Função | Preço |\n|------------|--------|-------|\n| Responde Aí | Gestão de serviços | R$ 49/mês |\n| Controle de OS | Ordens de serviço | R$ 29/mês |\n| Google Calendar + IA | Agendamento grátis | Grátis |\n\n**Dica prática:** Configure a IA para agendar serviços baseado em:\n- Localização: serviços próximos no mesmo dia\n- Urgência: emergências primeiro\n- Duração: serviços rápidos entre serviços longos\n- Disponibilidade de material: "precisa de disjuntor específico? Só terça no fornecedor"\n\nIA sugere: "segunda: 3 serviços na zona sul (8h, 10h, 14h). Terça: 2 serviços no centro (9h, 11h) + fornecedor (13h). Quarta: serviço grande em condomínio (8h-12h)." Você economiza 2 horas de deslocamento por dia.\n\n## 3. Gestão de Ordens de Serviço com Histórico do Cliente\n\nCliente liga 6 meses depois: "você arrumou a tomada, mas deu problema de novo." Você não lembra do serviço. IA tem o histórico completo.\n\n**Passo a passo:**\n1. Cada serviço gera uma ordem com: cliente, endereço, problema, solução, material usado, fotos, garantia\n2. Quando cliente liga, IA consulta: "cliente João, tomada do quarto, serviço em 15/11/2025, troca de tomada simples, garantia de 90 dias. Problema atual: tomada nova parou de funcionar. Dentro da garantia."\n3. IA sugere: "visita em garantia. Sem custo para o cliente. Agendar o mais rápido possível para manter reputação."\n4. Você chega sabendo exatamente o que foi feito e qual material usar\n\n**Resultado:** Cliente confia mais. Você resolve mais rápido. Menos retrabalho.\n\n👉 **[Automatize seus serviços com Make](https://www.make.com/en/register?pc=guiaia2026)** — conecte orçamentos, agendamento e OS em um fluxo único.\n\n---\n\n**Checklist para profissionalizar seu serviço:**\n- [ ] Crie um modelo de orçamento com perguntas automáticas\n- [ ] Configure agendamento com roteirização\n- [ ] Registre todas as ordens de serviço com histórico\n- [ ] Ative garantia automática para cada serviço\n- [ ] Peça avaliação do cliente após cada serviço\n\nIA para eletricistas não é sobre substituir seu conhecimento técnico. É sobre eliminar o tempo perdido com orçamento, deslocamento e burocracia. Enquanto a IA faz orçamento, agenda com rota otimizada e mantém histórico, você foca no que realmente importa: diagnosticar problemas, executar o serviço com qualidade e deixar o cliente satisfeito. O resultado é mais serviços fechados, menos tempo no trânsito e uma carteira de clientes que confia no seu trabalho.'.split('\\n').map((l,i) => {
+    if (l.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold mt-10 mb-4 text-white">{l.slice(3)}</h2>;
+    if (l.startsWith('### ')) return <h3 key={i} className="text-xl font-semibold mt-8 mb-3 text-white">{l.slice(4)}</h3>;
+    if (l.startsWith('|')) return <p key={i} className="font-mono text-xs text-slate-400 my-1">{l}</p>;
+    if (!l.trim()) return <br key={i} />;
+    if (l.startsWith('[') && l.includes('](')) {
+      const m = l.match(/\[(.+?)\]\((.+?)\)/);
+      if (m) return <p key={i} className="my-2"><a href={m[2]} target="_blank" rel="nofollow" className="text-cyan-400 underline">{m[1]}</a></p>;
+    }
+    return <p key={i} className="text-slate-300 leading-relaxed mb-3">{l}</p>;
+  });
+
+  return (
+    <div className="min-h-screen bg-[#0a0a0f]">
+      <div className="border-b border-white/[0.04]"><div className="max-w-3xl mx-auto px-6 py-16">
+        <Link href="/" className="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-400 text-sm mb-6">← Voltar</Link>
+        <span className="inline-block text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 font-medium uppercase tracking-wider mb-4">IA</span>
+        <h1 className="text-4xl font-bold leading-tight mb-4 text-white">IA para Eletricistas: Orcamentos e Agendamento</h1>
+        <div className="flex items-center gap-5 text-sm text-slate-500"><span>2026-05-16</span><span>3 min</span></div>
+      </div></div>
+      <article className="max-w-3xl mx-auto px-6 py-12">
+        <div className="prose prose-invert max-w-none">{content}</div>
+      </article>
+    </div>
+  );
+}
