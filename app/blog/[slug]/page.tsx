@@ -1,53 +1,31 @@
 import Link from "next/link";
 import { ArrowLeft, Clock, Calendar } from "lucide-react";
-import fs from "fs";
-import path from "path";
 
-function getAllPosts() {
+const GITHUB_RAW = "https://raw.githubusercontent.com/keslemjf2020/Sahbos/master/content/posts";
+
+export const dynamic = "force-dynamic";
+
+async function getPost(slug: string) {
   try {
-    const postsDir = path.join(process.cwd(), "content", "posts");
-    if (!fs.existsSync(postsDir)) { return {}; }
-    return readPostsFromDir(postsDir);
-  } catch(e) { return {}; }
+    const res = await fetch(`${GITHUB_RAW}/${slug}.md`, { next: { revalidate: 60 } });
+    if (!res.ok) return null;
+    const raw = await res.text();
+    const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+    const fm = fmMatch ? fmMatch[1] : "";
+    const body = fmMatch ? raw.slice(fmMatch[0].length).trim() : raw;
+    const getFM = (key: string) => { const m = fm.match(new RegExp(key + ':\\s*"?([^"\n]+)"?')); return m ? m[1].trim() : ""; };
+    return {
+      title: getFM("title") || slug.replace(/-/g, " "),
+      date: getFM("date") || "2026-05-16",
+      cat: getFM("category") || "IA",
+      read: getFM("readingTime") || "5 min",
+      content: body || "Artigo em producao.",
+    };
+  } catch { return null; }
 }
 
-function readPostsFromDir(postsDir) {
-  const files = fs.readdirSync(postsDir).filter(f => f.endsWith(".md"));
-  const posts = {};
-  for (const file of files) {
-    const slug = file.replace(".md", "");
-    try {
-      const raw = fs.readFileSync(path.join(postsDir, file), "utf8");
-      const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
-      const fm = fmMatch ? fmMatch[1] : "";
-      const body = fmMatch ? raw.slice(fmMatch[0].length).trim() : raw;
-      const getFM = (key) => { const m = fm.match(new RegExp(key + ':\\s*"?([^"\n]+)"?')); return m ? m[1].trim() : ""; };
-      posts[slug] = {
-        title: getFM("title") || slug.replace(/-/g, " "),
-        date: getFM("date") || "2026-05-16",
-        cat: getFM("category") || "IA",
-        read: getFM("readingTime") || "5 min",
-        content: body || "Artigo em producao.",
-      };
-    } catch(e) {
-      posts[slug] = { title: slug.replace(/-/g, " "), date: "2026-05-16", cat: "IA", read: "5 min", content: "Artigo em producao." };
-    }
-  }
-  return posts;
-}
-
-export function generateStaticParams() {
-  try {
-    const postsDir = path.join(process.cwd(), "content", "posts");
-    if (!fs.existsSync(postsDir)) return [];
-    return fs.readdirSync(postsDir).filter(f => f.endsWith(".md")).map(f => ({ slug: f.replace(".md", "") }));
-  } catch(e) { return []; }
-}
-
-const posts = getAllPosts();
-
-export default function BlogPost({ params }: { params: { slug: string } }) {
-  const post = posts[params.slug];
+export default async function BlogPost({ params }: { params: { slug: string } }) {
+  const post = await getPost(params.slug);
   if (!post) return <div className="min-h-screen bg-[#0a0a0f] flex items-center justify-center"><div className="text-center"><h1 className="text-6xl font-bold gradient-text mb-4">404</h1><p className="text-slate-500 mb-6">Artigo nao encontrado</p><Link href="/" className="text-cyan-400 hover:underline text-sm inline-flex items-center gap-1"><ArrowLeft className="w-3 h-3" />Voltar</Link></div></div>;
 
   return (
