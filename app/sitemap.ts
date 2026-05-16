@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { postsFull } from './blog/pindex';
 
-const BASE_URL = 'https://blog-automacao-beryl.vercel.app';
+const BASE_URL = 'https://blog-automacao-five-kappa.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const categories = ['automacao', 'ferramentas', 'negocios', 'ia'];
